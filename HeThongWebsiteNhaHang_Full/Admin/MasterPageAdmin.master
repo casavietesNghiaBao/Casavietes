@@ -1,0 +1,249 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageAdmin.master.cs" Inherits="Admin_MasterPageAdmin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="titleAdmin" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <%--<base href="~/../../" />--%>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="~/Assets/AssetsAdmin/images/icon/favicon.ico" />
+    <link rel="stylesheet" href="~/Assets/AssetsAdmin/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Assets/AssetsAdmin/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/Assets/AssetsAdmin/css/themify-icons.css" />
+    <link rel="stylesheet" href="~/Assets/AssetsAdmin/css/metisMenu.css" />
+    <link rel="stylesheet" href="~/Assets/AssetsAdmin/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="~/Assets/AssetsAdmin/css/slicknav.min.css" />
+    <link href="~/Assets/css/jquery.timepicker.css" rel="stylesheet" />
+    <!-- amchart css -->
+    <%--<link rel="stylesheet" href="~/https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />--%>
+    <!-- others css -->
+    <link rel="stylesheet" href="~/Assets/AssetsAdmin/css/typography.css" />
+    <link rel="stylesheet" href="~/Assets/AssetsAdmin/css/default-css.css" />
+    <link rel="stylesheet" href="~/Assets/AssetsAdmin/css/styles.css" />
+    <link rel="stylesheet" href="~/Assets/AssetsAdmin/css/responsive.css" />
+    <link rel="stylesheet" href="~/Assets/AssetsAdmin/css/table.css" />
+    <link rel="stylesheet" href="~/Assets/AssetsAdmin/css/table.min.css" />
+    <!-- modernizr css -->
+    <link href="~/Assets/fontawesome/css/fontawesome.min.css" rel="stylesheet" />
+    <script src="/Assets/AssetsAdmin/js/vendor/modernizr-2.8.3.min.js"></script>
+
+</head>
+<body>
+    <div>
+        <%--        <div id="preloader">
+            <div class="loader"></div>
+        </div>--%>
+        <!-- preloader area end -->
+        <!-- page container area start -->
+        <form runat="server">
+            <div class="page-container">
+                <!-- sidebar menu area start -->
+                <div class="sidebar-menu">
+                    <div class="sidebar-header">
+                        <div class="logo">
+                            <a href="/Admin/Dashboard.aspx">
+                                <img src="/Assets/AssetsAdmin/images/icon/logo.png" alt="logo" /></a>
+                        </div>
+                    </div>
+                    <div class="main-menu">
+                        <div class="menu-inner">
+                            <nav>
+                                <ul class="metismenu" id="menu">
+<%--                                    <li class="active">
+                                        <a href="/Admin/Dashboard.aspx" aria-expanded="true"><i class="ti-dashboard"></i><span>Trang tổng quan</span></a>
+                                    </li>--%>
+
+                                    <li>
+                                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-users"></i>
+                                            <span>Người dùng</span></a>
+                                        <ul class="collapse">
+                                            <li><a href="/Admin/QlMembers/ListMembers.aspx">Danh sách người dùng</a></li>
+                                            <li><a href="/Admin/QlMembers/AddMember.aspx">Thêm người dùng</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-users"></i>
+                                            <span>Ẩm thực</span></a>
+                                        <ul class="collapse">
+                                            <li><a href="/Admin/QFood/ListFood.aspx">Danh sách ẩm thực</a></li>
+                                            <li><a href="/Admin/QFood/AddFood.aspx">Thêm món ăn</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-users"></i>
+                                            <span>Loại ẩm thực</span></a>
+                                        <ul class="collapse">
+                                            <li><a href="/Admin/QFoodType/ListFoodType.aspx">Danh sách phân loại ẩm thực</a></li>
+                                            <li><a href="/Admin/QFoodType/AddFoodType.aspx">Thêm thể loại ẩm thực</a></li>
+                                        </ul>
+                                    </li>
+
+<%--                                    <li>
+                                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-birthday-cake"></i>
+                                            <span>Order Foods</span></a>
+                                        <ul class="collapse">
+                                        </ul>
+                                    </li>--%>
+
+                                    <li>
+                                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-table"></i>
+                                            <span>Bàn</span></a>
+                                        <ul class="collapse">
+                                            <li><a href="/Admin/QLTable/ListTable.aspx">Danh sách bàn</a></li>
+                                            <li><a href="/Admin/QLTable/AddTable.aspx">Thêm bàn</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-table"></i>
+                                            <span>Đặt bàn</span></a>
+                                        <ul class="collapse">
+                                            <li><a href="/Admin/QLOrderTable/ListOrderTable.aspx">Danh sách đặt bàn</a></li>
+                                            <%--<li><a href="~//Admin/QLOrderTable/AddTOrderable.aspx">Add OrderTable</a></li>--%>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-birthday-cake"></i>
+                                            <span>Quản lý hóa đơn</span></a>
+                                        <ul class="collapse">
+                                            <li><a href="/Admin/QLHoaDon/OrderPage.aspx">Danh sách hóa đơn</a></li>
+                                            <li><a href="/Admin/QLHoaDon/OrderDetailPage.aspx">Danh sách chi tiết hóa đơn</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-birthday-cake"></i>
+                                            <span>Quản lý liên hệ</span></a>
+                                        <ul class="collapse">
+                                            <li><a href="/Admin/QLContact/ListContact.aspx">Danh sách liên hệ</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-table"></i>
+                                            <span>QL Web</span></a>
+                                        <ul class="collapse">
+                                            <li><a href="/Admin/QLWeb/QLWeb.aspx">QL Web</a></li>
+                                            <%--<li><a href="~//Admin/QLOrderTable/AddTOrderable.aspx">Add OrderTable</a></li>--%>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <!-- sidebar menu area end -->
+                <!-- main content area start -->
+                <div class="main-content">
+                    <!-- header area start -->
+                    <div class="header-area">
+                        <div class="row align-items-center">
+                            <!-- nav and search button -->
+                            <div class="col-md-6 col-sm-8 clearfix">
+                                <div class="nav-btn pull-left">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <%--<div class="search-box pull-left">
+                                <form action="#">
+                                    <input type="text" name="search" placeholder="Search...">
+                                    <i class="ti-search"></i>
+                                </form>
+                            </div>--%>
+                            </div>
+                            <!-- profile info & task notification -->
+                            <div class="col-md-6 col-sm-4 clearfix">
+                                <ul class="notification-area pull-right">
+                                    <li id="full-view"><i class="ti-fullscreen"></i></li>
+                                    <li id="full-view-exit"><i class="ti-zoom-out"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- header area end -->
+                    <!-- page title area start -->
+                    <div class="page-title-area">
+                        <div class="row align-items-center">
+                            <div class="col-sm-6">
+                                <asp:ContentPlaceHolder ID="LinkPageAdmin" runat="server">
+                                </asp:ContentPlaceHolder>
+
+                            </div>
+                            <div class="col-sm-6 clearfix">
+                                <div class="user-profile pull-right">
+                                    <%--<img class="avatar user-thumb" src="/Assets/AssetsAdmin/images/author/avatar.png" alt="avatar" />--%>
+                                    <asp:Image runat="server" ID="imageadmin" CssClass="avatar user-thumb" />
+                                    <h4 class="user-name dropdown-toggle" data-toggle="dropdown">
+                                        <asp:Label ID="nameuser" runat="server">Kumkum Rai</asp:Label>
+                                        <i class="fa fa-angle-down"></i></h4>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="/Admin/QlMembers/Profile.aspx">Profile</a>
+                                        <asp:LinkButton ID="Logout" runat="server" CausesValidation="False" OnClick="Logout_Click" CssClass="dropdown-item">Đăng xuất</asp:LinkButton>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <asp:ContentPlaceHolder ID="ContentRight" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <!-- page title area end -->
+
+                </div>
+
+                <!-- main content area end -->
+                <!-- footer area start-->
+                <footer>
+                    <div class="footer-area">
+                    </div>
+                </footer>
+                <!-- footer area end-->
+            </div>
+
+        </form>
+
+        <!-- page container area end -->
+        <!-- offset area start -->
+
+        <!-- offset area end -->
+        <!-- jquery latest version -->
+        <script src="/Assets/AssetsAdmin/js/vendor/jquery-2.2.4.min.js"></script>
+        <!-- bootstrap 4 js -->
+        <script src="/Assets/AssetsAdmin/js/popper.min.js"></script>
+        <script src="/Assets/AssetsAdmin/js/bootstrap.min.js"></script>
+        <script src="/Assets/AssetsAdmin/js/owl.carousel.min.js"></script>
+        <script src="/Assets/AssetsAdmin/js/metisMenu.min.js"></script>
+        <script src="/Assets/AssetsAdmin/js/jquery.slimscroll.min.js"></script>
+        <script src="/Assets/AssetsAdmin/js/jquery.slicknav.min.js"></script>
+        <script src="/Assets/js/jquery.timepicker.min.js"></script>
+        <script src="/Assets/js/notify.js"></script>
+        <%--        <!-- start chart js -->
+        <script src="~/https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+        <!-- start highcharts js -->
+        <script src="~/https://code.highcharts.com/highcharts.js"></script>
+        <!-- start zingchart js -->
+        <script src="~/https://cdn.zingchart.com/zingchart.min.js"></script>--%>
+        <%--        <script>
+            zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+            ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "ee6b7db5b51705a13dc2339db3edaf6d"];
+        </script>--%>
+        <!-- all line chart activation -->
+        <!-- all pie chart -->
+        <!-- others plugins -->
+        <script src="/Assets/AssetsAdmin/js/plugins.js"></script>
+        <script src="/Assets/AssetsAdmin/js/scripts.js"></script>
+        <script src="/Assets/fontawesome/js/fontawesome.min.js"></script>
+
+    </div>
+</body>
+</html>

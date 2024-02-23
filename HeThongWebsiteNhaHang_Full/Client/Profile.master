@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Profile.master.cs" Inherits="Client_Profile" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="tileProfile" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+
+    <link rel="stylesheet" href="~/Assets/AssetsAdmin/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/Assets/AssetsAdmin/css/themify-icons.css" />
+
+
+    <link href="~/Assets/css/profile.css" rel="stylesheet" />
+    <link href="~/Assets/css/StyleCustom.css" rel="stylesheet" />
+    <link href="~/Assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <link href="~/Assets/AssetsAdmin/css/default-css.css" rel="stylesheet" />
+    <link href="../Assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <%--<base href="../Assets/" />--%>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark site_navbar bg-dark site-navbar-light" id="site-navbar" style="height: 75px;" <%--style="background: #343a40 !important; position: fixed; width: 100%; margin-bottom: 0px;"--%>>
+                <div class="container">
+                    <a class="navbar-brand" href="/TrangChu.aspx">EatWell</a>
+                    <div class="collapse navbar-collapse" id="site-nav">
+                        <ul class="navbar-nav ml-auto">
+                            <li id="avatar" runat="server">
+                                <div class="user-profile pull-right">
+                                    <asp:Image runat="server" CssClass="avatar user-thumb" ID="avatarImageTop" />
+                                    <%--<img class="avatar user-thumb" src="/Assets/AssetsAdmin/images/author/avatar.png" alt="avatar" />--%>
+                                    <h4 class="user-name dropdown-toggle nav-link" data-toggle="dropdown">
+                                        <asp:Label runat="server" ID="nameuser"></asp:Label>
+                                        <i class="fa fa-angle-down"></i></h4>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="/Client/Profile.aspx">Profile</a>
+                                        <a class="dropdown-item" href="/Client/ChangePassword.aspx">Change password</a>
+                                        <asp:LinkButton ID="Logout" runat="server" CausesValidation="false" OnClick="LogOut_Click" Text="Log out" CssClass="dropdown-item" />
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="col-12 mt-5" style="background-image: url(/Assets/images/bg_3.jpg); margin: 0 !important; padding: 80px 3rem!important;">
+            <asp:ContentPlaceHolder ID="ContentProfile" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <script src="../Assets/js/jquery.min.js"></script>
+    <script src="../Assets/js/popper.min.js"></script>
+    <script src="../Assets/js/bootstrap.min.js"></script>
+</body>
+</html>
