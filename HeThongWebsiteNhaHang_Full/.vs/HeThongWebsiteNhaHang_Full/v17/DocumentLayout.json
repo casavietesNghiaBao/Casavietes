@@ -3,104 +3,16 @@
   "WorkspaceRootPath": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|d:\\product\\casavietes\\hethongwebsitenhahang_full\\admin\\masterpageadmin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\masterpageadmin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|d:\\product\\casavietes\\hethongwebsitenhahang_full\\trangchu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|solutionrelative:trangchu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\admin\\qltable\\listtable.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\qltable\\listtable.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|d:\\product\\casavietes\\hethongwebsitenhahang_full\\trangchu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|solutionrelative:trangchu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\admin\\qlhoadon\\orderdetailpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\qlhoadon\\orderdetailpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\admin\\qlhoadon\\orderpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\qlhoadon\\orderpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\app_code\\datautil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:app_code\\datautil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\admin\\qfood\\listfood.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\qfood\\listfood.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\admin\\qlordertable\\listordertable.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\qlordertable\\listordertable.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\trangchu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:trangchu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\client\\editprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:client\\editprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\admin\\qlordertable\\listordertable.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\qlordertable\\listordertable.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\admin\\qltable\\addtable.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\qltable\\addtable.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\admin\\qfood\\listfood.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\qfood\\listfood.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\admin\\qlmembers\\addmember.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\qlmembers\\addmember.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\admin\\qlmembers\\listmembers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\qlmembers\\listmembers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\admin\\qlmembers\\updateprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\qlmembers\\updateprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\admin\\qlmembers\\changepassword.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\qlmembers\\changepassword.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\admin\\qlmembers\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\qlmembers\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\admin\\adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\client\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:client\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\client\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:client\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\client\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:client\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\admin\\adminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\adminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\admin\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\admin\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\admin\\qlweb\\editqlweb.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|F:\\Hoc Tap\\C_Shape\\ASP_NET\\Casaviet\\CasaViet\\HeThongWebsiteNhaHang_Full|solutionrelative:admin\\qlweb\\editqlweb.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\app_code\\datautil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|solutionrelative:app_code\\datautil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 688,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,304 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ListOrderTable.aspx",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QLOrderTable\\ListOrderTable.aspx",
-              "RelativeDocumentMoniker": "Admin\\QLOrderTable\\ListOrderTable.aspx",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QLOrderTable\\ListOrderTable.aspx",
-              "RelativeToolTip": "Admin\\QLOrderTable\\ListOrderTable.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATPSURBVEhLrVXdT1tlHH7OV9tTCm2BgGyloIAjzBAQE4yLyZJlUbdkmbsx3gjX/gu7NsZ/wBtvjclCskTNNIvZ1JkwNWtAAsiqHR0bX4V\u002BQk97Ts\u002BHz3toWGIY7GJP\u002B\u002BY978f5fTy/532PhP/B87zA3t7eoKqqNzgcYgv6Cy8Ivv8D25eRSOSWGB/rIJVKDWWz2WC1Wm2uHg1ZlkGDGB4eRnd3d4bPdxRFucn\u002B9rEOZmZmhtLpdFCWZLRFo80dz2BZForFAra2ttDa2orx8XGMjIzUkslkNh6P/yZJ0ndqc\u002B\u002BREJEL44neXgwODjZnn6FcLmNpaQnz8/MoFAp\u002BJgxQ51I/AwxEo9HEsQ4EROTC\u002BMSbE82ZZ8jt5FAqleC6Lur1Oh4/fuzPM3I9HA4PxGKxAdmfeUkwDAOrq6uYm5vDysqKP/dSHQiIurCG2N/f98eHRSafZzRNmySHI2xxpvnh7OxsO19Qksk\u002B9CWT5NcXQfONg4ifPFnD4uJicwbY2NhAqVzyaZ2amoIiJsnfGduTLu41cGWzZl9YLtnDD8t2\u002B6rhqQUlIpWUCAquiqrtIaBILLxogMKitrRE0NPTg74\u002BBsEmUGX0IT2EsbExKIyiz3bdS8W6e3ndsN\u002Bi4dMPdsy2O5t1ZdWQpKypIW3IyBospCM0LyFAYgPsVUVGQNPopOWwFSjb3M4OAgHNdyBq8LHRcK7R\u002BOR8wer6M2ciU2ngl406dhsySow8vecitWPh0Z6NnzdNrFQcFC0XTOhECAeflxs4v1hsxO9v17FetfF6m4ogqbhwKoRLiRDOxjS0B2W8EpJxl47v09kaM6o5J3vwVTSfb2Bt30ZvWMEHp4M41xVARJUPJabztLwaUfA\u002B1670hlBruFguNrBZc4Xmm7uOhm8jy\u002Bqmdi3c2zLx/ZM6vs4YyJsOfiIdPz6tI8UAUnkLX6Wr\u002BHXbxCxpXGbagqYT7EMWae7WXVQZFYOGTmqEWlwumuzFOpdgs1muhw5S1WBfoXFR9BMzqNGIQSMhVSINKkbjGl5rZQ3orEsn77qCWEBCB/kfiWqYaNfQyUVh\u002BAVK4Eva17Q4PyJCEbHo\u002BfejFtEKQzY3mHwQ62IsDpzHO8hxHNi2fdjE2PNE/geQeA68z\u002BbL\u002BDZbxXbNQYgUMRms8zmqHRTa5H4RRDsPgKCvTqfnOhV8lFDwToxqqtUPrBFLy0tIP3yIjs4OTE9Pw79NT1M9b3cFQRYwHFXRQUPX58q4nNBJlYRVKkw4/mQgzAJbPBc2dCOP9MIjZNf/RiaT8Y0L1Go18Cb1HQj4GTygrmdzvG4rNlroUtTgi4UKpoda/KIvUJKCmqvJEFVlooebhkMmEk4JSiWHfD7vGxMQV7eu60gkEhgdHYXEj8qtLcM981fBOrVQsHRBk0Y6bjyq4iIPmjhwIgOKBud7gnhadTDZFcIbMTnXrTTWFMvImabZNH8Afmz8LPhVg8Rr9TLldmXdcN7NVOz\u002BfyoN/V9q/HdqXShIcC9UFqaGJzoDSFJpZ\u002BNqqTes/RENKXc1uEtNu0eCr0Pc3e9ZDq4VLe8CizuwWLB4ZTi\u002BmsRPo5cY69JP42N0EtWke/R9U/K8221tbQdflufAdyAgMqG2P2W71Jw6Dte57xtynW2OnwPgP4KXcw3ij41mAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-02-23T01:43:16.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ListFood.aspx.cs",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QFood\\ListFood.aspx.cs",
-              "RelativeDocumentMoniker": "Admin\\QFood\\ListFood.aspx.cs",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QFood\\ListFood.aspx.cs",
-              "RelativeToolTip": "Admin\\QFood\\ListFood.aspx.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAjAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOoSURBVEhL7VVLbxtVFP5mMuPXjD12beJHAnUVxy52qijpBljwSAkSVfesYIPKP2ABf4AfQXcsKiEBG9pFhHiIglCEvInUxgIjp25qJ/gZP\u002BbpGc69cSoXKkoK3fFZZ6517nnc8537EMbjsYfHwPO8PRquK4rywbHmn0MYDocfiqK4Sf9Xx6YTq7fHKNc62Dsc4ozqRyETQT4d7qeiwdtk8y33mgH5Oq7rdkiuq6raEgRhMp3ikEjRpxWaNLqsFGvioju08PNvbW5Qb48wNGxl9Wy0GAsI6UqlAl3XIcsyIpEI4vG4Q9KSJGlgmuYtSnSXkurcmSCRXG4PjJxuuyHTdqGbDpSABJbsbmuE/tiG5bhk52nFeZ92Z7eCZrMBURCQTCaxvLzs\u002Bv3\u002BFNH3DgWWLcv6jpLUTpKwCi7fuT/A7n4ffd2C6wIjSjI2HHSGJg56OnTLIb0Lz4rAE2Q0G020Wr9D0zSMRiOREqhLS0sv\u002B3w\u002Bg2K6VIlFY5UnYJ\u002Bvdhr49Mca9mjFj4JuTTAhAkN\u002BGe9tvglLH\u002BKHW9\u002BjXq\u002BDgsG2bYRCIaTT6TdowQ5Rvk9uPIHIPk8KogOHh4col8vY2tpCtVrFYDCYzh6DV3BpJYVMLMj5dj0PI6Jnu9rGr80j2I6LZ\u002BMKXio8g41SEop/DgL5eOxHtmz13W4XOzs7yOVyrOmcuhNIZHSzuKAVzs2rGWpysE287\u002B4f4Tb1JEbbNBaSsZY9g1eLSZQWNQRkEZmFDFZWLqDf7/EkFlF\u002Bb/8e6wccx5mGPgar4EY87J8j7qLU3KBuT6jJNl9lNqHgfEbDC8sJrD4XhRaUecB8Po9EIsEpmkwm6Ha6\u002BPyLz443As3PgnabEKBRoAk260qCB5VoWMvG8DpRt7GSxNrZKOYjgQfOC5kFXKAKLq5fxPraOkqlEoLBIDt0fH4WTPMuJVkkZ8M3h/GiJmEzr\u002BD9K8/j6qUcXjk//1Dw00KkEt9iQkk\u002BarVa5e3tbVz7\u002BBoOmgfErU0U/LXs00BsNBq/MKH/94lT6tMIB7T1GL//JvAJRGqYyYSCsQPisUY5js2D/ycJpuNTw/8JHgt\u002BF82CNfmof4QbN7\u002BEqoYfeXhmwezpVUSv1\u002BOn\u002Bs94yDsQCPBHpFgq8sCmafDX6\u002B\u002BE2YiigGKxiFQqxWPMgl05HGT8Gq3k7U6ns1Gr1aba0yGbzSIWi31D18Yn4XD4a6Z7kMAwjALdhC/SiS5MVU8EOjsVou0neq93p6qnCeAPrh3us4woRd4AAAAASUVORK5CYII=",
-              "WhenOpened": "2024-02-23T01:43:16.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ListFood.aspx",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QFood\\ListFood.aspx",
-              "RelativeDocumentMoniker": "Admin\\QFood\\ListFood.aspx",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QFood\\ListFood.aspx",
-              "RelativeToolTip": "Admin\\QFood\\ListFood.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATPSURBVEhLrVXdT1tlHH7OV9tTCm2BgGyloIAjzBAQE4yLyZJlUbdkmbsx3gjX/gu7NsZ/wBtvjclCskTNNIvZ1JkwNWtAAsiqHR0bX4V\u002BQk97Ts\u002BHz3toWGIY7GJP\u002B\u002BY978f5fTy/532PhP/B87zA3t7eoKqqNzgcYgv6Cy8Ivv8D25eRSOSWGB/rIJVKDWWz2WC1Wm2uHg1ZlkGDGB4eRnd3d4bPdxRFucn\u002B9rEOZmZmhtLpdFCWZLRFo80dz2BZForFAra2ttDa2orx8XGMjIzUkslkNh6P/yZJ0ndqc\u002B\u002BREJEL44neXgwODjZnn6FcLmNpaQnz8/MoFAp\u002BJgxQ51I/AwxEo9HEsQ4EROTC\u002BMSbE82ZZ8jt5FAqleC6Lur1Oh4/fuzPM3I9HA4PxGKxAdmfeUkwDAOrq6uYm5vDysqKP/dSHQiIurCG2N/f98eHRSafZzRNmySHI2xxpvnh7OxsO19Qksk\u002B9CWT5NcXQfONg4ifPFnD4uJicwbY2NhAqVzyaZ2amoIiJsnfGduTLu41cGWzZl9YLtnDD8t2\u002B6rhqQUlIpWUCAquiqrtIaBILLxogMKitrRE0NPTg74\u002BBsEmUGX0IT2EsbExKIyiz3bdS8W6e3ndsN\u002Bi4dMPdsy2O5t1ZdWQpKypIW3IyBospCM0LyFAYgPsVUVGQNPopOWwFSjb3M4OAgHNdyBq8LHRcK7R\u002BOR8wer6M2ciU2ngl406dhsySow8vecitWPh0Z6NnzdNrFQcFC0XTOhECAeflxs4v1hsxO9v17FetfF6m4ogqbhwKoRLiRDOxjS0B2W8EpJxl47v09kaM6o5J3vwVTSfb2Bt30ZvWMEHp4M41xVARJUPJabztLwaUfA\u002B1670hlBruFguNrBZc4Xmm7uOhm8jy\u002Bqmdi3c2zLx/ZM6vs4YyJsOfiIdPz6tI8UAUnkLX6Wr\u002BHXbxCxpXGbagqYT7EMWae7WXVQZFYOGTmqEWlwumuzFOpdgs1muhw5S1WBfoXFR9BMzqNGIQSMhVSINKkbjGl5rZQ3orEsn77qCWEBCB/kfiWqYaNfQyUVh\u002BAVK4Eva17Q4PyJCEbHo\u002BfejFtEKQzY3mHwQ62IsDpzHO8hxHNi2fdjE2PNE/geQeA68z\u002BbL\u002BDZbxXbNQYgUMRms8zmqHRTa5H4RRDsPgKCvTqfnOhV8lFDwToxqqtUPrBFLy0tIP3yIjs4OTE9Pw79NT1M9b3cFQRYwHFXRQUPX58q4nNBJlYRVKkw4/mQgzAJbPBc2dCOP9MIjZNf/RiaT8Y0L1Go18Cb1HQj4GTygrmdzvG4rNlroUtTgi4UKpoda/KIvUJKCmqvJEFVlooebhkMmEk4JSiWHfD7vGxMQV7eu60gkEhgdHYXEj8qtLcM981fBOrVQsHRBk0Y6bjyq4iIPmjhwIgOKBud7gnhadTDZFcIbMTnXrTTWFMvImabZNH8Afmz8LPhVg8Rr9TLldmXdcN7NVOz\u002BfyoN/V9q/HdqXShIcC9UFqaGJzoDSFJpZ\u002BNqqTes/RENKXc1uEtNu0eCr0Pc3e9ZDq4VLe8CizuwWLB4ZTi\u002BmsRPo5cY69JP42N0EtWke/R9U/K8221tbQdflufAdyAgMqG2P2W71Jw6Dte57xtynW2OnwPgP4KXcw3ij41mAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-02-23T01:43:16.173Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OrderDetailPage.aspx",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QLHoaDon\\OrderDetailPage.aspx",
-              "RelativeDocumentMoniker": "Admin\\QLHoaDon\\OrderDetailPage.aspx",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QLHoaDon\\OrderDetailPage.aspx",
-              "RelativeToolTip": "Admin\\QLHoaDon\\OrderDetailPage.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATPSURBVEhLrVXdT1tlHH7OV9tTCm2BgGyloIAjzBAQE4yLyZJlUbdkmbsx3gjX/gu7NsZ/wBtvjclCskTNNIvZ1JkwNWtAAsiqHR0bX4V\u002BQk97Ts\u002BHz3toWGIY7GJP\u002B\u002BY978f5fTy/532PhP/B87zA3t7eoKqqNzgcYgv6Cy8Ivv8D25eRSOSWGB/rIJVKDWWz2WC1Wm2uHg1ZlkGDGB4eRnd3d4bPdxRFucn\u002B9rEOZmZmhtLpdFCWZLRFo80dz2BZForFAra2ttDa2orx8XGMjIzUkslkNh6P/yZJ0ndqc\u002B\u002BREJEL44neXgwODjZnn6FcLmNpaQnz8/MoFAp\u002BJgxQ51I/AwxEo9HEsQ4EROTC\u002BMSbE82ZZ8jt5FAqleC6Lur1Oh4/fuzPM3I9HA4PxGKxAdmfeUkwDAOrq6uYm5vDysqKP/dSHQiIurCG2N/f98eHRSafZzRNmySHI2xxpvnh7OxsO19Qksk\u002B9CWT5NcXQfONg4ifPFnD4uJicwbY2NhAqVzyaZ2amoIiJsnfGduTLu41cGWzZl9YLtnDD8t2\u002B6rhqQUlIpWUCAquiqrtIaBILLxogMKitrRE0NPTg74\u002BBsEmUGX0IT2EsbExKIyiz3bdS8W6e3ndsN\u002Bi4dMPdsy2O5t1ZdWQpKypIW3IyBospCM0LyFAYgPsVUVGQNPopOWwFSjb3M4OAgHNdyBq8LHRcK7R\u002BOR8wer6M2ciU2ngl406dhsySow8vecitWPh0Z6NnzdNrFQcFC0XTOhECAeflxs4v1hsxO9v17FetfF6m4ogqbhwKoRLiRDOxjS0B2W8EpJxl47v09kaM6o5J3vwVTSfb2Bt30ZvWMEHp4M41xVARJUPJabztLwaUfA\u002B1670hlBruFguNrBZc4Xmm7uOhm8jy\u002Bqmdi3c2zLx/ZM6vs4YyJsOfiIdPz6tI8UAUnkLX6Wr\u002BHXbxCxpXGbagqYT7EMWae7WXVQZFYOGTmqEWlwumuzFOpdgs1muhw5S1WBfoXFR9BMzqNGIQSMhVSINKkbjGl5rZQ3orEsn77qCWEBCB/kfiWqYaNfQyUVh\u002BAVK4Eva17Q4PyJCEbHo\u002BfejFtEKQzY3mHwQ62IsDpzHO8hxHNi2fdjE2PNE/geQeA68z\u002BbL\u002BDZbxXbNQYgUMRms8zmqHRTa5H4RRDsPgKCvTqfnOhV8lFDwToxqqtUPrBFLy0tIP3yIjs4OTE9Pw79NT1M9b3cFQRYwHFXRQUPX58q4nNBJlYRVKkw4/mQgzAJbPBc2dCOP9MIjZNf/RiaT8Y0L1Go18Cb1HQj4GTygrmdzvG4rNlroUtTgi4UKpoda/KIvUJKCmqvJEFVlooebhkMmEk4JSiWHfD7vGxMQV7eu60gkEhgdHYXEj8qtLcM981fBOrVQsHRBk0Y6bjyq4iIPmjhwIgOKBud7gnhadTDZFcIbMTnXrTTWFMvImabZNH8Afmz8LPhVg8Rr9TLldmXdcN7NVOz\u002BfyoN/V9q/HdqXShIcC9UFqaGJzoDSFJpZ\u002BNqqTes/RENKXc1uEtNu0eCr0Pc3e9ZDq4VLe8CizuwWLB4ZTi\u002BmsRPo5cY69JP42N0EtWke/R9U/K8221tbQdflufAdyAgMqG2P2W71Jw6Dte57xtynW2OnwPgP4KXcw3ij41mAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-02-23T01:43:16.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EditProfile.aspx",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Client\\EditProfile.aspx",
-              "RelativeDocumentMoniker": "Client\\EditProfile.aspx",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Client\\EditProfile.aspx",
-              "RelativeToolTip": "Client\\EditProfile.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATPSURBVEhLrVXdT1tlHH7OV9tTCm2BgGyloIAjzBAQE4yLyZJlUbdkmbsx3gjX/gu7NsZ/wBtvjclCskTNNIvZ1JkwNWtAAsiqHR0bX4V\u002BQk97Ts\u002BHz3toWGIY7GJP\u002B\u002BY978f5fTy/532PhP/B87zA3t7eoKqqNzgcYgv6Cy8Ivv8D25eRSOSWGB/rIJVKDWWz2WC1Wm2uHg1ZlkGDGB4eRnd3d4bPdxRFucn\u002B9rEOZmZmhtLpdFCWZLRFo80dz2BZForFAra2ttDa2orx8XGMjIzUkslkNh6P/yZJ0ndqc\u002B\u002BREJEL44neXgwODjZnn6FcLmNpaQnz8/MoFAp\u002BJgxQ51I/AwxEo9HEsQ4EROTC\u002BMSbE82ZZ8jt5FAqleC6Lur1Oh4/fuzPM3I9HA4PxGKxAdmfeUkwDAOrq6uYm5vDysqKP/dSHQiIurCG2N/f98eHRSafZzRNmySHI2xxpvnh7OxsO19Qksk\u002B9CWT5NcXQfONg4ifPFnD4uJicwbY2NhAqVzyaZ2amoIiJsnfGduTLu41cGWzZl9YLtnDD8t2\u002B6rhqQUlIpWUCAquiqrtIaBILLxogMKitrRE0NPTg74\u002BBsEmUGX0IT2EsbExKIyiz3bdS8W6e3ndsN\u002Bi4dMPdsy2O5t1ZdWQpKypIW3IyBospCM0LyFAYgPsVUVGQNPopOWwFSjb3M4OAgHNdyBq8LHRcK7R\u002BOR8wer6M2ciU2ngl406dhsySow8vecitWPh0Z6NnzdNrFQcFC0XTOhECAeflxs4v1hsxO9v17FetfF6m4ogqbhwKoRLiRDOxjS0B2W8EpJxl47v09kaM6o5J3vwVTSfb2Bt30ZvWMEHp4M41xVARJUPJabztLwaUfA\u002B1670hlBruFguNrBZc4Xmm7uOhm8jy\u002Bqmdi3c2zLx/ZM6vs4YyJsOfiIdPz6tI8UAUnkLX6Wr\u002BHXbxCxpXGbagqYT7EMWae7WXVQZFYOGTmqEWlwumuzFOpdgs1muhw5S1WBfoXFR9BMzqNGIQSMhVSINKkbjGl5rZQ3orEsn77qCWEBCB/kfiWqYaNfQyUVh\u002BAVK4Eva17Q4PyJCEbHo\u002BfejFtEKQzY3mHwQ62IsDpzHO8hxHNi2fdjE2PNE/geQeA68z\u002BbL\u002BDZbxXbNQYgUMRms8zmqHRTa5H4RRDsPgKCvTqfnOhV8lFDwToxqqtUPrBFLy0tIP3yIjs4OTE9Pw79NT1M9b3cFQRYwHFXRQUPX58q4nNBJlYRVKkw4/mQgzAJbPBc2dCOP9MIjZNf/RiaT8Y0L1Go18Cb1HQj4GTygrmdzvG4rNlroUtTgi4UKpoda/KIvUJKCmqvJEFVlooebhkMmEk4JSiWHfD7vGxMQV7eu60gkEhgdHYXEj8qtLcM981fBOrVQsHRBk0Y6bjyq4iIPmjhwIgOKBud7gnhadTDZFcIbMTnXrTTWFMvImabZNH8Afmz8LPhVg8Rr9TLldmXdcN7NVOz\u002BfyoN/V9q/HdqXShIcC9UFqaGJzoDSFJpZ\u002BNqqTes/RENKXc1uEtNu0eCr0Pc3e9ZDq4VLe8CizuwWLB4ZTi\u002BmsRPo5cY69JP42N0EtWke/R9U/K8221tbQdflufAdyAgMqG2P2W71Jw6Dte57xtynW2OnwPgP4KXcw3ij41mAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-02-23T01:43:16.175Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MasterPageAdmin.master",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\MasterPageAdmin.master",
-              "RelativeDocumentMoniker": "Admin\\MasterPageAdmin.master",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\MasterPageAdmin.master",
-              "RelativeToolTip": "Admin\\MasterPageAdmin.master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-02-23T01:43:16.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ListTable.aspx",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QlTable\\ListTable.aspx",
-              "RelativeDocumentMoniker": "Admin\\QlTable\\ListTable.aspx",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QlTable\\ListTable.aspx",
-              "RelativeToolTip": "Admin\\QlTable\\ListTable.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATPSURBVEhLrVXdT1tlHH7OV9tTCm2BgGyloIAjzBAQE4yLyZJlUbdkmbsx3gjX/gu7NsZ/wBtvjclCskTNNIvZ1JkwNWtAAsiqHR0bX4V\u002BQk97Ts\u002BHz3toWGIY7GJP\u002B\u002BY978f5fTy/532PhP/B87zA3t7eoKqqNzgcYgv6Cy8Ivv8D25eRSOSWGB/rIJVKDWWz2WC1Wm2uHg1ZlkGDGB4eRnd3d4bPdxRFucn\u002B9rEOZmZmhtLpdFCWZLRFo80dz2BZForFAra2ttDa2orx8XGMjIzUkslkNh6P/yZJ0ndqc\u002B\u002BREJEL44neXgwODjZnn6FcLmNpaQnz8/MoFAp\u002BJgxQ51I/AwxEo9HEsQ4EROTC\u002BMSbE82ZZ8jt5FAqleC6Lur1Oh4/fuzPM3I9HA4PxGKxAdmfeUkwDAOrq6uYm5vDysqKP/dSHQiIurCG2N/f98eHRSafZzRNmySHI2xxpvnh7OxsO19Qksk\u002B9CWT5NcXQfONg4ifPFnD4uJicwbY2NhAqVzyaZ2amoIiJsnfGduTLu41cGWzZl9YLtnDD8t2\u002B6rhqQUlIpWUCAquiqrtIaBILLxogMKitrRE0NPTg74\u002BBsEmUGX0IT2EsbExKIyiz3bdS8W6e3ndsN\u002Bi4dMPdsy2O5t1ZdWQpKypIW3IyBospCM0LyFAYgPsVUVGQNPopOWwFSjb3M4OAgHNdyBq8LHRcK7R\u002BOR8wer6M2ciU2ngl406dhsySow8vecitWPh0Z6NnzdNrFQcFC0XTOhECAeflxs4v1hsxO9v17FetfF6m4ogqbhwKoRLiRDOxjS0B2W8EpJxl47v09kaM6o5J3vwVTSfb2Bt30ZvWMEHp4M41xVARJUPJabztLwaUfA\u002B1670hlBruFguNrBZc4Xmm7uOhm8jy\u002Bqmdi3c2zLx/ZM6vs4YyJsOfiIdPz6tI8UAUnkLX6Wr\u002BHXbxCxpXGbagqYT7EMWae7WXVQZFYOGTmqEWlwumuzFOpdgs1muhw5S1WBfoXFR9BMzqNGIQSMhVSINKkbjGl5rZQ3orEsn77qCWEBCB/kfiWqYaNfQyUVh\u002BAVK4Eva17Q4PyJCEbHo\u002BfejFtEKQzY3mHwQ62IsDpzHO8hxHNi2fdjE2PNE/geQeA68z\u002BbL\u002BDZbxXbNQYgUMRms8zmqHRTa5H4RRDsPgKCvTqfnOhV8lFDwToxqqtUPrBFLy0tIP3yIjs4OTE9Pw79NT1M9b3cFQRYwHFXRQUPX58q4nNBJlYRVKkw4/mQgzAJbPBc2dCOP9MIjZNf/RiaT8Y0L1Go18Cb1HQj4GTygrmdzvG4rNlroUtTgi4UKpoda/KIvUJKCmqvJEFVlooebhkMmEk4JSiWHfD7vGxMQV7eu60gkEhgdHYXEj8qtLcM981fBOrVQsHRBk0Y6bjyq4iIPmjhwIgOKBud7gnhadTDZFcIbMTnXrTTWFMvImabZNH8Afmz8LPhVg8Rr9TLldmXdcN7NVOz\u002BfyoN/V9q/HdqXShIcC9UFqaGJzoDSFJpZ\u002BNqqTes/RENKXc1uEtNu0eCr0Pc3e9ZDq4VLe8CizuwWLB4ZTi\u002BmsRPo5cY69JP42N0EtWke/R9U/K8221tbQdflufAdyAgMqG2P2W71Jw6Dte57xtynW2OnwPgP4KXcw3ij41mAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-02-23T01:43:16.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ListOrderTable.aspx.cs",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QLOrderTable\\ListOrderTable.aspx.cs",
-              "RelativeDocumentMoniker": "Admin\\QLOrderTable\\ListOrderTable.aspx.cs",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QLOrderTable\\ListOrderTable.aspx.cs",
-              "RelativeToolTip": "Admin\\QLOrderTable\\ListOrderTable.aspx.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOoSURBVEhL7VVLbxtVFP5mMuPXjD12beJHAnUVxy52qijpBljwSAkSVfesYIPKP2ABf4AfQXcsKiEBG9pFhHiIglCEvInUxgIjp25qJ/gZP\u002BbpGc69cSoXKkoK3fFZZ6517nnc8537EMbjsYfHwPO8PRquK4rywbHmn0MYDocfiqK4Sf9Xx6YTq7fHKNc62Dsc4ozqRyETQT4d7qeiwdtk8y33mgH5Oq7rdkiuq6raEgRhMp3ikEjRpxWaNLqsFGvioju08PNvbW5Qb48wNGxl9Wy0GAsI6UqlAl3XIcsyIpEI4vG4Q9KSJGlgmuYtSnSXkurcmSCRXG4PjJxuuyHTdqGbDpSABJbsbmuE/tiG5bhk52nFeZ92Z7eCZrMBURCQTCaxvLzs\u002Bv3\u002BFNH3DgWWLcv6jpLUTpKwCi7fuT/A7n4ffd2C6wIjSjI2HHSGJg56OnTLIb0Lz4rAE2Q0G020Wr9D0zSMRiOREqhLS0sv\u002B3w\u002Bg2K6VIlFY5UnYJ\u002Bvdhr49Mca9mjFj4JuTTAhAkN\u002BGe9tvglLH\u002BKHW9\u002BjXq\u002BDgsG2bYRCIaTT6TdowQ5Rvk9uPIHIPk8KogOHh4col8vY2tpCtVrFYDCYzh6DV3BpJYVMLMj5dj0PI6Jnu9rGr80j2I6LZ\u002BMKXio8g41SEop/DgL5eOxHtmz13W4XOzs7yOVyrOmcuhNIZHSzuKAVzs2rGWpysE287\u002B4f4Tb1JEbbNBaSsZY9g1eLSZQWNQRkEZmFDFZWLqDf7/EkFlF\u002Bb/8e6wccx5mGPgar4EY87J8j7qLU3KBuT6jJNl9lNqHgfEbDC8sJrD4XhRaUecB8Po9EIsEpmkwm6Ha6\u002BPyLz443As3PgnabEKBRoAk260qCB5VoWMvG8DpRt7GSxNrZKOYjgQfOC5kFXKAKLq5fxPraOkqlEoLBIDt0fH4WTPMuJVkkZ8M3h/GiJmEzr\u002BD9K8/j6qUcXjk//1Dw00KkEt9iQkk\u002BarVa5e3tbVz7\u002BBoOmgfErU0U/LXs00BsNBq/MKH/94lT6tMIB7T1GL//JvAJRGqYyYSCsQPisUY5js2D/ycJpuNTw/8JHgt\u002BF82CNfmof4QbN7\u002BEqoYfeXhmwezpVUSv1\u002BOn\u002Bs94yDsQCPBHpFgq8sCmafDX6\u002B\u002BE2YiigGKxiFQqxWPMgl05HGT8Gq3k7U6ns1Gr1aba0yGbzSIWi31D18Yn4XD4a6Z7kMAwjALdhC/SiS5MVU8EOjsVou0neq93p6qnCeAPrh3us4woRd4AAAAASUVORK5CYII=",
-              "WhenOpened": "2024-02-23T01:43:16.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderPage.aspx",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QLHoaDon\\OrderPage.aspx",
-              "RelativeDocumentMoniker": "Admin\\QLHoaDon\\OrderPage.aspx",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QLHoaDon\\OrderPage.aspx",
-              "RelativeToolTip": "Admin\\QLHoaDon\\OrderPage.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATPSURBVEhLrVXdT1tlHH7OV9tTCm2BgGyloIAjzBAQE4yLyZJlUbdkmbsx3gjX/gu7NsZ/wBtvjclCskTNNIvZ1JkwNWtAAsiqHR0bX4V\u002BQk97Ts\u002BHz3toWGIY7GJP\u002B\u002BY978f5fTy/532PhP/B87zA3t7eoKqqNzgcYgv6Cy8Ivv8D25eRSOSWGB/rIJVKDWWz2WC1Wm2uHg1ZlkGDGB4eRnd3d4bPdxRFucn\u002B9rEOZmZmhtLpdFCWZLRFo80dz2BZForFAra2ttDa2orx8XGMjIzUkslkNh6P/yZJ0ndqc\u002B\u002BREJEL44neXgwODjZnn6FcLmNpaQnz8/MoFAp\u002BJgxQ51I/AwxEo9HEsQ4EROTC\u002BMSbE82ZZ8jt5FAqleC6Lur1Oh4/fuzPM3I9HA4PxGKxAdmfeUkwDAOrq6uYm5vDysqKP/dSHQiIurCG2N/f98eHRSafZzRNmySHI2xxpvnh7OxsO19Qksk\u002B9CWT5NcXQfONg4ifPFnD4uJicwbY2NhAqVzyaZ2amoIiJsnfGduTLu41cGWzZl9YLtnDD8t2\u002B6rhqQUlIpWUCAquiqrtIaBILLxogMKitrRE0NPTg74\u002BBsEmUGX0IT2EsbExKIyiz3bdS8W6e3ndsN\u002Bi4dMPdsy2O5t1ZdWQpKypIW3IyBospCM0LyFAYgPsVUVGQNPopOWwFSjb3M4OAgHNdyBq8LHRcK7R\u002BOR8wer6M2ciU2ngl406dhsySow8vecitWPh0Z6NnzdNrFQcFC0XTOhECAeflxs4v1hsxO9v17FetfF6m4ogqbhwKoRLiRDOxjS0B2W8EpJxl47v09kaM6o5J3vwVTSfb2Bt30ZvWMEHp4M41xVARJUPJabztLwaUfA\u002B1670hlBruFguNrBZc4Xmm7uOhm8jy\u002Bqmdi3c2zLx/ZM6vs4YyJsOfiIdPz6tI8UAUnkLX6Wr\u002BHXbxCxpXGbagqYT7EMWae7WXVQZFYOGTmqEWlwumuzFOpdgs1muhw5S1WBfoXFR9BMzqNGIQSMhVSINKkbjGl5rZQ3orEsn77qCWEBCB/kfiWqYaNfQyUVh\u002BAVK4Eva17Q4PyJCEbHo\u002BfejFtEKQzY3mHwQ62IsDpzHO8hxHNi2fdjE2PNE/geQeA68z\u002BbL\u002BDZbxXbNQYgUMRms8zmqHRTa5H4RRDsPgKCvTqfnOhV8lFDwToxqqtUPrBFLy0tIP3yIjs4OTE9Pw79NT1M9b3cFQRYwHFXRQUPX58q4nNBJlYRVKkw4/mQgzAJbPBc2dCOP9MIjZNf/RiaT8Y0L1Go18Cb1HQj4GTygrmdzvG4rNlroUtTgi4UKpoda/KIvUJKCmqvJEFVlooebhkMmEk4JSiWHfD7vGxMQV7eu60gkEhgdHYXEj8qtLcM981fBOrVQsHRBk0Y6bjyq4iIPmjhwIgOKBud7gnhadTDZFcIbMTnXrTTWFMvImabZNH8Afmz8LPhVg8Rr9TLldmXdcN7NVOz\u002BfyoN/V9q/HdqXShIcC9UFqaGJzoDSFJpZ\u002BNqqTes/RENKXc1uEtNu0eCr0Pc3e9ZDq4VLe8CizuwWLB4ZTi\u002BmsRPo5cY69JP42N0EtWke/R9U/K8221tbQdflufAdyAgMqG2P2W71Jw6Dte57xtynW2OnwPgP4KXcw3ij41mAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-02-23T01:43:16.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "DataUtil.cs",
               "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\App_Code\\DataUtil.cs",
               "RelativeDocumentMoniker": "App_Code\\DataUtil.cs",
               "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\App_Code\\DataUtil.cs",
               "RelativeToolTip": "App_Code\\DataUtil.cs",
-              "ViewState": "AQIAAHoEAAAAAAAAAAASwFwEAAAnAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO9SURBVEhL7VRNTxtXFD2eD894ZhxsbOwa14BBlASkxo2BNBW0aqsqEmnVZbLpotsom/yTLCK1624qdVtVrbKoKkSqqp9EIqEIBILUsWMSDDYzY\u002BbLue8xpDiCVt11kTN6vp47b86999z7Bi/xb4iElqPT6UiNRkNXVTURuv4z6F2bTEsQBGb/DkDkAq2E53nnHMeZDQIPHgL4gR/uOIQsyKCX\u002Bf8gCLiVBAlO4ECgS5TEDdqzqCjKWiQS8Y8HMFzXnfA856ofdG6azj4s14bjOfSMEUU4sR7Vocka/I6PA\u002B8ARAIjamDb3CarQ5Vj84qkfEGJfh2Px\u002BvPA1iW9TaZT7zA\u002B8hyzOzd9QX8Ufkdld0KbArEyBnB5MA0JgvT2LUbWHuyClmUMTvyDj5buI2Z4VlcyJdbaaNvibi\u002B0nX9lsTZCVSubrlWZsd8ml5\u002BvIy7Gwt4tFdBh56xDLWoRmRRnvFvD3/GVmMLf\u002B0\u002BpMAi7XuElcd/8orMA1Mv5UuZYmokzXgPxTyEYDuWVGlWxJ82f8T603Ui1XEuO47pwYu4OHgJ5UIZQ71FKJIK13fRJsK22wZVzKVklTq\u002BI/hBwBIXOSn7OQLbsL1fB6vAdi0Mp0eI\u002BE1cGnoLUwNTFGAKo\u002BlRFFNFZOJZxJU4etQe9PfkIUsyerVeWiloihYyvhCA9OfZkEysWTzbscwYD1RIDmCAFiNmFXToCqjRrNlu4LIh4RPnE8fRdDF0BTiCSLoy3WOyCkmUuO7HsVJfwf3qEjZ3NrFBUs6v/YDWQQvLtQdYIn\u002B1WQ13nhKAVfKExm7P3uONO54Rw3uj72Nu/AomB6e5fNdnbiBjZPHB2cuYm7iC8dxEuJPOSGg5WLYaZZ4iHffpHNyrLPKyX00U\u002BPwHdB6YdFkjQ9KdRUpPQ4wI1JNhXL1wjUvafya3okrqHUrqDufkzCFikobcmRzO59/Ag9oSKjSmrPFMBl0xOFkhOUhJxFhD6wk1udWJdOoGNbvUX\u002BJNj0Vj9\u002BlEf\u002B/53iLjfC6ubdvv0gx/2rAaH9IBSi6sz6PWrHG5ojT/UUmBSuv1/HmUKIFX4rlfDcX4hpr7S0jBQf2qU/ab7BTze\u002B4ltNvtMfpUXKaJ\u002BJgmaWaxcg\u002B1VpVPlUcyCdRoKh2vZccwlCyy8fyOPgmfG4bxbUhxIrrGwzTNfvokzFFWN0PXP2Ge1peapjF7KroCELFcrVYTVF42dJ0Kqrbl\u002B/5OX19fK3SdiBcDsHthdXW1q/knodlsBuVy2SfNu2f4Jf5nAJ4Bgtyk\u002BcTY5lUAAAAASUVORK5CYII=",
-              "WhenOpened": "2024-02-23T01:43:16.915Z"
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T03:51:12.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Trangchu.aspx.cs",
               "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Trangchu.aspx.cs",
               "RelativeDocumentMoniker": "Trangchu.aspx.cs",
               "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Trangchu.aspx.cs",
               "RelativeToolTip": "Trangchu.aspx.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAADwvyAAAAAUAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOoSURBVEhL7VVLbxtVFP5mMuPXjD12beJHAnUVxy52qijpBljwSAkSVfesYIPKP2ABf4AfQXcsKiEBG9pFhHiIglCEvInUxgIjp25qJ/gZP\u002BbpGc69cSoXKkoK3fFZZ6517nnc8537EMbjsYfHwPO8PRquK4rywbHmn0MYDocfiqK4Sf9Xx6YTq7fHKNc62Dsc4ozqRyETQT4d7qeiwdtk8y33mgH5Oq7rdkiuq6raEgRhMp3ikEjRpxWaNLqsFGvioju08PNvbW5Qb48wNGxl9Wy0GAsI6UqlAl3XIcsyIpEI4vG4Q9KSJGlgmuYtSnSXkurcmSCRXG4PjJxuuyHTdqGbDpSABJbsbmuE/tiG5bhk52nFeZ92Z7eCZrMBURCQTCaxvLzs\u002Bv3\u002BFNH3DgWWLcv6jpLUTpKwCi7fuT/A7n4ffd2C6wIjSjI2HHSGJg56OnTLIb0Lz4rAE2Q0G020Wr9D0zSMRiOREqhLS0sv\u002B3w\u002Bg2K6VIlFY5UnYJ\u002Bvdhr49Mca9mjFj4JuTTAhAkN\u002BGe9tvglLH\u002BKHW9\u002BjXq\u002BDgsG2bYRCIaTT6TdowQ5Rvk9uPIHIPk8KogOHh4col8vY2tpCtVrFYDCYzh6DV3BpJYVMLMj5dj0PI6Jnu9rGr80j2I6LZ\u002BMKXio8g41SEop/DgL5eOxHtmz13W4XOzs7yOVyrOmcuhNIZHSzuKAVzs2rGWpysE287\u002B4f4Tb1JEbbNBaSsZY9g1eLSZQWNQRkEZmFDFZWLqDf7/EkFlF\u002Bb/8e6wccx5mGPgar4EY87J8j7qLU3KBuT6jJNl9lNqHgfEbDC8sJrD4XhRaUecB8Po9EIsEpmkwm6Ha6\u002BPyLz443As3PgnabEKBRoAk260qCB5VoWMvG8DpRt7GSxNrZKOYjgQfOC5kFXKAKLq5fxPraOkqlEoLBIDt0fH4WTPMuJVkkZ8M3h/GiJmEzr\u002BD9K8/j6qUcXjk//1Dw00KkEt9iQkk\u002BarVa5e3tbVz7\u002BBoOmgfErU0U/LXs00BsNBq/MKH/94lT6tMIB7T1GL//JvAJRGqYyYSCsQPisUY5js2D/ycJpuNTw/8JHgt\u002BF82CNfmof4QbN7\u002BEqoYfeXhmwezpVUSv1\u002BOn\u002Bs94yDsQCPBHpFgq8sCmafDX6\u002B\u002BE2YiigGKxiFQqxWPMgl05HGT8Gq3k7U6ns1Gr1aba0yGbzSIWi31D18Yn4XD4a6Z7kMAwjALdhC/SiS5MVU8EOjsVou0neq93p6qnCeAPrh3us4woRd4AAAAASUVORK5CYII=",
-              "WhenOpened": "2024-02-23T01:43:16.916Z"
+              "ViewState": "AQIAABoBAAAAAAAAAAAmwEwBAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T03:20:29.342Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AddMember.aspx",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QlMembers\\AddMember.aspx",
-              "RelativeDocumentMoniker": "Admin\\QlMembers\\AddMember.aspx",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QlMembers\\AddMember.aspx",
-              "RelativeToolTip": "Admin\\QlMembers\\AddMember.aspx",
+              "DocumentIndex": 0,
+              "Title": "Trangchu.aspx",
+              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Trangchu.aspx",
+              "RelativeDocumentMoniker": "Trangchu.aspx",
+              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Trangchu.aspx",
+              "RelativeToolTip": "Trangchu.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATPSURBVEhLrVXdT1tlHH7OV9tTCm2BgGyloIAjzBAQE4yLyZJlUbdkmbsx3gjX/gu7NsZ/wBtvjclCskTNNIvZ1JkwNWtAAsiqHR0bX4V\u002BQk97Ts\u002BHz3toWGIY7GJP\u002B\u002BY978f5fTy/532PhP/B87zA3t7eoKqqNzgcYgv6Cy8Ivv8D25eRSOSWGB/rIJVKDWWz2WC1Wm2uHg1ZlkGDGB4eRnd3d4bPdxRFucn\u002B9rEOZmZmhtLpdFCWZLRFo80dz2BZForFAra2ttDa2orx8XGMjIzUkslkNh6P/yZJ0ndqc\u002B\u002BREJEL44neXgwODjZnn6FcLmNpaQnz8/MoFAp\u002BJgxQ51I/AwxEo9HEsQ4EROTC\u002BMSbE82ZZ8jt5FAqleC6Lur1Oh4/fuzPM3I9HA4PxGKxAdmfeUkwDAOrq6uYm5vDysqKP/dSHQiIurCG2N/f98eHRSafZzRNmySHI2xxpvnh7OxsO19Qksk\u002B9CWT5NcXQfONg4ifPFnD4uJicwbY2NhAqVzyaZ2amoIiJsnfGduTLu41cGWzZl9YLtnDD8t2\u002B6rhqQUlIpWUCAquiqrtIaBILLxogMKitrRE0NPTg74\u002BBsEmUGX0IT2EsbExKIyiz3bdS8W6e3ndsN\u002Bi4dMPdsy2O5t1ZdWQpKypIW3IyBospCM0LyFAYgPsVUVGQNPopOWwFSjb3M4OAgHNdyBq8LHRcK7R\u002BOR8wer6M2ciU2ngl406dhsySow8vecitWPh0Z6NnzdNrFQcFC0XTOhECAeflxs4v1hsxO9v17FetfF6m4ogqbhwKoRLiRDOxjS0B2W8EpJxl47v09kaM6o5J3vwVTSfb2Bt30ZvWMEHp4M41xVARJUPJabztLwaUfA\u002B1670hlBruFguNrBZc4Xmm7uOhm8jy\u002Bqmdi3c2zLx/ZM6vs4YyJsOfiIdPz6tI8UAUnkLX6Wr\u002BHXbxCxpXGbagqYT7EMWae7WXVQZFYOGTmqEWlwumuzFOpdgs1muhw5S1WBfoXFR9BMzqNGIQSMhVSINKkbjGl5rZQ3orEsn77qCWEBCB/kfiWqYaNfQyUVh\u002BAVK4Eva17Q4PyJCEbHo\u002BfejFtEKQzY3mHwQ62IsDpzHO8hxHNi2fdjE2PNE/geQeA68z\u002BbL\u002BDZbxXbNQYgUMRms8zmqHRTa5H4RRDsPgKCvTqfnOhV8lFDwToxqqtUPrBFLy0tIP3yIjs4OTE9Pw79NT1M9b3cFQRYwHFXRQUPX58q4nNBJlYRVKkw4/mQgzAJbPBc2dCOP9MIjZNf/RiaT8Y0L1Go18Cb1HQj4GTygrmdzvG4rNlroUtTgi4UKpoda/KIvUJKCmqvJEFVlooebhkMmEk4JSiWHfD7vGxMQV7eu60gkEhgdHYXEj8qtLcM981fBOrVQsHRBk0Y6bjyq4iIPmjhwIgOKBud7gnhadTDZFcIbMTnXrTTWFMvImabZNH8Afmz8LPhVg8Rr9TLldmXdcN7NVOz\u002BfyoN/V9q/HdqXShIcC9UFqaGJzoDSFJpZ\u002BNqqTes/RENKXc1uEtNu0eCr0Pc3e9ZDq4VLe8CizuwWLB4ZTi\u002BmsRPo5cY69JP42N0EtWke/R9U/K8221tbQdflufAdyAgMqG2P2W71Jw6Dte57xtynW2OnwPgP4KXcw3ij41mAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-02-23T01:43:16.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ListMembers.aspx",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QlMembers\\ListMembers.aspx",
-              "RelativeDocumentMoniker": "Admin\\QlMembers\\ListMembers.aspx",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QlMembers\\ListMembers.aspx",
-              "RelativeToolTip": "Admin\\QlMembers\\ListMembers.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATPSURBVEhLrVXdT1tlHH7OV9tTCm2BgGyloIAjzBAQE4yLyZJlUbdkmbsx3gjX/gu7NsZ/wBtvjclCskTNNIvZ1JkwNWtAAsiqHR0bX4V\u002BQk97Ts\u002BHz3toWGIY7GJP\u002B\u002BY978f5fTy/532PhP/B87zA3t7eoKqqNzgcYgv6Cy8Ivv8D25eRSOSWGB/rIJVKDWWz2WC1Wm2uHg1ZlkGDGB4eRnd3d4bPdxRFucn\u002B9rEOZmZmhtLpdFCWZLRFo80dz2BZForFAra2ttDa2orx8XGMjIzUkslkNh6P/yZJ0ndqc\u002B\u002BREJEL44neXgwODjZnn6FcLmNpaQnz8/MoFAp\u002BJgxQ51I/AwxEo9HEsQ4EROTC\u002BMSbE82ZZ8jt5FAqleC6Lur1Oh4/fuzPM3I9HA4PxGKxAdmfeUkwDAOrq6uYm5vDysqKP/dSHQiIurCG2N/f98eHRSafZzRNmySHI2xxpvnh7OxsO19Qksk\u002B9CWT5NcXQfONg4ifPFnD4uJicwbY2NhAqVzyaZ2amoIiJsnfGduTLu41cGWzZl9YLtnDD8t2\u002B6rhqQUlIpWUCAquiqrtIaBILLxogMKitrRE0NPTg74\u002BBsEmUGX0IT2EsbExKIyiz3bdS8W6e3ndsN\u002Bi4dMPdsy2O5t1ZdWQpKypIW3IyBospCM0LyFAYgPsVUVGQNPopOWwFSjb3M4OAgHNdyBq8LHRcK7R\u002BOR8wer6M2ciU2ngl406dhsySow8vecitWPh0Z6NnzdNrFQcFC0XTOhECAeflxs4v1hsxO9v17FetfF6m4ogqbhwKoRLiRDOxjS0B2W8EpJxl47v09kaM6o5J3vwVTSfb2Bt30ZvWMEHp4M41xVARJUPJabztLwaUfA\u002B1670hlBruFguNrBZc4Xmm7uOhm8jy\u002Bqmdi3c2zLx/ZM6vs4YyJsOfiIdPz6tI8UAUnkLX6Wr\u002BHXbxCxpXGbagqYT7EMWae7WXVQZFYOGTmqEWlwumuzFOpdgs1muhw5S1WBfoXFR9BMzqNGIQSMhVSINKkbjGl5rZQ3orEsn77qCWEBCB/kfiWqYaNfQyUVh\u002BAVK4Eva17Q4PyJCEbHo\u002BfejFtEKQzY3mHwQ62IsDpzHO8hxHNi2fdjE2PNE/geQeA68z\u002BbL\u002BDZbxXbNQYgUMRms8zmqHRTa5H4RRDsPgKCvTqfnOhV8lFDwToxqqtUPrBFLy0tIP3yIjs4OTE9Pw79NT1M9b3cFQRYwHFXRQUPX58q4nNBJlYRVKkw4/mQgzAJbPBc2dCOP9MIjZNf/RiaT8Y0L1Go18Cb1HQj4GTygrmdzvG4rNlroUtTgi4UKpoda/KIvUJKCmqvJEFVlooebhkMmEk4JSiWHfD7vGxMQV7eu60gkEhgdHYXEj8qtLcM981fBOrVQsHRBk0Y6bjyq4iIPmjhwIgOKBud7gnhadTDZFcIbMTnXrTTWFMvImabZNH8Afmz8LPhVg8Rr9TLldmXdcN7NVOz\u002BfyoN/V9q/HdqXShIcC9UFqaGJzoDSFJpZ\u002BNqqTes/RENKXc1uEtNu0eCr0Pc3e9ZDq4VLe8CizuwWLB4ZTi\u002BmsRPo5cY69JP42N0EtWke/R9U/K8221tbQdflufAdyAgMqG2P2W71Jw6Dte57xtynW2OnwPgP4KXcw3ij41mAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-02-23T01:43:16.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UpdateProfile.aspx",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QlMembers\\UpdateProfile.aspx",
-              "RelativeDocumentMoniker": "Admin\\QlMembers\\UpdateProfile.aspx",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QlMembers\\UpdateProfile.aspx",
-              "RelativeToolTip": "Admin\\QlMembers\\UpdateProfile.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATPSURBVEhLrVXdT1tlHH7OV9tTCm2BgGyloIAjzBAQE4yLyZJlUbdkmbsx3gjX/gu7NsZ/wBtvjclCskTNNIvZ1JkwNWtAAsiqHR0bX4V\u002BQk97Ts\u002BHz3toWGIY7GJP\u002B\u002BY978f5fTy/532PhP/B87zA3t7eoKqqNzgcYgv6Cy8Ivv8D25eRSOSWGB/rIJVKDWWz2WC1Wm2uHg1ZlkGDGB4eRnd3d4bPdxRFucn\u002B9rEOZmZmhtLpdFCWZLRFo80dz2BZForFAra2ttDa2orx8XGMjIzUkslkNh6P/yZJ0ndqc\u002B\u002BREJEL44neXgwODjZnn6FcLmNpaQnz8/MoFAp\u002BJgxQ51I/AwxEo9HEsQ4EROTC\u002BMSbE82ZZ8jt5FAqleC6Lur1Oh4/fuzPM3I9HA4PxGKxAdmfeUkwDAOrq6uYm5vDysqKP/dSHQiIurCG2N/f98eHRSafZzRNmySHI2xxpvnh7OxsO19Qksk\u002B9CWT5NcXQfONg4ifPFnD4uJicwbY2NhAqVzyaZ2amoIiJsnfGduTLu41cGWzZl9YLtnDD8t2\u002B6rhqQUlIpWUCAquiqrtIaBILLxogMKitrRE0NPTg74\u002BBsEmUGX0IT2EsbExKIyiz3bdS8W6e3ndsN\u002Bi4dMPdsy2O5t1ZdWQpKypIW3IyBospCM0LyFAYgPsVUVGQNPopOWwFSjb3M4OAgHNdyBq8LHRcK7R\u002BOR8wer6M2ciU2ngl406dhsySow8vecitWPh0Z6NnzdNrFQcFC0XTOhECAeflxs4v1hsxO9v17FetfF6m4ogqbhwKoRLiRDOxjS0B2W8EpJxl47v09kaM6o5J3vwVTSfb2Bt30ZvWMEHp4M41xVARJUPJabztLwaUfA\u002B1670hlBruFguNrBZc4Xmm7uOhm8jy\u002Bqmdi3c2zLx/ZM6vs4YyJsOfiIdPz6tI8UAUnkLX6Wr\u002BHXbxCxpXGbagqYT7EMWae7WXVQZFYOGTmqEWlwumuzFOpdgs1muhw5S1WBfoXFR9BMzqNGIQSMhVSINKkbjGl5rZQ3orEsn77qCWEBCB/kfiWqYaNfQyUVh\u002BAVK4Eva17Q4PyJCEbHo\u002BfejFtEKQzY3mHwQ62IsDpzHO8hxHNi2fdjE2PNE/geQeA68z\u002BbL\u002BDZbxXbNQYgUMRms8zmqHRTa5H4RRDsPgKCvTqfnOhV8lFDwToxqqtUPrBFLy0tIP3yIjs4OTE9Pw79NT1M9b3cFQRYwHFXRQUPX58q4nNBJlYRVKkw4/mQgzAJbPBc2dCOP9MIjZNf/RiaT8Y0L1Go18Cb1HQj4GTygrmdzvG4rNlroUtTgi4UKpoda/KIvUJKCmqvJEFVlooebhkMmEk4JSiWHfD7vGxMQV7eu60gkEhgdHYXEj8qtLcM981fBOrVQsHRBk0Y6bjyq4iIPmjhwIgOKBud7gnhadTDZFcIbMTnXrTTWFMvImabZNH8Afmz8LPhVg8Rr9TLldmXdcN7NVOz\u002BfyoN/V9q/HdqXShIcC9UFqaGJzoDSFJpZ\u002BNqqTes/RENKXc1uEtNu0eCr0Pc3e9ZDq4VLe8CizuwWLB4ZTi\u002BmsRPo5cY69JP42N0EtWke/R9U/K8221tbQdflufAdyAgMqG2P2W71Jw6Dte57xtynW2OnwPgP4KXcw3ij41mAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-02-23T01:43:16.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ChangePassword.aspx",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QlMembers\\ChangePassword.aspx",
-              "RelativeDocumentMoniker": "Admin\\QlMembers\\ChangePassword.aspx",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QlMembers\\ChangePassword.aspx",
-              "RelativeToolTip": "Admin\\QlMembers\\ChangePassword.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATPSURBVEhLrVXdT1tlHH7OV9tTCm2BgGyloIAjzBAQE4yLyZJlUbdkmbsx3gjX/gu7NsZ/wBtvjclCskTNNIvZ1JkwNWtAAsiqHR0bX4V\u002BQk97Ts\u002BHz3toWGIY7GJP\u002B\u002BY978f5fTy/532PhP/B87zA3t7eoKqqNzgcYgv6Cy8Ivv8D25eRSOSWGB/rIJVKDWWz2WC1Wm2uHg1ZlkGDGB4eRnd3d4bPdxRFucn\u002B9rEOZmZmhtLpdFCWZLRFo80dz2BZForFAra2ttDa2orx8XGMjIzUkslkNh6P/yZJ0ndqc\u002B\u002BREJEL44neXgwODjZnn6FcLmNpaQnz8/MoFAp\u002BJgxQ51I/AwxEo9HEsQ4EROTC\u002BMSbE82ZZ8jt5FAqleC6Lur1Oh4/fuzPM3I9HA4PxGKxAdmfeUkwDAOrq6uYm5vDysqKP/dSHQiIurCG2N/f98eHRSafZzRNmySHI2xxpvnh7OxsO19Qksk\u002B9CWT5NcXQfONg4ifPFnD4uJicwbY2NhAqVzyaZ2amoIiJsnfGduTLu41cGWzZl9YLtnDD8t2\u002B6rhqQUlIpWUCAquiqrtIaBILLxogMKitrRE0NPTg74\u002BBsEmUGX0IT2EsbExKIyiz3bdS8W6e3ndsN\u002Bi4dMPdsy2O5t1ZdWQpKypIW3IyBospCM0LyFAYgPsVUVGQNPopOWwFSjb3M4OAgHNdyBq8LHRcK7R\u002BOR8wer6M2ciU2ngl406dhsySow8vecitWPh0Z6NnzdNrFQcFC0XTOhECAeflxs4v1hsxO9v17FetfF6m4ogqbhwKoRLiRDOxjS0B2W8EpJxl47v09kaM6o5J3vwVTSfb2Bt30ZvWMEHp4M41xVARJUPJabztLwaUfA\u002B1670hlBruFguNrBZc4Xmm7uOhm8jy\u002Bqmdi3c2zLx/ZM6vs4YyJsOfiIdPz6tI8UAUnkLX6Wr\u002BHXbxCxpXGbagqYT7EMWae7WXVQZFYOGTmqEWlwumuzFOpdgs1muhw5S1WBfoXFR9BMzqNGIQSMhVSINKkbjGl5rZQ3orEsn77qCWEBCB/kfiWqYaNfQyUVh\u002BAVK4Eva17Q4PyJCEbHo\u002BfejFtEKQzY3mHwQ62IsDpzHO8hxHNi2fdjE2PNE/geQeA68z\u002BbL\u002BDZbxXbNQYgUMRms8zmqHRTa5H4RRDsPgKCvTqfnOhV8lFDwToxqqtUPrBFLy0tIP3yIjs4OTE9Pw79NT1M9b3cFQRYwHFXRQUPX58q4nNBJlYRVKkw4/mQgzAJbPBc2dCOP9MIjZNf/RiaT8Y0L1Go18Cb1HQj4GTygrmdzvG4rNlroUtTgi4UKpoda/KIvUJKCmqvJEFVlooebhkMmEk4JSiWHfD7vGxMQV7eu60gkEhgdHYXEj8qtLcM981fBOrVQsHRBk0Y6bjyq4iIPmjhwIgOKBud7gnhadTDZFcIbMTnXrTTWFMvImabZNH8Afmz8LPhVg8Rr9TLldmXdcN7NVOz\u002BfyoN/V9q/HdqXShIcC9UFqaGJzoDSFJpZ\u002BNqqTes/RENKXc1uEtNu0eCr0Pc3e9ZDq4VLe8CizuwWLB4ZTi\u002BmsRPo5cY69JP42N0EtWke/R9U/K8221tbQdflufAdyAgMqG2P2W71Jw6Dte57xtynW2OnwPgP4KXcw3ij41mAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-02-23T01:43:16.919Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddTable.aspx",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QlTable\\AddTable.aspx",
-              "RelativeDocumentMoniker": "Admin\\QlTable\\AddTable.aspx",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QlTable\\AddTable.aspx",
-              "RelativeToolTip": "Admin\\QlTable\\AddTable.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATPSURBVEhLrVXdT1tlHH7OV9tTCm2BgGyloIAjzBAQE4yLyZJlUbdkmbsx3gjX/gu7NsZ/wBtvjclCskTNNIvZ1JkwNWtAAsiqHR0bX4V\u002BQk97Ts\u002BHz3toWGIY7GJP\u002B\u002BY978f5fTy/532PhP/B87zA3t7eoKqqNzgcYgv6Cy8Ivv8D25eRSOSWGB/rIJVKDWWz2WC1Wm2uHg1ZlkGDGB4eRnd3d4bPdxRFucn\u002B9rEOZmZmhtLpdFCWZLRFo80dz2BZForFAra2ttDa2orx8XGMjIzUkslkNh6P/yZJ0ndqc\u002B\u002BREJEL44neXgwODjZnn6FcLmNpaQnz8/MoFAp\u002BJgxQ51I/AwxEo9HEsQ4EROTC\u002BMSbE82ZZ8jt5FAqleC6Lur1Oh4/fuzPM3I9HA4PxGKxAdmfeUkwDAOrq6uYm5vDysqKP/dSHQiIurCG2N/f98eHRSafZzRNmySHI2xxpvnh7OxsO19Qksk\u002B9CWT5NcXQfONg4ifPFnD4uJicwbY2NhAqVzyaZ2amoIiJsnfGduTLu41cGWzZl9YLtnDD8t2\u002B6rhqQUlIpWUCAquiqrtIaBILLxogMKitrRE0NPTg74\u002BBsEmUGX0IT2EsbExKIyiz3bdS8W6e3ndsN\u002Bi4dMPdsy2O5t1ZdWQpKypIW3IyBospCM0LyFAYgPsVUVGQNPopOWwFSjb3M4OAgHNdyBq8LHRcK7R\u002BOR8wer6M2ciU2ngl406dhsySow8vecitWPh0Z6NnzdNrFQcFC0XTOhECAeflxs4v1hsxO9v17FetfF6m4ogqbhwKoRLiRDOxjS0B2W8EpJxl47v09kaM6o5J3vwVTSfb2Bt30ZvWMEHp4M41xVARJUPJabztLwaUfA\u002B1670hlBruFguNrBZc4Xmm7uOhm8jy\u002Bqmdi3c2zLx/ZM6vs4YyJsOfiIdPz6tI8UAUnkLX6Wr\u002BHXbxCxpXGbagqYT7EMWae7WXVQZFYOGTmqEWlwumuzFOpdgs1muhw5S1WBfoXFR9BMzqNGIQSMhVSINKkbjGl5rZQ3orEsn77qCWEBCB/kfiWqYaNfQyUVh\u002BAVK4Eva17Q4PyJCEbHo\u002BfejFtEKQzY3mHwQ62IsDpzHO8hxHNi2fdjE2PNE/geQeA68z\u002BbL\u002BDZbxXbNQYgUMRms8zmqHRTa5H4RRDsPgKCvTqfnOhV8lFDwToxqqtUPrBFLy0tIP3yIjs4OTE9Pw79NT1M9b3cFQRYwHFXRQUPX58q4nNBJlYRVKkw4/mQgzAJbPBc2dCOP9MIjZNf/RiaT8Y0L1Go18Cb1HQj4GTygrmdzvG4rNlroUtTgi4UKpoda/KIvUJKCmqvJEFVlooebhkMmEk4JSiWHfD7vGxMQV7eu60gkEhgdHYXEj8qtLcM981fBOrVQsHRBk0Y6bjyq4iIPmjhwIgOKBud7gnhadTDZFcIbMTnXrTTWFMvImabZNH8Afmz8LPhVg8Rr9TLldmXdcN7NVOz\u002BfyoN/V9q/HdqXShIcC9UFqaGJzoDSFJpZ\u002BNqqTes/RENKXc1uEtNu0eCr0Pc3e9ZDq4VLe8CizuwWLB4ZTi\u002BmsRPo5cY69JP42N0EtWke/R9U/K8221tbQdflufAdyAgMqG2P2W71Jw6Dte57xtynW2OnwPgP4KXcw3ij41mAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-02-23T01:43:16.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Profile.aspx",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QlMembers\\Profile.aspx",
-              "RelativeDocumentMoniker": "Admin\\QlMembers\\Profile.aspx",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QlMembers\\Profile.aspx",
-              "RelativeToolTip": "Admin\\QlMembers\\Profile.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATPSURBVEhLrVXdT1tlHH7OV9tTCm2BgGyloIAjzBAQE4yLyZJlUbdkmbsx3gjX/gu7NsZ/wBtvjclCskTNNIvZ1JkwNWtAAsiqHR0bX4V\u002BQk97Ts\u002BHz3toWGIY7GJP\u002B\u002BY978f5fTy/532PhP/B87zA3t7eoKqqNzgcYgv6Cy8Ivv8D25eRSOSWGB/rIJVKDWWz2WC1Wm2uHg1ZlkGDGB4eRnd3d4bPdxRFucn\u002B9rEOZmZmhtLpdFCWZLRFo80dz2BZForFAra2ttDa2orx8XGMjIzUkslkNh6P/yZJ0ndqc\u002B\u002BREJEL44neXgwODjZnn6FcLmNpaQnz8/MoFAp\u002BJgxQ51I/AwxEo9HEsQ4EROTC\u002BMSbE82ZZ8jt5FAqleC6Lur1Oh4/fuzPM3I9HA4PxGKxAdmfeUkwDAOrq6uYm5vDysqKP/dSHQiIurCG2N/f98eHRSafZzRNmySHI2xxpvnh7OxsO19Qksk\u002B9CWT5NcXQfONg4ifPFnD4uJicwbY2NhAqVzyaZ2amoIiJsnfGduTLu41cGWzZl9YLtnDD8t2\u002B6rhqQUlIpWUCAquiqrtIaBILLxogMKitrRE0NPTg74\u002BBsEmUGX0IT2EsbExKIyiz3bdS8W6e3ndsN\u002Bi4dMPdsy2O5t1ZdWQpKypIW3IyBospCM0LyFAYgPsVUVGQNPopOWwFSjb3M4OAgHNdyBq8LHRcK7R\u002BOR8wer6M2ciU2ngl406dhsySow8vecitWPh0Z6NnzdNrFQcFC0XTOhECAeflxs4v1hsxO9v17FetfF6m4ogqbhwKoRLiRDOxjS0B2W8EpJxl47v09kaM6o5J3vwVTSfb2Bt30ZvWMEHp4M41xVARJUPJabztLwaUfA\u002B1670hlBruFguNrBZc4Xmm7uOhm8jy\u002Bqmdi3c2zLx/ZM6vs4YyJsOfiIdPz6tI8UAUnkLX6Wr\u002BHXbxCxpXGbagqYT7EMWae7WXVQZFYOGTmqEWlwumuzFOpdgs1muhw5S1WBfoXFR9BMzqNGIQSMhVSINKkbjGl5rZQ3orEsn77qCWEBCB/kfiWqYaNfQyUVh\u002BAVK4Eva17Q4PyJCEbHo\u002BfejFtEKQzY3mHwQ62IsDpzHO8hxHNi2fdjE2PNE/geQeA68z\u002BbL\u002BDZbxXbNQYgUMRms8zmqHRTa5H4RRDsPgKCvTqfnOhV8lFDwToxqqtUPrBFLy0tIP3yIjs4OTE9Pw79NT1M9b3cFQRYwHFXRQUPX58q4nNBJlYRVKkw4/mQgzAJbPBc2dCOP9MIjZNf/RiaT8Y0L1Go18Cb1HQj4GTygrmdzvG4rNlroUtTgi4UKpoda/KIvUJKCmqvJEFVlooebhkMmEk4JSiWHfD7vGxMQV7eu60gkEhgdHYXEj8qtLcM981fBOrVQsHRBk0Y6bjyq4iIPmjhwIgOKBud7gnhadTDZFcIbMTnXrTTWFMvImabZNH8Afmz8LPhVg8Rr9TLldmXdcN7NVOz\u002BfyoN/V9q/HdqXShIcC9UFqaGJzoDSFJpZ\u002BNqqTes/RENKXc1uEtNu0eCr0Pc3e9ZDq4VLe8CizuwWLB4ZTi\u002BmsRPo5cY69JP42N0EtWke/R9U/K8221tbQdflufAdyAgMqG2P2W71Jw6Dte57xtynW2OnwPgP4KXcw3ij41mAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-02-23T01:43:16.923Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Login.aspx.cs",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Client\\Login.aspx.cs",
-              "RelativeDocumentMoniker": "Client\\Login.aspx.cs",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Client\\Login.aspx.cs",
-              "RelativeToolTip": "Client\\Login.aspx.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOoSURBVEhL7VVLbxtVFP5mMuPXjD12beJHAnUVxy52qijpBljwSAkSVfesYIPKP2ABf4AfQXcsKiEBG9pFhHiIglCEvInUxgIjp25qJ/gZP\u002BbpGc69cSoXKkoK3fFZZ6517nnc8537EMbjsYfHwPO8PRquK4rywbHmn0MYDocfiqK4Sf9Xx6YTq7fHKNc62Dsc4ozqRyETQT4d7qeiwdtk8y33mgH5Oq7rdkiuq6raEgRhMp3ikEjRpxWaNLqsFGvioju08PNvbW5Qb48wNGxl9Wy0GAsI6UqlAl3XIcsyIpEI4vG4Q9KSJGlgmuYtSnSXkurcmSCRXG4PjJxuuyHTdqGbDpSABJbsbmuE/tiG5bhk52nFeZ92Z7eCZrMBURCQTCaxvLzs\u002Bv3\u002BFNH3DgWWLcv6jpLUTpKwCi7fuT/A7n4ffd2C6wIjSjI2HHSGJg56OnTLIb0Lz4rAE2Q0G020Wr9D0zSMRiOREqhLS0sv\u002B3w\u002Bg2K6VIlFY5UnYJ\u002Bvdhr49Mca9mjFj4JuTTAhAkN\u002BGe9tvglLH\u002BKHW9\u002BjXq\u002BDgsG2bYRCIaTT6TdowQ5Rvk9uPIHIPk8KogOHh4col8vY2tpCtVrFYDCYzh6DV3BpJYVMLMj5dj0PI6Jnu9rGr80j2I6LZ\u002BMKXio8g41SEop/DgL5eOxHtmz13W4XOzs7yOVyrOmcuhNIZHSzuKAVzs2rGWpysE287\u002B4f4Tb1JEbbNBaSsZY9g1eLSZQWNQRkEZmFDFZWLqDf7/EkFlF\u002Bb/8e6wccx5mGPgar4EY87J8j7qLU3KBuT6jJNl9lNqHgfEbDC8sJrD4XhRaUecB8Po9EIsEpmkwm6Ha6\u002BPyLz443As3PgnabEKBRoAk260qCB5VoWMvG8DpRt7GSxNrZKOYjgQfOC5kFXKAKLq5fxPraOkqlEoLBIDt0fH4WTPMuJVkkZ8M3h/GiJmEzr\u002BD9K8/j6qUcXjk//1Dw00KkEt9iQkk\u002BarVa5e3tbVz7\u002BBoOmgfErU0U/LXs00BsNBq/MKH/94lT6tMIB7T1GL//JvAJRGqYyYSCsQPisUY5js2D/ycJpuNTw/8JHgt\u002BF82CNfmof4QbN7\u002BEqoYfeXhmwezpVUSv1\u002BOn\u002Bs94yDsQCPBHpFgq8sCmafDX6\u002B\u002BE2YiigGKxiFQqxWPMgl05HGT8Gq3k7U6ns1Gr1aba0yGbzSIWi31D18Yn4XD4a6Z7kMAwjALdhC/SiS5MVU8EOjsVou0neq93p6qnCeAPrh3us4woRd4AAAAASUVORK5CYII=",
-              "WhenOpened": "2024-02-23T01:43:16.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Client\\Login.aspx",
-              "RelativeDocumentMoniker": "Client\\Login.aspx",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Client\\Login.aspx",
-              "RelativeToolTip": "Client\\Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATPSURBVEhLrVXdT1tlHH7OV9tTCm2BgGyloIAjzBAQE4yLyZJlUbdkmbsx3gjX/gu7NsZ/wBtvjclCskTNNIvZ1JkwNWtAAsiqHR0bX4V\u002BQk97Ts\u002BHz3toWGIY7GJP\u002B\u002BY978f5fTy/532PhP/B87zA3t7eoKqqNzgcYgv6Cy8Ivv8D25eRSOSWGB/rIJVKDWWz2WC1Wm2uHg1ZlkGDGB4eRnd3d4bPdxRFucn\u002B9rEOZmZmhtLpdFCWZLRFo80dz2BZForFAra2ttDa2orx8XGMjIzUkslkNh6P/yZJ0ndqc\u002B\u002BREJEL44neXgwODjZnn6FcLmNpaQnz8/MoFAp\u002BJgxQ51I/AwxEo9HEsQ4EROTC\u002BMSbE82ZZ8jt5FAqleC6Lur1Oh4/fuzPM3I9HA4PxGKxAdmfeUkwDAOrq6uYm5vDysqKP/dSHQiIurCG2N/f98eHRSafZzRNmySHI2xxpvnh7OxsO19Qksk\u002B9CWT5NcXQfONg4ifPFnD4uJicwbY2NhAqVzyaZ2amoIiJsnfGduTLu41cGWzZl9YLtnDD8t2\u002B6rhqQUlIpWUCAquiqrtIaBILLxogMKitrRE0NPTg74\u002BBsEmUGX0IT2EsbExKIyiz3bdS8W6e3ndsN\u002Bi4dMPdsy2O5t1ZdWQpKypIW3IyBospCM0LyFAYgPsVUVGQNPopOWwFSjb3M4OAgHNdyBq8LHRcK7R\u002BOR8wer6M2ciU2ngl406dhsySow8vecitWPh0Z6NnzdNrFQcFC0XTOhECAeflxs4v1hsxO9v17FetfF6m4ogqbhwKoRLiRDOxjS0B2W8EpJxl47v09kaM6o5J3vwVTSfb2Bt30ZvWMEHp4M41xVARJUPJabztLwaUfA\u002B1670hlBruFguNrBZc4Xmm7uOhm8jy\u002Bqmdi3c2zLx/ZM6vs4YyJsOfiIdPz6tI8UAUnkLX6Wr\u002BHXbxCxpXGbagqYT7EMWae7WXVQZFYOGTmqEWlwumuzFOpdgs1muhw5S1WBfoXFR9BMzqNGIQSMhVSINKkbjGl5rZQ3orEsn77qCWEBCB/kfiWqYaNfQyUVh\u002BAVK4Eva17Q4PyJCEbHo\u002BfejFtEKQzY3mHwQ62IsDpzHO8hxHNi2fdjE2PNE/geQeA68z\u002BbL\u002BDZbxXbNQYgUMRms8zmqHRTa5H4RRDsPgKCvTqfnOhV8lFDwToxqqtUPrBFLy0tIP3yIjs4OTE9Pw79NT1M9b3cFQRYwHFXRQUPX58q4nNBJlYRVKkw4/mQgzAJbPBc2dCOP9MIjZNf/RiaT8Y0L1Go18Cb1HQj4GTygrmdzvG4rNlroUtTgi4UKpoda/KIvUJKCmqvJEFVlooebhkMmEk4JSiWHfD7vGxMQV7eu60gkEhgdHYXEj8qtLcM981fBOrVQsHRBk0Y6bjyq4iIPmjhwIgOKBud7gnhadTDZFcIbMTnXrTTWFMvImabZNH8Afmz8LPhVg8Rr9TLldmXdcN7NVOz\u002BfyoN/V9q/HdqXShIcC9UFqaGJzoDSFJpZ\u002BNqqTes/RENKXc1uEtNu0eCr0Pc3e9ZDq4VLe8CizuwWLB4ZTi\u002BmsRPo5cY69JP42N0EtWke/R9U/K8221tbQdflufAdyAgMqG2P2W71Jw6Dte57xtynW2OnwPgP4KXcw3ij41mAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-02-23T01:43:16.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AdminLogin.aspx.cs",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\AdminLogin.aspx.cs",
-              "RelativeDocumentMoniker": "Admin\\AdminLogin.aspx.cs",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\AdminLogin.aspx.cs",
-              "RelativeToolTip": "Admin\\AdminLogin.aspx.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBMAAAApAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOoSURBVEhL7VVLbxtVFP5mMuPXjD12beJHAnUVxy52qijpBljwSAkSVfesYIPKP2ABf4AfQXcsKiEBG9pFhHiIglCEvInUxgIjp25qJ/gZP\u002BbpGc69cSoXKkoK3fFZZ6517nnc8537EMbjsYfHwPO8PRquK4rywbHmn0MYDocfiqK4Sf9Xx6YTq7fHKNc62Dsc4ozqRyETQT4d7qeiwdtk8y33mgH5Oq7rdkiuq6raEgRhMp3ikEjRpxWaNLqsFGvioju08PNvbW5Qb48wNGxl9Wy0GAsI6UqlAl3XIcsyIpEI4vG4Q9KSJGlgmuYtSnSXkurcmSCRXG4PjJxuuyHTdqGbDpSABJbsbmuE/tiG5bhk52nFeZ92Z7eCZrMBURCQTCaxvLzs\u002Bv3\u002BFNH3DgWWLcv6jpLUTpKwCi7fuT/A7n4ffd2C6wIjSjI2HHSGJg56OnTLIb0Lz4rAE2Q0G020Wr9D0zSMRiOREqhLS0sv\u002B3w\u002Bg2K6VIlFY5UnYJ\u002Bvdhr49Mca9mjFj4JuTTAhAkN\u002BGe9tvglLH\u002BKHW9\u002BjXq\u002BDgsG2bYRCIaTT6TdowQ5Rvk9uPIHIPk8KogOHh4col8vY2tpCtVrFYDCYzh6DV3BpJYVMLMj5dj0PI6Jnu9rGr80j2I6LZ\u002BMKXio8g41SEop/DgL5eOxHtmz13W4XOzs7yOVyrOmcuhNIZHSzuKAVzs2rGWpysE287\u002B4f4Tb1JEbbNBaSsZY9g1eLSZQWNQRkEZmFDFZWLqDf7/EkFlF\u002Bb/8e6wccx5mGPgar4EY87J8j7qLU3KBuT6jJNl9lNqHgfEbDC8sJrD4XhRaUecB8Po9EIsEpmkwm6Ha6\u002BPyLz443As3PgnabEKBRoAk260qCB5VoWMvG8DpRt7GSxNrZKOYjgQfOC5kFXKAKLq5fxPraOkqlEoLBIDt0fH4WTPMuJVkkZ8M3h/GiJmEzr\u002BD9K8/j6qUcXjk//1Dw00KkEt9iQkk\u002BarVa5e3tbVz7\u002BBoOmgfErU0U/LXs00BsNBq/MKH/94lT6tMIB7T1GL//JvAJRGqYyYSCsQPisUY5js2D/ycJpuNTw/8JHgt\u002BF82CNfmof4QbN7\u002BEqoYfeXhmwezpVUSv1\u002BOn\u002Bs94yDsQCPBHpFgq8sCmafDX6\u002B\u002BE2YiigGKxiFQqxWPMgl05HGT8Gq3k7U6ns1Gr1aba0yGbzSIWi31D18Yn4XD4a6Z7kMAwjALdhC/SiS5MVU8EOjsVou0neq93p6qnCeAPrh3us4woRd4AAAAASUVORK5CYII=",
-              "WhenOpened": "2024-02-23T01:43:16.926Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Dashboard.aspx.cs",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\Dashboard.aspx.cs",
-              "RelativeDocumentMoniker": "Admin\\Dashboard.aspx.cs",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\Dashboard.aspx.cs",
-              "RelativeToolTip": "Admin\\Dashboard.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOoSURBVEhL7VVLbxtVFP5mMuPXjD12beJHAnUVxy52qijpBljwSAkSVfesYIPKP2ABf4AfQXcsKiEBG9pFhHiIglCEvInUxgIjp25qJ/gZP\u002BbpGc69cSoXKkoK3fFZZ6517nnc8537EMbjsYfHwPO8PRquK4rywbHmn0MYDocfiqK4Sf9Xx6YTq7fHKNc62Dsc4ozqRyETQT4d7qeiwdtk8y33mgH5Oq7rdkiuq6raEgRhMp3ikEjRpxWaNLqsFGvioju08PNvbW5Qb48wNGxl9Wy0GAsI6UqlAl3XIcsyIpEI4vG4Q9KSJGlgmuYtSnSXkurcmSCRXG4PjJxuuyHTdqGbDpSABJbsbmuE/tiG5bhk52nFeZ92Z7eCZrMBURCQTCaxvLzs\u002Bv3\u002BFNH3DgWWLcv6jpLUTpKwCi7fuT/A7n4ffd2C6wIjSjI2HHSGJg56OnTLIb0Lz4rAE2Q0G020Wr9D0zSMRiOREqhLS0sv\u002B3w\u002Bg2K6VIlFY5UnYJ\u002Bvdhr49Mca9mjFj4JuTTAhAkN\u002BGe9tvglLH\u002BKHW9\u002BjXq\u002BDgsG2bYRCIaTT6TdowQ5Rvk9uPIHIPk8KogOHh4col8vY2tpCtVrFYDCYzh6DV3BpJYVMLMj5dj0PI6Jnu9rGr80j2I6LZ\u002BMKXio8g41SEop/DgL5eOxHtmz13W4XOzs7yOVyrOmcuhNIZHSzuKAVzs2rGWpysE287\u002B4f4Tb1JEbbNBaSsZY9g1eLSZQWNQRkEZmFDFZWLqDf7/EkFlF\u002Bb/8e6wccx5mGPgar4EY87J8j7qLU3KBuT6jJNl9lNqHgfEbDC8sJrD4XhRaUecB8Po9EIsEpmkwm6Ha6\u002BPyLz443As3PgnabEKBRoAk260qCB5VoWMvG8DpRt7GSxNrZKOYjgQfOC5kFXKAKLq5fxPraOkqlEoLBIDt0fH4WTPMuJVkkZ8M3h/GiJmEzr\u002BD9K8/j6qUcXjk//1Dw00KkEt9iQkk\u002BarVa5e3tbVz7\u002BBoOmgfErU0U/LXs00BsNBq/MKH/94lT6tMIB7T1GL//JvAJRGqYyYSCsQPisUY5js2D/ycJpuNTw/8JHgt\u002BF82CNfmof4QbN7\u002BEqoYfeXhmwezpVUSv1\u002BOn\u002Bs94yDsQCPBHpFgq8sCmafDX6\u002B\u002BE2YiigGKxiFQqxWPMgl05HGT8Gq3k7U6ns1Gr1aba0yGbzSIWi31D18Yn4XD4a6Z7kMAwjALdhC/SiS5MVU8EOjsVou0neq93p6qnCeAPrh3us4woRd4AAAAASUVORK5CYII=",
-              "WhenOpened": "2024-02-23T01:43:16.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "editQlWeb.aspx",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QLWeb\\editQlWeb.aspx",
-              "RelativeDocumentMoniker": "Admin\\QLWeb\\editQlWeb.aspx",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\QLWeb\\editQlWeb.aspx",
-              "RelativeToolTip": "Admin\\QLWeb\\editQlWeb.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATPSURBVEhLrVXdT1tlHH7OV9tTCm2BgGyloIAjzBAQE4yLyZJlUbdkmbsx3gjX/gu7NsZ/wBtvjclCskTNNIvZ1JkwNWtAAsiqHR0bX4V\u002BQk97Ts\u002BHz3toWGIY7GJP\u002B\u002BY978f5fTy/532PhP/B87zA3t7eoKqqNzgcYgv6Cy8Ivv8D25eRSOSWGB/rIJVKDWWz2WC1Wm2uHg1ZlkGDGB4eRnd3d4bPdxRFucn\u002B9rEOZmZmhtLpdFCWZLRFo80dz2BZForFAra2ttDa2orx8XGMjIzUkslkNh6P/yZJ0ndqc\u002B\u002BREJEL44neXgwODjZnn6FcLmNpaQnz8/MoFAp\u002BJgxQ51I/AwxEo9HEsQ4EROTC\u002BMSbE82ZZ8jt5FAqleC6Lur1Oh4/fuzPM3I9HA4PxGKxAdmfeUkwDAOrq6uYm5vDysqKP/dSHQiIurCG2N/f98eHRSafZzRNmySHI2xxpvnh7OxsO19Qksk\u002B9CWT5NcXQfONg4ifPFnD4uJicwbY2NhAqVzyaZ2amoIiJsnfGduTLu41cGWzZl9YLtnDD8t2\u002B6rhqQUlIpWUCAquiqrtIaBILLxogMKitrRE0NPTg74\u002BBsEmUGX0IT2EsbExKIyiz3bdS8W6e3ndsN\u002Bi4dMPdsy2O5t1ZdWQpKypIW3IyBospCM0LyFAYgPsVUVGQNPopOWwFSjb3M4OAgHNdyBq8LHRcK7R\u002BOR8wer6M2ciU2ngl406dhsySow8vecitWPh0Z6NnzdNrFQcFC0XTOhECAeflxs4v1hsxO9v17FetfF6m4ogqbhwKoRLiRDOxjS0B2W8EpJxl47v09kaM6o5J3vwVTSfb2Bt30ZvWMEHp4M41xVARJUPJabztLwaUfA\u002B1670hlBruFguNrBZc4Xmm7uOhm8jy\u002Bqmdi3c2zLx/ZM6vs4YyJsOfiIdPz6tI8UAUnkLX6Wr\u002BHXbxCxpXGbagqYT7EMWae7WXVQZFYOGTmqEWlwumuzFOpdgs1muhw5S1WBfoXFR9BMzqNGIQSMhVSINKkbjGl5rZQ3orEsn77qCWEBCB/kfiWqYaNfQyUVh\u002BAVK4Eva17Q4PyJCEbHo\u002BfejFtEKQzY3mHwQ62IsDpzHO8hxHNi2fdjE2PNE/geQeA68z\u002BbL\u002BDZbxXbNQYgUMRms8zmqHRTa5H4RRDsPgKCvTqfnOhV8lFDwToxqqtUPrBFLy0tIP3yIjs4OTE9Pw79NT1M9b3cFQRYwHFXRQUPX58q4nNBJlYRVKkw4/mQgzAJbPBc2dCOP9MIjZNf/RiaT8Y0L1Go18Cb1HQj4GTygrmdzvG4rNlroUtTgi4UKpoda/KIvUJKCmqvJEFVlooebhkMmEk4JSiWHfD7vGxMQV7eu60gkEhgdHYXEj8qtLcM981fBOrVQsHRBk0Y6bjyq4iIPmjhwIgOKBud7gnhadTDZFcIbMTnXrTTWFMvImabZNH8Afmz8LPhVg8Rr9TLldmXdcN7NVOz\u002BfyoN/V9q/HdqXShIcC9UFqaGJzoDSFJpZ\u002BNqqTes/RENKXc1uEtNu0eCr0Pc3e9ZDq4VLe8CizuwWLB4ZTi\u002BmsRPo5cY69JP42N0EtWke/R9U/K8221tbQdflufAdyAgMqG2P2W71Jw6Dte57xtynW2OnwPgP4KXcw3ij41mAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-02-23T01:43:16.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Dashboard.aspx",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\Dashboard.aspx",
-              "RelativeDocumentMoniker": "Admin\\Dashboard.aspx",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\Dashboard.aspx",
-              "RelativeToolTip": "Admin\\Dashboard.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATPSURBVEhLrVXdT1tlHH7OV9tTCm2BgGyloIAjzBAQE4yLyZJlUbdkmbsx3gjX/gu7NsZ/wBtvjclCskTNNIvZ1JkwNWtAAsiqHR0bX4V\u002BQk97Ts\u002BHz3toWGIY7GJP\u002B\u002BY978f5fTy/532PhP/B87zA3t7eoKqqNzgcYgv6Cy8Ivv8D25eRSOSWGB/rIJVKDWWz2WC1Wm2uHg1ZlkGDGB4eRnd3d4bPdxRFucn\u002B9rEOZmZmhtLpdFCWZLRFo80dz2BZForFAra2ttDa2orx8XGMjIzUkslkNh6P/yZJ0ndqc\u002B\u002BREJEL44neXgwODjZnn6FcLmNpaQnz8/MoFAp\u002BJgxQ51I/AwxEo9HEsQ4EROTC\u002BMSbE82ZZ8jt5FAqleC6Lur1Oh4/fuzPM3I9HA4PxGKxAdmfeUkwDAOrq6uYm5vDysqKP/dSHQiIurCG2N/f98eHRSafZzRNmySHI2xxpvnh7OxsO19Qksk\u002B9CWT5NcXQfONg4ifPFnD4uJicwbY2NhAqVzyaZ2amoIiJsnfGduTLu41cGWzZl9YLtnDD8t2\u002B6rhqQUlIpWUCAquiqrtIaBILLxogMKitrRE0NPTg74\u002BBsEmUGX0IT2EsbExKIyiz3bdS8W6e3ndsN\u002Bi4dMPdsy2O5t1ZdWQpKypIW3IyBospCM0LyFAYgPsVUVGQNPopOWwFSjb3M4OAgHNdyBq8LHRcK7R\u002BOR8wer6M2ciU2ngl406dhsySow8vecitWPh0Z6NnzdNrFQcFC0XTOhECAeflxs4v1hsxO9v17FetfF6m4ogqbhwKoRLiRDOxjS0B2W8EpJxl47v09kaM6o5J3vwVTSfb2Bt30ZvWMEHp4M41xVARJUPJabztLwaUfA\u002B1670hlBruFguNrBZc4Xmm7uOhm8jy\u002Bqmdi3c2zLx/ZM6vs4YyJsOfiIdPz6tI8UAUnkLX6Wr\u002BHXbxCxpXGbagqYT7EMWae7WXVQZFYOGTmqEWlwumuzFOpdgs1muhw5S1WBfoXFR9BMzqNGIQSMhVSINKkbjGl5rZQ3orEsn77qCWEBCB/kfiWqYaNfQyUVh\u002BAVK4Eva17Q4PyJCEbHo\u002BfejFtEKQzY3mHwQ62IsDpzHO8hxHNi2fdjE2PNE/geQeA68z\u002BbL\u002BDZbxXbNQYgUMRms8zmqHRTa5H4RRDsPgKCvTqfnOhV8lFDwToxqqtUPrBFLy0tIP3yIjs4OTE9Pw79NT1M9b3cFQRYwHFXRQUPX58q4nNBJlYRVKkw4/mQgzAJbPBc2dCOP9MIjZNf/RiaT8Y0L1Go18Cb1HQj4GTygrmdzvG4rNlroUtTgi4UKpoda/KIvUJKCmqvJEFVlooebhkMmEk4JSiWHfD7vGxMQV7eu60gkEhgdHYXEj8qtLcM981fBOrVQsHRBk0Y6bjyq4iIPmjhwIgOKBud7gnhadTDZFcIbMTnXrTTWFMvImabZNH8Afmz8LPhVg8Rr9TLldmXdcN7NVOz\u002BfyoN/V9q/HdqXShIcC9UFqaGJzoDSFJpZ\u002BNqqTes/RENKXc1uEtNu0eCr0Pc3e9ZDq4VLe8CizuwWLB4ZTi\u002BmsRPo5cY69JP42N0EtWke/R9U/K8221tbQdflufAdyAgMqG2P2W71Jw6Dte57xtynW2OnwPgP4KXcw3ij41mAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-02-23T01:43:16.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AdminLogin.aspx",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\AdminLogin.aspx",
-              "RelativeDocumentMoniker": "Admin\\AdminLogin.aspx",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Admin\\AdminLogin.aspx",
-              "RelativeToolTip": "Admin\\AdminLogin.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATPSURBVEhLrVXdT1tlHH7OV9tTCm2BgGyloIAjzBAQE4yLyZJlUbdkmbsx3gjX/gu7NsZ/wBtvjclCskTNNIvZ1JkwNWtAAsiqHR0bX4V\u002BQk97Ts\u002BHz3toWGIY7GJP\u002B\u002BY978f5fTy/532PhP/B87zA3t7eoKqqNzgcYgv6Cy8Ivv8D25eRSOSWGB/rIJVKDWWz2WC1Wm2uHg1ZlkGDGB4eRnd3d4bPdxRFucn\u002B9rEOZmZmhtLpdFCWZLRFo80dz2BZForFAra2ttDa2orx8XGMjIzUkslkNh6P/yZJ0ndqc\u002B\u002BREJEL44neXgwODjZnn6FcLmNpaQnz8/MoFAp\u002BJgxQ51I/AwxEo9HEsQ4EROTC\u002BMSbE82ZZ8jt5FAqleC6Lur1Oh4/fuzPM3I9HA4PxGKxAdmfeUkwDAOrq6uYm5vDysqKP/dSHQiIurCG2N/f98eHRSafZzRNmySHI2xxpvnh7OxsO19Qksk\u002B9CWT5NcXQfONg4ifPFnD4uJicwbY2NhAqVzyaZ2amoIiJsnfGduTLu41cGWzZl9YLtnDD8t2\u002B6rhqQUlIpWUCAquiqrtIaBILLxogMKitrRE0NPTg74\u002BBsEmUGX0IT2EsbExKIyiz3bdS8W6e3ndsN\u002Bi4dMPdsy2O5t1ZdWQpKypIW3IyBospCM0LyFAYgPsVUVGQNPopOWwFSjb3M4OAgHNdyBq8LHRcK7R\u002BOR8wer6M2ciU2ngl406dhsySow8vecitWPh0Z6NnzdNrFQcFC0XTOhECAeflxs4v1hsxO9v17FetfF6m4ogqbhwKoRLiRDOxjS0B2W8EpJxl47v09kaM6o5J3vwVTSfb2Bt30ZvWMEHp4M41xVARJUPJabztLwaUfA\u002B1670hlBruFguNrBZc4Xmm7uOhm8jy\u002Bqmdi3c2zLx/ZM6vs4YyJsOfiIdPz6tI8UAUnkLX6Wr\u002BHXbxCxpXGbagqYT7EMWae7WXVQZFYOGTmqEWlwumuzFOpdgs1muhw5S1WBfoXFR9BMzqNGIQSMhVSINKkbjGl5rZQ3orEsn77qCWEBCB/kfiWqYaNfQyUVh\u002BAVK4Eva17Q4PyJCEbHo\u002BfejFtEKQzY3mHwQ62IsDpzHO8hxHNi2fdjE2PNE/geQeA68z\u002BbL\u002BDZbxXbNQYgUMRms8zmqHRTa5H4RRDsPgKCvTqfnOhV8lFDwToxqqtUPrBFLy0tIP3yIjs4OTE9Pw79NT1M9b3cFQRYwHFXRQUPX58q4nNBJlYRVKkw4/mQgzAJbPBc2dCOP9MIjZNf/RiaT8Y0L1Go18Cb1HQj4GTygrmdzvG4rNlroUtTgi4UKpoda/KIvUJKCmqvJEFVlooebhkMmEk4JSiWHfD7vGxMQV7eu60gkEhgdHYXEj8qtLcM981fBOrVQsHRBk0Y6bjyq4iIPmjhwIgOKBud7gnhadTDZFcIbMTnXrTTWFMvImabZNH8Afmz8LPhVg8Rr9TLldmXdcN7NVOz\u002BfyoN/V9q/HdqXShIcC9UFqaGJzoDSFJpZ\u002BNqqTes/RENKXc1uEtNu0eCr0Pc3e9ZDq4VLe8CizuwWLB4ZTi\u002BmsRPo5cY69JP42N0EtWke/R9U/K8221tbQdflufAdyAgMqG2P2W71Jw6Dte57xtynW2OnwPgP4KXcw3ij41mAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-02-23T01:43:16.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Register.aspx.cs",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Client\\Register.aspx.cs",
-              "RelativeDocumentMoniker": "Client\\Register.aspx.cs",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Client\\Register.aspx.cs",
-              "RelativeToolTip": "Client\\Register.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOoSURBVEhL7VVLbxtVFP5mMuPXjD12beJHAnUVxy52qijpBljwSAkSVfesYIPKP2ABf4AfQXcsKiEBG9pFhHiIglCEvInUxgIjp25qJ/gZP\u002BbpGc69cSoXKkoK3fFZZ6517nnc8537EMbjsYfHwPO8PRquK4rywbHmn0MYDocfiqK4Sf9Xx6YTq7fHKNc62Dsc4ozqRyETQT4d7qeiwdtk8y33mgH5Oq7rdkiuq6raEgRhMp3ikEjRpxWaNLqsFGvioju08PNvbW5Qb48wNGxl9Wy0GAsI6UqlAl3XIcsyIpEI4vG4Q9KSJGlgmuYtSnSXkurcmSCRXG4PjJxuuyHTdqGbDpSABJbsbmuE/tiG5bhk52nFeZ92Z7eCZrMBURCQTCaxvLzs\u002Bv3\u002BFNH3DgWWLcv6jpLUTpKwCi7fuT/A7n4ffd2C6wIjSjI2HHSGJg56OnTLIb0Lz4rAE2Q0G020Wr9D0zSMRiOREqhLS0sv\u002B3w\u002Bg2K6VIlFY5UnYJ\u002Bvdhr49Mca9mjFj4JuTTAhAkN\u002BGe9tvglLH\u002BKHW9\u002BjXq\u002BDgsG2bYRCIaTT6TdowQ5Rvk9uPIHIPk8KogOHh4col8vY2tpCtVrFYDCYzh6DV3BpJYVMLMj5dj0PI6Jnu9rGr80j2I6LZ\u002BMKXio8g41SEop/DgL5eOxHtmz13W4XOzs7yOVyrOmcuhNIZHSzuKAVzs2rGWpysE287\u002B4f4Tb1JEbbNBaSsZY9g1eLSZQWNQRkEZmFDFZWLqDf7/EkFlF\u002Bb/8e6wccx5mGPgar4EY87J8j7qLU3KBuT6jJNl9lNqHgfEbDC8sJrD4XhRaUecB8Po9EIsEpmkwm6Ha6\u002BPyLz443As3PgnabEKBRoAk260qCB5VoWMvG8DpRt7GSxNrZKOYjgQfOC5kFXKAKLq5fxPraOkqlEoLBIDt0fH4WTPMuJVkkZ8M3h/GiJmEzr\u002BD9K8/j6qUcXjk//1Dw00KkEt9iQkk\u002BarVa5e3tbVz7\u002BBoOmgfErU0U/LXs00BsNBq/MKH/94lT6tMIB7T1GL//JvAJRGqYyYSCsQPisUY5js2D/ycJpuNTw/8JHgt\u002BF82CNfmof4QbN7\u002BEqoYfeXhmwezpVUSv1\u002BOn\u002Bs94yDsQCPBHpFgq8sCmafDX6\u002B\u002BE2YiigGKxiFQqxWPMgl05HGT8Gq3k7U6ns1Gr1aba0yGbzSIWi31D18Yn4XD4a6Z7kMAwjALdhC/SiS5MVU8EOjsVou0neq93p6qnCeAPrh3us4woRd4AAAAASUVORK5CYII=",
-              "WhenOpened": "2024-02-23T01:43:16.93Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-02-23T02:37:20.495Z",
+              "EditorCaption": ""
             }
           ]
         }
