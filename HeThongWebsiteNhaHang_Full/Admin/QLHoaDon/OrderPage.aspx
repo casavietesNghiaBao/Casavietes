@@ -94,14 +94,14 @@
         <div class="modal-dialog" role="dialog" style="max-width: 1100px!important;">
             <!-- Modal content-->
             <div class="modal-content " style="width: 1100px;">
-                <div class="modal-header" style="background: #ffc107; padding: 10px">
-                    <h4 class=" modal-title">Chi tiết Hóa đơn</h4>
-                    <button type="button" class="close" onclick="closeModalDetaiTable()">&times;</button>
+                <div class="modal-header" style="background: #303641; padding: 10px">
+                    <h4 class=" modal-title" style="font-family: cambria,Sans-serif; color: #ffffff; font-weight: bold">Chi tiết Hóa đơn</h4>
+                    <button type="button" class="close text-danger" onclick="closeModalDetaiTable()">&times;</button>
                 </div>
-                <div class="modal-body" style="padding: 0px;max-height:500px;overflow:auto">
+                <div class="modal-body" style="padding: 0px;max-height:500px;overflow:auto; font-family: cambria,Sans-serif">
                 </div>
                 <div class="modal-footer" style="padding: 10px">
-                    <button type="button" class="btn btn-warning btn-sm" style="background: white; padding: 5px 10px;" onclick="closeModalDetaiTable()">Đóng</button>
+                    <button type="button" class="btn btn-secondary btn-sm" style="background: white; padding: 5px 10px; background-color: #bbbbbb; color: #ffffff; font-weight: bold" onclick="closeModalDetaiTable()">Đóng</button>
                 </div>
             </div>
         </div>
@@ -164,18 +164,18 @@
                                 <table class="table" style="margin:0px;">
                                     <tr class="">
                                         <td class="" style="width:120px;"><span style="font-weight:bold">Mã hóa đơn:</span></td>    
-                                        <td style="width:300px;"><span style="color:red;font-weight:bold">${HD.ordertable_id}</span></td>
-                                        <td class="" style="width:120px;">Thới gian:</td><td style="width:200px;">${convertDate(HD.ordertable_dateset)}</td>
-                                        <td class="" style="width:130px;">Loại mua hàng:</td><td>${HD.loaiHD == true ? 'Đặt bàn tại nhà hàng (' + HD.table_name + ')' : 'Mua hàng online'}</td>
+                                        <td style="width:200px;"><span style="font-weight:bold">${HD.ordertable_id}</span></td>
+                                        <td class="" style="width:100px; font-weight:bold">Thới gian:</td><td style="width:250px;">${convertDate(HD.ordertable_dateset)}</td>
+                                        <td class="" style="width:180px; font-weight:bold">Hình thức mua hàng:</td><td style="color: #339900; font-weight: bold">${HD.loaiHD == true ? 'Đặt bàn tại nhà hàng (' + HD.table_name + ')' : 'Mua hàng online'}</td>
                                     </tr>
                                     <tr class="">
-                                        <td class=""><span style="font-weight:bold">Khách hàng:</span></td><td><span style="font-weight:bold">${HD.tenKH}</span></td>    
-                                        <td class="">Email:</td><td>${HD.emailKH}</td>
-                                        <td >Loại khách hàng:</td><td >${HD.loaiKH == true ? 'KH có tài khoản' : 'KH không có tài khoản'}</td>
+                                        <td class=""><span style="font-weight:bold">Khách hàng:</span></td><td><span>${HD.tenKH}</span></td>    
+                                        <td class="" style="font-weight: bold">Email:</td><td>${HD.emailKH}</td>
+                                        <td style="font-weight: bold">Loại khách hàng:</td><td >${HD.loaiKH == true ? 'KH có tài khoản' : 'KH không có tài khoản'}</td>
                                     </tr>
                                     <tr class="">
-                                        <td class="">Điện thoại:</td><td>${HD.dienthoaiKH}</td>    
-                                        <td class="">Tình trạng:</td><td>${HD.ordertable_status == true ? 'Đã thanh toán' : 'Chưa thanh toán'}</td>
+                                        <td class="" style="font-weight: bold">Điện thoại:</td><td>${HD.dienthoaiKH}</td>    
+                                        <td class="" style="font-weight: bold">Tình trạng:</td><td style="color: red; font-weight: bold">${HD.ordertable_status == true ? 'Đã thanh toán' : 'Chưa thanh toán'}</td>
                                         <td></td>
                                         <td></td>
                                     </tr>
