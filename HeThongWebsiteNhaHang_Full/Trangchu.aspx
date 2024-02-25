@@ -502,7 +502,7 @@
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-md-12 form-group">
-                                                        <label id="omsg" style="color: red;"></label>
+                                                        <label id="omsg" style="color: red; font-weight: bold"></label>
                                                     </div>
                                                     <div class="col-md-12 form-group d-flex justify-content-center">
                                                         <div class="col-md-9 form-group">

@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|solutionrelative:trangchu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|d:\\product\\casavietes\\hethongwebsitenhahang_full\\trangchu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\trangchu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|solutionrelative:trangchu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -52,10 +52,9 @@
               "RelativeDocumentMoniker": "Trangchu.aspx.cs",
               "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Trangchu.aspx.cs",
               "RelativeToolTip": "Trangchu.aspx.cs",
-              "ViewState": "AQIAABoBAAAAAAAAAAAmwEwBAAANAAAA",
+              "ViewState": "AQIAANEAAAAAAAAAAAAhwOEAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T03:20:29.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-23T03:20:29.342Z"
             },
             {
               "$type": "Document",
