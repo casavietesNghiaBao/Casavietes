@@ -442,16 +442,85 @@
             <div class="modal fade" id="reservationModal" style="overflow:auto" tabindex="-1" role="dialog" aria-labelledby="reservationModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
-                        <div class="modal-body">
+                        <div class="modal-body" style="font-family: cambria, Sans-serif">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <div class="bg-image" style="background-image: url(images/reservation_1.jpg);"></div>
+                                    <div style="background-image: url(images/avt_bookTable.jpg); background-size: cover;">
+                                        <%--<div class="h-75"></div>
+                                        <div class="h-25">
+                                            <div class="h-50"></div>
+                                            <div class="bg-white h-50" style=" border-top-left-radius: 20px; border-top-right-radius: 20px"></div>
+                                        </div>--%>
+
+                                        <div class="col-lg-12 p-5">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <small class="text-danger">CLOSE </small><span class="text-danger" aria-hidden="true">&times;</span>
+                                            </button>
+                                            <h1 class="mb-4" style="font-size: 80px; font-family: cambria, Sans-serif; color: white;-webkit-text-stroke: 1px grey; ">Đặt bàn</h1>
+                                            <form action="#" method="post">
+                                                <div class="row">
+                                                    <div class="col-md-12 form-group">
+                                                        <label for="m_fname" class="text-white ">Ngày đặt</label>
+                                                        <input type="date" class="form-control" id="ds" />
+                                                    </div>
+
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6 form-group">
+                                                        <label for="m_lname" class="text-white">Thời gian đặt</label>
+                                                        <input type="time" class="form-control" id="ts" />
+                                                    </div>
+                                                    <div class="col-md-6 form-group">
+                                                        <label for="m_email" class="text-white">Thời gian trả</label>
+                                                        <input type="time" class="form-control" id="tr" />
+
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6 form-group">
+                                                        <label for="m_people" class="text-white">Loại bàn (Số ghế ngồi)</label>
+                                                        <select name="" id="lb" class="form-control" >
+
+                                                            <%
+                                                                var listTable = new DataUtil().dslb();
+                                                                foreach (var tb in listTable)
+                                                                {
+                                                                    Response.Write("<option style='padding:5px'>" + tb.table_description + "</option>");
+
+                                                                }
+                                                            %>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-md-6 form-group">
+                                                        <label for="m_phone" class="text-white">Mời chọn bàn</label>
+                                                        <div id="Divtb">
+                                                            <select id="idTable" class="form-control">
+                                                            </select>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12 form-group">
+                                                        <label id="omsg" style="color: red; font-weight: bold"></label>
+                                                    </div>
+                                                    <div class="col-md-12 form-group d-flex justify-content-center">
+                                                        <div class="col-md-9 form-group">
+                                                            <input id="ordertb" type="button" class="btn btn-primary btn-lg btn-block" style="border: solid ; border-radius: 15px; font-weight: bold; background-color: #E7D8A1; color: #4A3929" value="ĐẶT BÀN" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </form>
+                                        </div>
+
+                                    </div>
                                 </div>
-                                <div class="col-lg-12 p-5">
+                               <%-- <div class="col-lg-12 p-5">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <small>CLOSE </small><span aria-hidden="true">&times;</span>
                                     </button>
-                                    <h1 class="mb-4">Đặt bàn</h1>
+                                    <h1 class="mb-4" style="font-size: 50px; font-family: cambria, Sans-serif">Đặt bàn</h1>
                                     <form action="#" method="post">
                                         <div class="row">
                                             <div class="col-md-12 form-group">
@@ -473,7 +542,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6 form-group">
-                                                <label for="m_people">Loại bàn</label>
+                                                <label for="m_people">Loại bàn (Số ghế ngồi)</label>
                                                 <select name="" id="lb" class="form-control" >
 
                                                     <%
@@ -487,7 +556,7 @@
                                                 </select>
                                             </div>
                                             <div class="col-md-6 form-group">
-                                                <label for="m_phone">Bàn</label>
+                                                <label for="m_phone">Mời chọn bàn</label>
                                                 <div id="Divtb">
                                                     <select id="idTable" class="form-control">
                                                     </select>
@@ -499,13 +568,15 @@
                                             <div class="col-md-12 form-group">
                                                 <label id="omsg" style="color: red;"></label>
                                             </div>
-                                            <div class="col-md-12 form-group">
-                                                <input id="ordertb" type="button" class="btn btn-primary btn-lg btn-block" value="Thêm bàn vào giỏ hàng" />
+                                            <div class="col-md-12 form-group d-flex justify-content-center">
+                                                <div class="col-md-9 form-group">
+                                                    <input id="ordertb" type="button" class="btn btn-primary btn-lg btn-block bg-secondary" style="border: solid ; border-radius: 15px; font-weight: bold;" value="ĐẶT BÀN" />
+                                                </div>
                                             </div>
                                         </div>
 
                                     </form>
-                                </div>
+                                </div>--%>
                             </div>
 
                         </div>
