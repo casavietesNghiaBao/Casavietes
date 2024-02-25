@@ -38,17 +38,17 @@
             <div class="login-box ptb--100">
                 <form id="form2" runat="server" action="/Admin/AdminLogin.aspx">
                     <div class="login-form-head">
-                        <h4>Sign In Admin</h4>
-                        <p>Sign in to manager your website</p>
+                        <h4>Đăng nhập Admin</h4>
+                        <p>Đăng nhập đến phần quản lý website</p>
                     </div>
                     <div class="login-form-body">
                         <div class="form-gp">
-                            <label for="txtusername">Email or Username</label>
+                            <label for="txtusername">Email hoặc username</label>
                             <asp:TextBox runat="server" ID="txtusername" CssClass="form-control"  />
                             <i class="ti-email"></i>
                         </div>
                         <div class="form-gp">
-                            <label for="txtpassword">Password</label>
+                            <label for="txtpassword">Mật khẩu</label>
                             <asp:TextBox runat="server" ID="txtpassword" CssClass="form-control" TextMode="Password" />
                             <i class="ti-lock"></i>
                         </div>
@@ -60,7 +60,7 @@
                             </div>
                         </div>
                         <div class="submit-btn-area">
-                            <asp:Button CssClass="btn btn-primary" runat="server" ID="btnLogin" Text="SIGN IN" OnClick="btnLogin_Click"/>
+                            <asp:Button CssClass="btn btn-primary" runat="server" ID="btnLogin" Text="Đăng nhập" OnClick="btnLogin_Click"/>
                         </div>
                     </div>
                 </form>

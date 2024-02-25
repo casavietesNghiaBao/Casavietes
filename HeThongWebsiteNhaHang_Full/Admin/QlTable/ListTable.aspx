@@ -15,14 +15,14 @@
                             <div class="col-sm-12 col-md-6">
                                 <div class="dataTables_length" id="dataTable3_length">
                                     <label>
-                                        Show
+                                        Hiển thị
                                         <select name="dataTable3_length" aria-controls="dataTable3" class="custom-select custom-select-sm form-control form-control-sm">
                                             <option value="10">10</option>
                                             <option value="25">25</option>
                                             <option value="50">50</option>
                                             <option value="100">100</option>
                                         </select>
-                                        entries</label>
+                                        </label>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-6">
