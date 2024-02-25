@@ -36,10 +36,10 @@
                     </div>
                     <div class="form-group">
                         <label for="example-text-input" class="col-form-label">
-                            Khuyến mại
+                            Khuyến mại (%)
                                 <label style="color: red">(*)</label>
                         </label>
-                        <asp:TextBox ID="txtKhuyenmai" runat="server" placeholder="Khuyến mại..." class="form-control" />
+                        <asp:TextBox ID="txtKhuyenmai" runat="server" placeholder="Khuyến mại... Ví dụ: 10 (là 10%)" class="form-control" />
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="The field is required" ControlToValidate="txtKhuyenmai" Display="Dynamic" ForeColor="Red" />
                     </div>
                     <div class="form-group">
@@ -50,7 +50,7 @@
                     </div>
                     <div class="form-group">
                         <label for="example-text-input" class="col-form-label">Mieu tả sản phẩm</label>
-                        <asp:TextBox ID="txtMieuta" runat="server" placeholder="Miêu tả sản phẩm..." class="form-control" />
+                        <asp:TextBox ID="txtMieuta" runat="server" placeholder="Miêu tả sản phẩm..." class="form-control" MaxLength="100" />
                     </div>
                     <div class="form-group">
                         <label for="example-text-input" class="col-form-label">Loại món</label>

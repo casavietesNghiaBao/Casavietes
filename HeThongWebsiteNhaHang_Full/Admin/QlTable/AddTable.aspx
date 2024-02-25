@@ -19,9 +19,9 @@
                     <asp:RequiredFieldValidator ID="renametb" runat="server" ErrorMessage="Vui lòng nhập tên bàn" ControlToValidate="txtnametb" Display="Dynamic" ForeColor="Red" />
                 </div>
                 <div class="form-group">
-                    <label for="example-text-input" class="col-form-label">Mô tả
+                    <label for="example-text-input" class="col-form-label">Mô tả (số người)
                         <label style="color: red">(*)</label></label>
-                    <asp:TextBox runat="server" ID="txtmato" placeholder="Bàn mấy người " CssClass="form-control" />
+                    <asp:TextBox runat="server" ID="txtmato" placeholder="Ví dụ: 10 " CssClass="form-control" />
                     <asp:RequiredFieldValidator ID="remota" runat="server" ErrorMessage="The field is required" ControlToValidate="txtmato" Display="Dynamic" ForeColor="Red" />
                 </div>
 

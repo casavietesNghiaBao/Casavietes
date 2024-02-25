@@ -69,7 +69,7 @@
                     Response.Write("<td>" + item.ordertable_dateset.ToString("dd/MM/yyyy") + "</td>");
                     if (item.ordertable_status ?? false)
                     {
-                        Response.Write("<td>Đã thanh toán</td>");
+                        Response.Write("<td style='color: red'>Đã thanh toán</td>");
                     }
                     else
                     {

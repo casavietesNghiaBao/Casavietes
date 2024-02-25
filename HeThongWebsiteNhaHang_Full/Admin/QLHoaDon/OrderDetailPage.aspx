@@ -72,12 +72,12 @@
                     var HD = rs.d;
                     console.log(HD);
                     var html = `                        
-                            <div >
+                            <div>
                                 <table class="table" style="margin:0px;">
                                     <tr class="">
                                         <td class="" style="width:120px;"><span style="font-weight:bold">Mã hóa đơn:</span></td>    
                                         <td style="width:300px;"><span style="color:red;font-weight:bold">${HD.ordertable_id}</span></td>
-                                        <td class="" style="width:120px;">Thới gian:</td><td style="width:200px;">${convertDate(HD.ordertable_dateset)}</td>
+                                        <td style="width:120px;font-weight:bold;">Thời gian:</td><td style="width:200px;">${convertDate(HD.ordertable_dateset)}</td>
                                         <td class="" style="width:130px;">Loại mua hàng:</td><td>${HD.loaiHD == true ? 'Đặt bàn tại nhà hàng (' + HD.table_name + ')' : 'Mua hàng online'}</td>
                                     </tr>
                                     <tr class="">

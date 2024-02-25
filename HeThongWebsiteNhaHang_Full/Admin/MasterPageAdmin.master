@@ -49,14 +49,17 @@
                     <div class="sidebar-header">
                         <div class="logo">
                             <a href="/Admin/Dashboard.aspx">
-                                <img src="/Assets/AssetsAdmin/images/icon/logo.png" alt="logo" /></a>
+                                <img src="/Assets/AssetsAdmin/images/Artboard 1 copy 5.png" alt="logo" />
+                            </a>
+                            <a href="/Trangchu.aspx" class="mt-3">->Trang chủ website
+                            </a>
                         </div>
                     </div>
                     <div class="main-menu">
                         <div class="menu-inner">
                             <nav>
                                 <ul class="metismenu" id="menu">
-<%--                                    <li class="active">
+                                    <%--                                    <li class="active">
                                         <a href="/Admin/Dashboard.aspx" aria-expanded="true"><i class="ti-dashboard"></i><span>Trang tổng quan</span></a>
                                     </li>--%>
 
@@ -86,7 +89,7 @@
                                         </ul>
                                     </li>
 
-<%--                                    <li>
+                                    <%--                                    <li>
                                         <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-birthday-cake"></i>
                                             <span>Order Foods</span></a>
                                         <ul class="collapse">
@@ -126,7 +129,7 @@
                                             <li><a href="/Admin/QLContact/ListContact.aspx">Danh sách liên hệ</a></li>
                                         </ul>
                                     </li>
-                                    
+
                                     <li>
                                         <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-table"></i>
                                             <span>QL Web</span></a>
