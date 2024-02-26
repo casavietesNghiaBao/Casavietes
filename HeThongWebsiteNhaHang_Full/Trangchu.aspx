@@ -69,7 +69,7 @@
 
     </style>
 </head>
-<body data-spy="scroll" data-target="#site-navbar" data-offset="200">
+<body data-spy="scroll" data-target="#site-navbar" data-offset="200" style="font-family: cambria,Sans-serif">
     
     <form id="form1" runat="server" action="/Trangchu.aspx">
         <span id="on_top" style="width: 50px; height: 50px; bottom: 30px; right: 20px; position: fixed; display: none; background: #ccc; border-radius: 50%; cursor: pointer" title="Đầu trang">
@@ -86,14 +86,14 @@
 
                     <div class="collapse navbar-collapse" id="site-nav">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active"><a href="#section-home" class="nav-link">Trang chủ</a></li>
-                            <li class="nav-item"><a href="#section-about" class="nav-link">Thông tin</a></li>
-                            <li class="nav-item"><a href="#section-offer" class="nav-link">Khuyến mại</a></li>
-                            <li class="nav-item"><a href="#section-menu" class="nav-link">Món ăn</a></li>
-                            <li class="nav-item"><a href="#section-news" class="nav-link">Mới</a></li>
-                            <li class="nav-item"><a href="#section-gallery" class="nav-link">Thư viện</a></li>
-                            <li class="nav-item"><a href="#section-contact" class="nav-link">Liên hệ</a></li>
-                            <li class="nav-item" id="login" runat="server"><a href="/Client/Login.aspx" class="nav-link">Đăng nhập</a></li>
+                            <li class="nav-item active"><a href="#section-home" class="nav-link" style="color: lightyellow">Trang chủ</a></li>
+                            <li class="nav-item"><a href="#section-about" class="nav-link" style="color: lightyellow">Thông tin</a></li>
+                            <li class="nav-item"><a href="#section-offer" class="nav-link" style="color: lightyellow">Khuyến mại</a></li>
+                            <li class="nav-item"><a href="#section-menu" class="nav-link" style="color: lightyellow">Món ăn</a></li>
+                            <li class="nav-item"><a href="#section-news" class="nav-link" style="color: lightyellow">Mới</a></li>
+                            <li class="nav-item"><a href="#section-gallery" class="nav-link" style="color: lightyellow">Thư viện</a></li>
+                            <li class="nav-item"><a href="#section-contact" class="nav-link" style="color: lightyellow">Liên hệ</a></li>
+                            <li class="nav-item" id="login" runat="server"><a href="/Client/Login.aspx" class="nav-link" style="color: lightyellow">Đăng nhập</a></li>
                             <li id="avatar" runat="server" style="display: none">
                                 <div class="user-profile pull-right">
                                     <asp:Image runat="server" CssClass="avatar user-thumb" ID="avatarImage" />
@@ -114,13 +114,13 @@
             </nav>
             <!-- END nav -->
 
-            <section class="site-cover" style="background-image: url(../../Assets/images/<% Response.Write(web.banner_nh); %>);" id="section-home">
+            <section class="site-cover" style="background-image: url(../../Assets/images/bg_5.jpg);" id="section-home">
                 <div class="container">
                     <div class="row align-items-center justify-content-center text-center site-vh-100">
                         <div class="col-md-12">
-                            <h1 class="site-heading site-animate mb-3">Chào mừng bạn đến với <% Response.Write(web.ten_nh); %></h1>
-                            <h2 class="h5 site-subheading mb-5 site-animate">Hãy nhanh tay đặt các món ăn ngon và chất lượng từ nhà hàng chúng tôi nào!</h2>
-                            <p><a href="https://colorlib.com/" id="otb" target="_blank" class="btn btn-outline-white btn-lg site-animate" data-toggle="modal" data-target="#reservationModal" >Đặt bàn</a></p>
+                            <h1 class="site-heading site-animate mb-3" style="color: lightyellow">Chào mừng bạn đến với <% Response.Write(web.ten_nh); %></h1>
+                            <h2 class="h5 site-subheading mb-5 site-animate" style="color: lightyellow; font-family: cambria,Sans-serif">Hãy nhanh tay đặt các món ăn ngon và chất lượng từ nhà hàng chúng tôi nhé!</h2>
+                            <p><a href="https://colorlib.com/" id="otb" target="_blank" class="btn btn-outline-white btn-lg site-animate" style="font-family: cambria,Sans-serif; font-weight: bold" data-toggle="modal" data-target="#reservationModal" >Đặt bàn</a></p>
                         </div>
                     </div>
                 </div>
@@ -174,10 +174,10 @@
                                         Response.Write("<img style='height:250px;cursor: pointer;' onclick='funcOrderNow(" + f.food_id + ")' src='../../Assets/images/" + f.food_avatar + "' class='img-fluid' />");
 
                                         Response.Write("<div class='media-body p-md-5 p-4'>");
-                                        Response.Write("<h5 class='text-primary'>" + f.food_price + "</h5>");
+                                        Response.Write("<h5 class='text-primary' style='font-family: cambria,Sans-serif'>" + f.food_price + "</h5>");
                                         Response.Write("<h5 class='mt-0 h4'>" + f.food_name + "</h5>");
                                         Response.Write("<p class='mb-4'>" + f.food_description + "</p>");
-                                        Response.Write("<p class='mb-0'><a href='javascript:void(0)' class='btn btn-primary btn-sm' onclick='funcOrderNow(" + f.food_id + ")'>Order Now!</a></p>");
+                                        Response.Write("<p class='mb-0'><a href='javascript:void(0)' class='btn btn-primary btn-sm' style='font-family: cambria,Sans-serif; font-weight: bold;' onclick='funcOrderNow(" + f.food_id + ")'>Order Now!</a></p>");
                                         Response.Write("</div>");
                                         Response.Write("</div>");
                                         Response.Write("</div>");
@@ -258,10 +258,10 @@
                                         Response.Write("<img style='height:250px;cursor: pointer;' onclick='funcOrderNow(" + n.food_id + ")' src='../../Assets/images/" + n.food_avatar + "' class='img-fluid' />");
 
                                         Response.Write("<div class='media-body p-md-5 p-4'>");
-                                        Response.Write("<h5 class='text-primary'>" + n.food_price + "</h5>");
+                                        Response.Write("<h5 class='text-primary' style='font-family: cambria,Sans-serif;'>" + n.food_price + "</h5>");
                                         Response.Write("<h5 class='mt-0 h4'>" + n.food_name + "</h5>");
                                         Response.Write("<p class='mb-4'>" + n.food_description + "</p>");
-                                        Response.Write("<p class='mb-0'><a href='javascript:void(0)' class='btn btn-primary btn-sm' onclick='funcOrderNow(" + n.food_id + ")'>Order Now!</a></p>");
+                                        Response.Write("<p class='mb-0'><a href='javascript:void(0)' class='btn btn-primary btn-sm' style='font-family: cambria,Sans-serif; font-weight: bold;' onclick='funcOrderNow(" + n.food_id + ")'>Order Now!</a></p>");
                                         Response.Write("</div>");
                                         Response.Write("</div>");
                                         Response.Write("</div>");
