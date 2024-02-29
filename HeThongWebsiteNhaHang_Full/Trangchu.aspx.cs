@@ -119,21 +119,29 @@ public partial class Tranchu : System.Web.UI.Page
         }
         else
         {
-            if (ts != "" || tr != "")
+            if(tr == "--:-- --" || ts == "--:-- --")
             {
-                if (TimeSpan.Parse(ts) > TimeSpan.Parse(tr))
+                return "";
+            }
+            else
+            {
+                if (ts != "" && tr != "")
                 {
-                    return "thời gian đặt và trả không hợp lệ";
+                    if (TimeSpan.Parse(ts) > TimeSpan.Parse(tr))
+                    {
+                        return "thời gian đặt và trả không hợp lệ";
+                    }
+                    else
+                    {
+                        return "";
+                    }
                 }
                 else
                 {
                     return "";
                 }
             }
-            else
-            {
-                return "";
-            }
+            
 
         }
 
