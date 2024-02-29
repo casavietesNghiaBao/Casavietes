@@ -8,6 +8,7 @@
     <base href="Assets/" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="css/fonts.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
@@ -79,7 +80,7 @@
         <div>
             <nav class="navbar navbar-expand-lg navbar-dark site_navbar bg-dark site-navbar-light" id="site-navbar">
                 <div class="container">
-                    <a class="navbar-brand" href="/TrangChu.aspx"><% var web = new DataUtil().qlweb(); Response.Write(web.ten_nh); %></a>
+                    <a class="navbar-brand" href="/TrangChu.aspx"><% var web = new DataUtil().qlweb();%><img style="width: 150px" src="../../Assets/images/logonh.png"/></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="oi oi-menu"></span>Menu
                     </button>
@@ -516,67 +517,6 @@
 
                                     </div>
                                 </div>
-                               <%-- <div class="col-lg-12 p-5">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <small>CLOSE </small><span aria-hidden="true">&times;</span>
-                                    </button>
-                                    <h1 class="mb-4" style="font-size: 50px; font-family: cambria, Sans-serif">Đặt bàn</h1>
-                                    <form action="#" method="post">
-                                        <div class="row">
-                                            <div class="col-md-12 form-group">
-                                                <label for="m_fname">Ngày đặt</label>
-                                                <input type="date" class="form-control" id="ds" />
-                                            </div>
-
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6 form-group">
-                                                <label for="m_lname">Thời gian đặt</label>
-                                                <input type="time" class="form-control" id="ts" />
-                                            </div>
-                                            <div class="col-md-6 form-group">
-                                                <label for="m_email">Thời gian trả</label>
-                                                <input type="time" class="form-control" id="tr" />
-
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6 form-group">
-                                                <label for="m_people">Loại bàn (Số ghế ngồi)</label>
-                                                <select name="" id="lb" class="form-control" >
-
-                                                    <%
-                                                        var listTable = new DataUtil().dslb();
-                                                        foreach (var tb in listTable)
-                                                        {
-                                                            Response.Write("<option style='padding:5px'>" + tb.table_description + "</option>");
-
-                                                        }
-                                                    %>
-                                                </select>
-                                            </div>
-                                            <div class="col-md-6 form-group">
-                                                <label for="m_phone">Mời chọn bàn</label>
-                                                <div id="Divtb">
-                                                    <select id="idTable" class="form-control">
-                                                    </select>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-12 form-group">
-                                                <label id="omsg" style="color: red;"></label>
-                                            </div>
-                                            <div class="col-md-12 form-group d-flex justify-content-center">
-                                                <div class="col-md-9 form-group">
-                                                    <input id="ordertb" type="button" class="btn btn-primary btn-lg btn-block bg-secondary" style="border: solid ; border-radius: 15px; font-weight: bold;" value="ĐẶT BÀN" />
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </form>
-                                </div>--%>
                             </div>
 
                         </div>
@@ -600,14 +540,14 @@
         <div class="modal-dialog" role="dialog" style="max-width: 800px!important;">
             <!-- Modal content-->
             <div class="modal-content" style="width: 800px!important;">
-                <div class="modal-header" style="background: #ffc107; padding: 10px">
-                    <h4 class=" modal-title">Thêm món ăn vào giỏ hàng</h4>
+                <div class="modal-header" style="background: #FDA403; padding: 10px">
+                    <h4 class=" modal-title" style="font-family: cambria,Sans-serif; color: white;">Thêm món ăn vào giỏ hàng</h4>
                     <button type="button" class="close" onclick="closeModalOrderNow()">&times;</button>
                 </div>
-                <div class="modal-body" style="padding: 0px">
+                <div class="modal-body" style="padding: 0px;">
                 </div>
                 <div class="modal-footer" style="padding: 10px; justify-content: center!important">
-                    <button type="button" class="btn btn-primary btn-sm" style="font-weight: bold; font-size: 14px; padding: 5px 10px; border-radius: 5px; border: 1px solid dodgerblue; color: black; float: left; background-color: dodgerblue" onclick="AddToCart()">Thêm vào giỏ hàng</button>
+                    <button type="button" class="btn btn-primary btn-sm" style="font-weight: bold; font-size: 14px; padding: 5px 10px; border-radius: 5px; border: 1px solid #FDA403; color: white; float: left; background-color: #FDA403" onclick="AddToCart()">Thêm vào giỏ hàng</button>
                     <button type="button" class="btn btn-default btn-sm" style="font-weight: bold; font-size: 14px; padding: 5px 10px; float: right" onclick="closeModalOrderNow()">Đóng</button>
                 </div>
             </div>
@@ -880,13 +820,13 @@
                 success: function (rs) {
                     var f = rs.d;
                     var html = `
-                        <div style="padding:10px; background:#d6fd9aab;">                            
+                        <div style="padding:10px; background:#F8F9FA;">                            
                             <div class="row">                                
                                 <div class="col-md-4">                                        
-                                    <img style="border-radius:50px;" width="100%" src="../../Assets/images/${f.food_avatar}"/>
+                                    <img style="border-radius:15px;" width="100%" src="../../Assets/images/${f.food_avatar}"/>
                                 </div>
-                                <div class="col-md-8" style="position:relative">
-                                    <span style="font-size:13px;position:absolute;width:80px;height:40px;color:black;line-height:40px;background:aqua;right:10px;top:10px;text-align:center;border-radius:50%">Sale ${f.food_sale} %</span>
+                                <div class="col-md-8" style="position:relative; font-family: cambria,Sans-serif;">
+                                    <span style="font-size:13px;position:absolute;width:70px;height:40px;color:white;line-height:40px;background:red;right:10px;text-align:center;border-radius:50%">Sale ${f.food_sale} %</span>
                                     <h3 style="font-weight:bold;font-size:20px;">${f.food_name}</h3>
                                     <input type="hidden" id="foodid" name="foodid" value="${f.food_id}">
                                     <span style="color:black;font-size:14px;">${f.food_description}</span>
@@ -897,9 +837,9 @@
                                     </p>
                                     <div>
                                         <span style="color:black;font-size:14px;">Số lượng:</span> 
-                                        <button class="btn btn-default btn-sm" type="button" onclick="descrease_sl()" id="descrease_sl" style="margin-top: -3px;display:inline-block;padding:5px 10px;"> - </button>
-                                        <input type="number" id="food_quantity" min="1" value="1" style="display:inline-block;padding:0px 10px"/>
-                                        <button class="btn btn-default btn-sm"type="button"onclick="increase_sl()" id="increase_sl" style="margin-top: -3px;display:inline-block;padding:5px 10px;"> + </button>
+                                        <button class="btn btn-default btn-sm" type="button" onclick="descrease_sl()" id="descrease_sl" style="margin-top: -3px;display:inline-block;padding:5px 10px; background-color: #FF6533; color: white;"> <i class="bi bi-dash-lg"></i> </button>
+                                        <input type="number" id="food_quantity" min="1" value="1" style="display:inline-block;"/>
+                                        <button class="btn btn-default btn-sm" type="button" onclick="increase_sl()" id="increase_sl" style="margin-top: -3px; display:inline-block; padding:5px 10px; background-color: #FF6533; color: white;"> <i class="bi bi-plus-lg"></i> </button>
                                     </div>                                    
                                 </div>
                             </div>
