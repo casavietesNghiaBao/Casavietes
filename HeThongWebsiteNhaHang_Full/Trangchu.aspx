@@ -79,7 +79,7 @@
         <div>
             <nav class="navbar navbar-expand-lg navbar-dark site_navbar bg-dark site-navbar-light" id="site-navbar">
                 <div class="container">
-                    <a class="navbar-brand" href="/TrangChu.aspx"><% var web = new DataUtil().qlweb(); Response.Write(web.ten_nh); %></a>
+                    <a class="navbar-brand" href="/TrangChu.aspx"><% var web = new DataUtil().qlweb();%><img style="width:150px" src="../../Assets/images/logonh.png" /></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="oi oi-menu"></span>Menu
                     </button>
