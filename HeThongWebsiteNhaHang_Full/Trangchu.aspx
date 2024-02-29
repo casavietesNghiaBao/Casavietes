@@ -362,17 +362,18 @@
                     </div>
                 </div>
             </section>
-            <div id="map"></div>
+            <%--<div id="map"></div>--%>
             <!-- END section -->
 
 
+            <!-- Footer -->
             <footer class="site-footer site-bg-dark site-section">
                 <div class="container">
                     <div class="row mb-5">
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-4 site-animate">
-                                    <h2 class="site-heading-2">About Us</h2>
+                                    <h2 class="site-heading-2">Về chúng tôi</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, similique, delectus blanditiis odit expedita amet. Sed labore ipsum vel dolore, quis, culpa et magni autem sequi facere eos tenetur, ex?</p>
                                 </div>
                                 <div class="col-md-1"></div>
@@ -389,13 +390,13 @@
                                 </div>
                                 <div class="col-md-2 site-animate">
                                     <div class="site-footer-widget mb-4">
-                                        <h2 class="site-heading-2">Useful links</h2>
+                                        <h2 class="site-heading-2">Tương tác</h2>
                                         <ul class="list-unstyled">
-                                            <li><a href="#" class="py-2 d-block">Foods</a></li>
-                                            <li><a href="#" class="py-2 d-block">Drinks</a></li>
-                                            <li><a href="#" class="py-2 d-block">Breakfast</a></li>
-                                            <li><a href="#" class="py-2 d-block">Brunch</a></li>
-                                            <li><a href="#" class="py-2 d-block">Dinner</a></li>
+                                            <li><a href="#section-about" class="py-2 d-block">Thông tin</a></li>
+                                            <li><a href="#section-offer" class="py-2 d-block">Khuyến mãi</a></li>
+                                            <li><a href="#section-menu" class="py-2 d-block">Món ăn</a></li>
+                                            <li><a href="#section-news" class="py-2 d-block">Mới</a></li>
+                                            <li><a href="#section-contact" class="py-2 d-block">Liên hệ</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -430,13 +431,16 @@
                                 &copy;
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                 Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                                All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i>by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                All rights reserved | Nhà hàng đặt món
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             </p>
                         </div>
                     </div>
                 </div>
             </footer>
+
+            <!-- End Footer -->
+
 
             <!-- Modal -->
             <div class="modal fade" id="reservationModal" style="overflow:auto" tabindex="-1" role="dialog" aria-labelledby="reservationModalLabel" aria-hidden="true">
@@ -658,6 +662,7 @@
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -839,6 +844,9 @@
                                 $("#ModalViewCart").modal("hide");
                             }
                         });
+
+                        //Code phần gửi email ở đây
+                        sendEmail();
                     }
                 } else {
                     if (CheckFormKH() == 0)
@@ -869,6 +877,42 @@
                     });
                 }
             }
+        }
+        function sendEmail() {
+            (function () {
+                emailjs.init("CLr7upfQIcDw3REBH");
+            })();
+
+            var params = {
+                tenKhachHang: document.querySelector("#tenKH").value,
+                email: document.querySelector("#emailKH").value,
+                soDienThoai: document.querySelector("#dienthoaiKH").value,
+                tenMon: [],
+                soLuong: [],
+                tongTien: 0
+            };
+
+            let totalThanhTien = 0;
+
+            let listFoodMail = CART.ListFood;
+            $.each(listFoodMail, function (index, item) {
+                params.tenMon.push(item.food_name);
+                params.soLuong.push(item.quantity);
+                totalThanhTien += parseInt(item.thanhtien);
+            });
+
+            params.tenMon = params.tenMon.join(' | ');
+            params.soLuong = params.soLuong.join(' | ')
+            params.tongTien = totalThanhTien.toLocaleString('vi-VN');
+
+            var serviceID = "service_e7hg1cy";
+            var templateID = "template_3mwwhux";
+
+            emailjs.send(serviceID, templateID, params)
+                .then(res => {
+                    alert("Gửi thông tin đặt hàng thành công")
+                })
+                .catch();
         }
         function funcOrderNow(idfood) {
             $.ajax({
