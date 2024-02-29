@@ -658,6 +658,7 @@
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -839,6 +840,7 @@
                                 $("#ModalViewCart").modal("hide");
                             }
                         });
+                        sendEmail();
                     }
                 } else {
                     if (CheckFormKH() == 0)
