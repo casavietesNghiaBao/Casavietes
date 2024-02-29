@@ -870,6 +870,44 @@
                 }
             }
         }
+        function sendEmail() {
+            (function () {
+                emailjs.init("CLr7upfQIcDw3REBH");
+            })();
+
+            var params = {
+                tenKhachHang: document.querySelector("#tenKH").value,
+                email: document.querySelector("#emailKH").value,
+                soDienThoai: document.querySelector("#dienthoaiKH").value,
+                tenMon: [],
+                soLuong: [],
+                tongTien: 0
+            };
+
+            let totalQuantity = 0;
+            let totalThanhTien = 0;
+
+            let listFoodMail = CART.ListFood;
+            $.each(listFoodMail, function (index, item) {
+                let ten = item.quantity + " " + item.food_name;
+                params.tenMon.push(ten);
+                totalQuantity += parseInt(item.quantity);
+                totalThanhTien += parseInt(item.thanhtien);
+            });
+
+            params.tenMon = params.tenMon.join(' | ');
+            params.soLuong = totalQuantity;
+            params.tongTien = totalThanhTien.toLocaleString('vi-VN');
+
+            var serviceID = "service_e7hg1cy";
+            var templateID = "template_3mwwhux";
+
+            emailjs.send(serviceID, templateID, params)
+                .then(res => {
+                    alert("Gửi thông tin đặt hàng thành công")
+                })
+                .catch();
+        }
         function funcOrderNow(idfood) {
             $.ajax({
                 type: "post",
