@@ -9,7 +9,7 @@
     <h2 style="margin-top: 20px; font-size: 24px; text-align: center" id="headerOrderDetail">Danh sách hóa đơn
     </h2>
     <div style="padding: 5px 10px">
-        <form id="formTimKiem">
+<%--        <form id="formTimKiem">
             <div class="row">
                 <div class="col-md-8">
                     <div class="form-group">
@@ -35,7 +35,7 @@
                 <button type="button" style="height: 30px; padding: 0px 5px; border: 1px solid #ccc; border-radius: 5px; background: #4e9ae2" onclick="TimHoaDon()">Tìm kiếm</button>
                 <button type="button" style="margin-left: 20px; height: 30px; padding: 0px 5px; border: 1px solid #ccc; border-radius: 5px; background: #4ef179" onclick="TatCaHoaDon()">Xem tất cả</button>
             </div>
-        </form>
+        </form>--%>
     </div>
     <table class="table table-bordered table-hover table-striped" style="margin-top: 20px;">
         <tr>
@@ -49,7 +49,7 @@
             <th>Tổng tiền (vnđ)</th>
             <th>Thời gian</th>
             <th>Tình trạng</th>
-            <th></th>
+            <th>Chức năng</th>
         </tr>
         <tbody id="DSHoaDon">
             <%
@@ -239,7 +239,7 @@
                             html += `
                                 <tr>
                                     <td>${index + 1}</td>
-                                    <td><a title='Xem hóa đơn' style='display:block' href='javascript:void(0)' onclick='ModalDetailTable(${item.ordertable_id})'>${item.ordertable_id}</a></td>
+                                    <td><a title='Xem hóa đơn' style='display:block' href='javascript:void(0)' onclick='ModalDetailTable(${item.ordertable_id})'>${item.ordertable_id} Chi tiết...</a></td>
                                     <td>${item.tenKH}</td>
                                     <td>${item.emailKH}</td>
                                     <td>${item.dienthoaiKH}</td>                                   
@@ -254,7 +254,7 @@
                             }
                             html += `
                                     <td>
-                                        <a title='Xem hóa đơn' class='' style='display:block;padding:5px 10px;' href='javascript:void(0)' onclick='ModalDetailTable(${item.ordertable_id})'>
+                                        <a title='Xem hóa đơn' class='' style='display:block;padding:5px 15px;margin-right:5px;' href='javascript:void(0)' onclick='ModalDetailTable(${item.ordertable_id})'>
                                             <i class='fa fa-eye fa-lg'></i>
                                         </a>
                                     </td>
