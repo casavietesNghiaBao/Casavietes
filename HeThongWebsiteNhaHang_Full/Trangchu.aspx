@@ -478,7 +478,7 @@
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-md-6 form-group">
-                                                        <label for="m_people" class="text-white">Loại bàn (Số ghế ngồi)</label>
+                                                        <label for="m_people" class="text-white">Loại bàn (Bàn dành cho mấy người ngồi)</label>
                                                         <select name="" id="lb" class="form-control" >
 
                                                             <%
@@ -635,6 +635,7 @@
                         </label>
                         <%
                             Cart cart = (Cart)HttpContext.Current.Session["Cart"];
+                            string tenBan = (cart != null && cart.idtable > 0) ? cart.tenBan : ""; // Lấy giá trị của cart.tenBan
                             if (cart.idtable > 0)
                             {
                                 Response.Write("<span id='ChooseTable' style='display:none'>");
@@ -872,18 +873,19 @@
                 }
             }
         }
+        var tenBanJS = '<%= tenBan %>'; // Gán giá trị của tenBan vào biến JavaScript
         function sendEmail() {
             (function () {
                 emailjs.init("CLr7upfQIcDw3REBH");
             })();
-
             var params = {
                 tenKhachHang: document.querySelector("#tenKH").value,
                 email: document.querySelector("#emailKH").value,
                 soDienThoai: document.querySelector("#dienthoaiKH").value,
                 tenMon: [],
                 soLuong: [],
-                tongTien: 0
+                tongTien: 0,
+                datBan: tenBanJS || "chưa đặt bàn"
             };
 
             let totalQuantity = 0;
@@ -909,6 +911,21 @@
                     alert("Gửi thông tin đặt hàng thành công")
                 })
                 .catch();
+        }
+        function ModalDetailTable(idtable) {
+            $.ajax({
+                type: "post",
+                url: "/Admin/QLHoaDon/OrderDetailPage.aspx/DetailOrderTable",
+                data: "{idtable:" + idtable + "}",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (rs) {
+                    var HD = rs.d;
+                    console.log(HD);
+                    // Lấy giá trị từ HD.table_name và truyền vào sendEmail()
+                    sendEmail(HD.table_name);
+                }
+            });
         }
         function funcOrderNow(idfood) {
             $.ajax({
@@ -1217,11 +1234,11 @@
                             $.notify("Dữ liệu nhập vào không thỏa mãn", "error");
                         }
                         else {
-                            $.notify("Đã thêm lựa chọn bàn", "success");
+                            $.notify("Đã thêm lựa chọn bàn, vui lòng đặt món", "success");
                             $("#reservationModal").modal("hide");
                             setTimeout(function () {
                                 location.reload();
-                            }, 1500);
+                            }, 3000);
                         }
                     }
 
