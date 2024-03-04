@@ -13,7 +13,7 @@
                     <div id="dataTable3_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
                         <div class="row">
                             <div class="col-sm-12 col-md-6">
-                                <div class="dataTables_length" id="dataTable3_length">
+<%--                                <div class="dataTables_length" id="dataTable3_length">
                                     <label>
                                         Hiển thị
                                         <select name="dataTable3_length" aria-controls="dataTable3" class="custom-select custom-select-sm form-control form-control-sm">
@@ -23,7 +23,7 @@
                                             <option value="100">100</option>
                                         </select>
                                         </label>
-                                </div>
+                                </div>--%>
                             </div>
                             <div class="col-sm-12 col-md-6">
                                 <div id="dataTable3_filter" class="dataTables_filter">
@@ -193,7 +193,7 @@
                                 </table>
                             </div>
                         </div>
-                        <div class="row">
+<%--                        <div class="row">
                             <div class="col-sm-12 col-md-5">
                                 <div class="dataTables_info" id="dataTable3_info" role="status" aria-live="polite">Showing 1 to 10 of 11 entries</div>
                             </div>
@@ -208,7 +208,7 @@
                                 </div>
                             </div>
                             
-                        </div>
+                        </div>--%>
                     </div>
                 </div>
             </div>

@@ -362,7 +362,7 @@
                     </div>
                 </div>
             </section>
-            <div id="map"></div>
+            <%--<div id="map"></div>--%>
             <!-- END section -->
 
 
@@ -516,67 +516,6 @@
 
                                     </div>
                                 </div>
-                               <%-- <div class="col-lg-12 p-5">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <small>CLOSE </small><span aria-hidden="true">&times;</span>
-                                    </button>
-                                    <h1 class="mb-4" style="font-size: 50px; font-family: cambria, Sans-serif">Đặt bàn</h1>
-                                    <form action="#" method="post">
-                                        <div class="row">
-                                            <div class="col-md-12 form-group">
-                                                <label for="m_fname">Ngày đặt</label>
-                                                <input type="date" class="form-control" id="ds" />
-                                            </div>
-
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6 form-group">
-                                                <label for="m_lname">Thời gian đặt</label>
-                                                <input type="time" class="form-control" id="ts" />
-                                            </div>
-                                            <div class="col-md-6 form-group">
-                                                <label for="m_email">Thời gian trả</label>
-                                                <input type="time" class="form-control" id="tr" />
-
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6 form-group">
-                                                <label for="m_people">Loại bàn (Số ghế ngồi)</label>
-                                                <select name="" id="lb" class="form-control" >
-
-                                                    <%
-                                                        var listTable = new DataUtil().dslb();
-                                                        foreach (var tb in listTable)
-                                                        {
-                                                            Response.Write("<option style='padding:5px'>" + tb.table_description + "</option>");
-
-                                                        }
-                                                    %>
-                                                </select>
-                                            </div>
-                                            <div class="col-md-6 form-group">
-                                                <label for="m_phone">Mời chọn bàn</label>
-                                                <div id="Divtb">
-                                                    <select id="idTable" class="form-control">
-                                                    </select>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-12 form-group">
-                                                <label id="omsg" style="color: red;"></label>
-                                            </div>
-                                            <div class="col-md-12 form-group d-flex justify-content-center">
-                                                <div class="col-md-9 form-group">
-                                                    <input id="ordertb" type="button" class="btn btn-primary btn-lg btn-block bg-secondary" style="border: solid ; border-radius: 15px; font-weight: bold;" value="ĐẶT BÀN" />
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </form>
-                                </div>--%>
                             </div>
 
                         </div>

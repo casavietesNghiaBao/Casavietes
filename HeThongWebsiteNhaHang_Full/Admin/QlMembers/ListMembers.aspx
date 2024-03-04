@@ -15,7 +15,7 @@
                     <div id="dataTable3_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
                         <div class="row">
                             <div class="col-sm-12 col-md-6">
-                                <div class="dataTables_length" id="dataTable3_length">
+<%--                                <div class="dataTables_length" id="dataTable3_length">
                                     <label>
                                         Hiển thị
                                         <select name="dataTable3_length" aria-controls="dataTable3" class="custom-select custom-select-sm form-control form-control-sm">
@@ -25,7 +25,7 @@
                                             <option value="100">100</option>
                                         </select>
                                         </label>
-                                </div>
+                                </div>--%>
                             </div>
                             <div class="col-sm-12 col-md-6">
                                 <%--<div id="dataTable3_filter" class="dataTables_filter" style="line-height: 30px;">
