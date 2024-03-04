@@ -27,9 +27,9 @@
                             </div>
                             <div class="col-sm-12 col-md-6">
                                 <div id="dataTable3_filter" class="dataTables_filter">
-                                    <label>Loại Bàn:
+                                    <label>Loại bàn dành cho mấy người:
                                         <select name="" id="lb2" class="form-control" onchange="sltbl()">
-                                            <option>ALL</option>
+                                            <option>Tất cả</option>
                                         <%
                                                         var listLTable = new DataUtil().dslb();
                                             
