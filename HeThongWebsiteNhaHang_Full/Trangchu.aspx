@@ -363,7 +363,7 @@
                     </div>
                 </div>
             </section>
-            <div id="map"></div>
+            <%--<div id="map"></div>--%>
             <!-- END section -->
 
 
@@ -479,7 +479,7 @@
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-md-6 form-group">
-                                                        <label for="m_people" class="text-white">Loại bàn (Số ghế ngồi)</label>
+                                                        <label for="m_people" class="text-white">Loại bàn (Bàn dành cho mấy người ngồi)</label>
                                                         <select name="" id="lb" class="form-control" >
 
                                                             <%
@@ -517,67 +517,6 @@
 
                                     </div>
                                 </div>
-                               <%-- <div class="col-lg-12 p-5">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <small>CLOSE </small><span aria-hidden="true">&times;</span>
-                                    </button>
-                                    <h1 class="mb-4" style="font-size: 50px; font-family: cambria, Sans-serif">Đặt bàn</h1>
-                                    <form action="#" method="post">
-                                        <div class="row">
-                                            <div class="col-md-12 form-group">
-                                                <label for="m_fname">Ngày đặt</label>
-                                                <input type="date" class="form-control" id="ds" />
-                                            </div>
-
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6 form-group">
-                                                <label for="m_lname">Thời gian đặt</label>
-                                                <input type="time" class="form-control" id="ts" />
-                                            </div>
-                                            <div class="col-md-6 form-group">
-                                                <label for="m_email">Thời gian trả</label>
-                                                <input type="time" class="form-control" id="tr" />
-
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6 form-group">
-                                                <label for="m_people">Loại bàn (Số ghế ngồi)</label>
-                                                <select name="" id="lb" class="form-control" >
-
-                                                    <%
-                                                        var listTable = new DataUtil().dslb();
-                                                        foreach (var tb in listTable)
-                                                        {
-                                                            Response.Write("<option style='padding:5px'>" + tb.table_description + "</option>");
-
-                                                        }
-                                                    %>
-                                                </select>
-                                            </div>
-                                            <div class="col-md-6 form-group">
-                                                <label for="m_phone">Mời chọn bàn</label>
-                                                <div id="Divtb">
-                                                    <select id="idTable" class="form-control">
-                                                    </select>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-12 form-group">
-                                                <label id="omsg" style="color: red;"></label>
-                                            </div>
-                                            <div class="col-md-12 form-group d-flex justify-content-center">
-                                                <div class="col-md-9 form-group">
-                                                    <input id="ordertb" type="button" class="btn btn-primary btn-lg btn-block bg-secondary" style="border: solid ; border-radius: 15px; font-weight: bold;" value="ĐẶT BÀN" />
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </form>
-                                </div>--%>
                             </div>
 
                         </div>
@@ -636,6 +575,7 @@
                         </label>
                         <%
                             Cart cart = (Cart)HttpContext.Current.Session["Cart"];
+                            string tenBan = (cart != null && cart.idtable > 0) ? cart.tenBan : ""; // Lấy giá trị của cart.tenBan
                             if (cart.idtable > 0)
                             {
                                 Response.Write("<span id='ChooseTable' style='display:none'>");
@@ -659,6 +599,7 @@
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -840,6 +781,7 @@
                                 $("#ModalViewCart").modal("hide");
                             }
                         });
+                        sendEmail();
                     }
                 } else {
                     if (CheckFormKH() == 0)
@@ -871,6 +813,7 @@
                 }
             }
         }
+        var tenBanJS = '<%= tenBan %>'; // Gán giá trị của tenBan vào biến JavaScript
         function sendEmail() {
             (function () {
                 emailjs.init("CLr7upfQIcDw3REBH");
@@ -882,7 +825,8 @@
                 soDienThoai: document.querySelector("#dienthoaiKH").value,
                 tenMon: [],
                 soLuong: [],
-                tongTien: 0
+                tongTien: 0,
+                datBan: tenBanJS || "chưa đặt bàn"
             };
 
             let totalQuantity = 0;
@@ -908,6 +852,21 @@
                     alert("Gửi thông tin đặt hàng thành công")
                 })
                 .catch();
+        }
+        function ModalDetailTable(idtable) {
+            $.ajax({
+                type: "post",
+                url: "/Admin/QLHoaDon/OrderDetailPage.aspx/DetailOrderTable",
+                data: "{idtable:" + idtable + "}",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (rs) {
+                    var HD = rs.d;
+                    console.log(HD);
+                    // Lấy giá trị từ HD.table_name và truyền vào sendEmail()
+                    sendEmail(HD.table_name);
+                }
+            });
         }
         function funcOrderNow(idfood) {
             $.ajax({
@@ -1216,11 +1175,11 @@
                             $.notify("Dữ liệu nhập vào không thỏa mãn", "error");
                         }
                         else {
-                            $.notify("Đã thêm lựa chọn bàn", "success");
+                            $.notify("Đã thêm lựa chọn bàn, vui lòng đặt món", "success");
                             $("#reservationModal").modal("hide");
                             setTimeout(function () {
                                 location.reload();
-                            }, 1500);
+                            }, 3000);
                         }
                     }
 
