@@ -113,12 +113,12 @@ h1, h2, h3, h4, h5,
 }
 
 .site-navbar-light.scrolled {
-  position: fixed;
-  right: 0;
-  left: 0;
-  top: 0;
-  margin-top: -130px;
-  background: #999 !important;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-top: -130px;
+    background: #F8F9FA !important;
 }
 
 @media screen and (max-width: 768px) {
