@@ -1,7 +1,7 @@
-﻿<%@ Page Title="Danh sách hóa đơn" Language="C#" AutoEventWireup="true" MasterPageFile="~/Admin/MasterPageAdmin.master" CodeFile="OrderPage.aspx.cs" Inherits="Admin_QLHoaDon_OrderPage" %>
+﻿<%@ Page Title="List Bill" Language="C#" AutoEventWireup="true" MasterPageFile="~/Admin/MasterPageAdmin.master" CodeFile="OrderPage.aspx.cs" Inherits="Admin_QLHoaDon_OrderPage" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="titleAdmin" runat="Server">
-    Danh sách hóa đơn
+    List Bill
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="LinkPageAdmin" runat="Server">
 </asp:Content>
@@ -9,47 +9,18 @@
     <h2 style="margin-top: 20px; font-size: 24px; text-align: center" id="headerOrderDetail">Danh sách hóa đơn
     </h2>
     <div style="padding: 5px 10px">
-        <%--<form id="formTimKiem">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="form-group">
-                        <span>Chọn thời gian hóa đơn trong khoảng</span>
-                        <div style="margin-top: 20px;">
-                            <span style="display: inline-block">Từ ngày: </span>
-                            <input style="display: inline-block; height: 30px; border-radius: 5px; padding-left: 5px; border: 1px solid #ccc; width: 200px" name="ngaybd" id="ngaybd" type="date" />
-                            <span style="display: inline-block">đến ngày:</span>
-                            <input style="display: inline-block; height: 30px; border-radius: 5px; padding-left: 5px; border: 1px solid #ccc; width: 200px" name="ngaykt" id="ngaykt" type="date" />
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <span>Tình trạng thanh toán</span>
-                    <select id="ttthanhtoan" style="margin-top: 20px; display: block; height: 30px; border-radius: 5px; width: 200px;">
-                        <option value="-1">--Chọn tình trạng--</option>
-                        <option value="1">Đã thanh toán</option>
-                        <option value="0">Chưa thanh toán</option>
-                    </select>
-                </div>
-            </div>
-            <div style="justify-content: center; vertical-align: middle; display: flex">
-                <button type="button" style="height: 30px; padding: 0px 5px; border: 1px solid #ccc; border-radius: 5px; background: #4e9ae2" onclick="TimHoaDon()">Tìm kiếm</button>
-                <button type="button" style="margin-left: 20px; height: 30px; padding: 0px 5px; border: 1px solid #ccc; border-radius: 5px; background: #4ef179" onclick="TatCaHoaDon()">Xem tất cả</button>
-            </div>
-        </form>--%>
     </div>
     <table class="table table-bordered table-hover table-striped" style="margin-top: 20px;">
         <tr>
             <th>#</th>
-            <th>Mã hóa đơn</th>
-            <th>Tên khách hàng</th>
-            <th>Email khách hàng</th>
-            <th>Điện thoại khách hàng</th>
-            <%--<th>Loại khách khách hàng</th>
-            <th>Loại hóa đơn</th>--%>
-            <th>Tổng tiền (vnđ)</th>
-            <th>Thời gian</th>
-            <th>Tình trạng</th>
-            <th>Chức năng</th>
+            <th>Code Bill</th>
+            <th>Customer Name</th>
+            <th>Customer Email</th>
+            <th>Customer Phone Number</th>
+            <th>Total Amount (€)</th>
+            <th>Time</th>
+            <th>Status</th>
+            <th>Function</th>
         </tr>
         <tbody id="DSHoaDon">
             <%
@@ -65,15 +36,15 @@
                     Response.Write("<td>" + item.dienthoaiKH + "</td>");
                     //Response.Write("<td>" + (item.loaiKH==true? "Có tài khoản":"Không có tài khoản" )+ "</td>");
                     //Response.Write("<td>" + (item.loaiHD==true? "Hóa đơn theo bàn":"Hóa đơn KH online" )+ "</td>");
-                    Response.Write("<td>" + item.TotalMoney + " VNĐ </td>");
+                    Response.Write("<td>" + item.TotalMoney + " € </td>");
                     Response.Write("<td>" + item.ordertable_dateset.ToString("dd/MM/yyyy") + "</td>");
                     if (item.ordertable_status ?? false)
                     {
-                        Response.Write("<td style='color: red'>Đã thanh toán</td>");
+                        Response.Write("<td style='color: red'>Paid</td>");
                     }
                     else
                     {
-                        Response.Write("<td><button onclick='Thanhtoan(" + item.ordertable_id + ")' class='btn btn-sm' type=button' style='background:#ffc107;padding:5px 10px'>Thanh toán</button></td>");
+                        Response.Write("<td><button onclick='Thanhtoan(" + item.ordertable_id + ")' class='btn btn-sm' type=button' style='background:#ffc107;padding:5px 10px'>Pay</button></td>");
                     }
                     Response.Write("<td>" +
                                         "<a title='Xem hóa đơn' class='' style='display:inline-block;padding:5px 5px;' href='javascript:void(0)' onclick='ModalDetailTable(" + item.ordertable_id + ")'>" +
@@ -95,7 +66,7 @@
             <!-- Modal content-->
             <div class="modal-content " style="width: 1100px;">
                 <div class="modal-header" style="background: #303641; padding: 10px">
-                    <h4 class=" modal-title" style="font-family: cambria,Sans-serif; color: #ffffff; font-weight: bold">Chi tiết Hóa đơn</h4>
+                    <h4 class=" modal-title" style="font-family: cambria,Sans-serif; color: #ffffff; font-weight: bold">Invoice Details</h4>
                     <button type="button" class="close text-danger" onclick="closeModalDetaiTable()">&times;</button>
                 </div>
                 <div class="modal-body" style="padding: 0px;max-height:500px;overflow:auto; font-family: cambria,Sans-serif">
@@ -108,7 +79,7 @@
     </div>
     <script>
         function XoaHoaDon(id) {
-            let kt = confirm("Bạn có chắc chắn Xóa hóa đơn này không");
+            let kt = confirm("Are You Sure Delete This Invoice?");
             if (kt) {
                 $.ajax({
                     type: "post",
@@ -117,7 +88,7 @@
                     contentType: "application/json; charset=utf-8",
                     dataType: "json",
                     success: function (rs) {
-                        $.notify("Xóa thành công", "success")
+                        $.notify("Deleted", "success")
                         setTimeout(function () {
                             location.reload();
                         }, 1500);
@@ -129,7 +100,7 @@
             $("#ModalDetaiTable").modal("hide");
         }
         function Thanhtoan(id) {
-            let kt = confirm("Bạn có chắc chắn thanh toán hóa đơn này không");
+            let kt = confirm("Are You Sure To Pay This Bill?");
             if (kt) {
                 $.ajax({
                     type: "post",
@@ -138,7 +109,7 @@
                     contentType: "application/json; charset=utf-8",
                     dataType: "json",
                     success: function (rs) {
-                        $.notify("Thanh toán thành công", "success")
+                        $.notify("Payment Success", "success")
                         setTimeout(function () {
                             location.reload();
                         }, 1500);
@@ -163,37 +134,37 @@
                             <div >
                                 <table class="table" style="margin:0px;">
                                     <tr class="">
-                                        <td class="" style="width:120px;"><span style="font-weight:bold">Mã hóa đơn:</span></td>    
+                                        <td class="" style="width:120px;"><span style="font-weight:bold">Code Bill:</span></td>    
                                         <td style="width:200px;"><span style="font-weight:bold">${HD.ordertable_id}</span></td>
-                                        <td class="" style="width:100px; font-weight:bold">Thới gian:</td><td style="width:250px;">${convertDate(HD.ordertable_dateset)}</td>
-                                        <td class="" style="width:180px; font-weight:bold">Hình thức mua hàng:</td><td style="color: #339900; font-weight: bold">${HD.loaiHD == true ? 'Đặt bàn tại nhà hàng (' + HD.table_name + ')' : 'Mua hàng online'}</td>
+                                        <td class="" style="width:100px; font-weight:bold">Time:</td><td style="width:250px;">${convertDate(HD.ordertable_dateset)}</td>
+                                        <td class="" style="width:180px; font-weight:bold">Buying Method:</td><td style="color: #339900; font-weight: bold">${HD.loaiHD == true ? 'Book A Table At The Restaurant (' + HD.table_name + ')' : 'Shopping Online'}</td>
                                     </tr>
                                     <tr class="">
-                                        <td class=""><span style="font-weight:bold">Khách hàng:</span></td><td><span>${HD.tenKH}</span></td>    
+                                        <td class=""><span style="font-weight:bold">Customer:</span></td><td><span>${HD.tenKH}</span></td>    
                                         <td class="" style="font-weight: bold">Email:</td><td>${HD.emailKH}</td>
-                                        <td style="font-weight: bold">Loại khách hàng:</td><td >${HD.loaiKH == true ? 'KH có tài khoản' : 'KH không có tài khoản'}</td>
+                                        <td style="font-weight: bold">Customer Type:</td><td >${HD.loaiKH == true ? 'Customers Have Accounts' : 'Customer Does Not Have An Account'}</td>
                                     </tr>
                                     <tr class="">
-                                        <td class="" style="font-weight: bold">Điện thoại:</td><td>${HD.dienthoaiKH}</td>    
-                                        <td class="" style="font-weight: bold">Tình trạng:</td><td style="color: red; font-weight: bold">${HD.ordertable_status == true ? 'Đã thanh toán' : 'Chưa thanh toán'}</td>
+                                        <td class="" style="font-weight: bold">Phone Number:</td><td>${HD.dienthoaiKH}</td>    
+                                        <td class="" style="font-weight: bold">Status:</td><td style="color: red; font-weight: bold">${HD.ordertable_status == true ? 'Paid' : 'Unpaid'}</td>
                                         <td></td>
                                         <td></td>
                                     </tr>
                                     <tr class="">
-                                        <td class="" colspan="6"><span style="color:green;font-weight:bold;font-size: 18px;">Tổng tiền:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${HD.TotalMoney} (vnđ)</span></td>                                        
+                                        <td class="" colspan="6"><span style="color:green;font-weight:bold;font-size: 18px;">Total Amount:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${HD.TotalMoney} (€)</span></td>                                        
                                     </tr>
                                 </table>
                             </div>                             
                             <div >
-                                <p style="color:#007bff;margin-bottom:15px;; font-weight:bold;text-align:center" >Danh sách các món<p>
+                                <p style="color:#007bff;margin-bottom:15px;; font-weight:bold;text-align:center" >List Of Dishes<p>
                                 <table class="table table-bordered" style="margin:0px;"> 
                                     <tr>
-                                        <th>STT</th>
-                                        <th>Tên món</th>
-                                        <th>Đơn giá (vnđ)</th>
-                                        <th>Số lượng</th>
-                                        <th>Giảm giá (%)</th>
-                                        <th>Thành tiền (vnđ)</th>                                        
+                                        <th>Numerical Order</th>
+                                        <th>Food Name</th>
+                                        <th>Unit Price (€)</th>
+                                        <th>Quantity</th>
+                                        <th>Discount (%)</th>
+                                        <th>Total Amount (€)</th>                                        
                                     </tr>
                     `;
 

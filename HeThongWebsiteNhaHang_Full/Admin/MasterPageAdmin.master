@@ -175,7 +175,7 @@
                                         <i class="fa fa-angle-down"></i></h4>
                                     <div class="dropdown-menu">
                                         <a class="dropdown-item" href="/Admin/QlMembers/Profile.aspx">Profile</a>
-                                        <asp:LinkButton ID="Logout" runat="server" CausesValidation="False" OnClick="Logout_Click" CssClass="dropdown-item">Đăng xuất</asp:LinkButton>
+                                        <asp:LinkButton ID="Logout" runat="server" CausesValidation="False" OnClick="Logout_Click" CssClass="dropdown-item">Log Out</asp:LinkButton>
                                     </div>
 
                                 </div>

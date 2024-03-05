@@ -6,18 +6,17 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="LinkPageAdmin" runat="Server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentRight" runat="Server">
-    <h2 style="margin-top: 20px; font-size: 24px; text-align: center" id="headerOrderDetail">Danh sách chi tiết hóa đơn
-    </h2>    
+    <h2 style="margin-top: 20px; font-size: 24px; text-align: center" id="headerOrderDetail">List Of Invoice Details </h2>
     <table class="table table-bordered table-hover table-striped" style="margin-top: 30px;">
         <tr>
             <th>#</th>
-            <th>Mã số chi tiết</th>
-            <th>Mã hóa đơn</th>
-            <th>Món ăn</th>
-            <th>Đơn giá (vnđ)</th>
-            <th>Giảm giá (%)</th>
-            <th>Số lượng</th>
-            <th>Thành tiền (vnđ)</th>
+            <th>Detailed Code</th>
+            <th>Code Bill</th>
+            <th>Food Name</th>
+            <th>Unit Price (€)</th>
+            <th>Discount (%)</th>
+            <th>Quantity</th>
+            <th>Total Amount (€)</th>
         </tr>
         <tbody>
             <%

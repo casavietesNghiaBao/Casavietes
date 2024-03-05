@@ -17,7 +17,7 @@ public partial class Admin_QLOrderTable_ListOrderTable : System.Web.UI.Page
     {
         DataUtil data = new DataUtil();
         data.xoaotb(idtable);
-        return "Đã xóa";
+        return "Deleted";
     }
     [WebMethod]
     public static string slotable(string n)

@@ -86,7 +86,7 @@
     <%--</form>--%>
     <script>
         function funcXoa(id) {
-            var kt = confirm("Bạn có muốn xóa không ?")
+            var kt = confirm("Are You Sure You Want To Delete It??")
             if (kt) {
                 $.ajax({
                     type: "POST",
