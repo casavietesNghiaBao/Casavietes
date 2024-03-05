@@ -9,7 +9,7 @@
     <div class="col-12 mt-5">
         <div class="card">
             <div class="card-body">
-                <h4 class="header-title">Thêm mới</h4>
+                <h4 class="header-title">Add New Food</h4>
                 <%--<p class="text-muted font-14 mb-4">Here are examples of <code>.form-control</code> applied to each textual HTML5 <code>&lt;input&gt;</code> <code>type</code>.</p>--%>
 
 
@@ -20,46 +20,46 @@
 
                     <div class="form-group">
                         <label for="example-text-input" class="col-form-label">
-                            Tên
+                            Food Name
                                 <label style="color: red">(*)</label>
                         </label>
-                        <asp:TextBox ID="txtName" runat="server" placeholder="Tên món ăn..." class="form-control" />
+                        <asp:TextBox ID="txtName" runat="server" placeholder="Food Name..." class="form-control" />
                         <asp:RequiredFieldValidator ID="reName" runat="server" ErrorMessage="The field is required" ControlToValidate="txtName" Display="Dynamic" ForeColor="Red" />
                     </div>
                     <div class="form-group">
                         <label for="example-text-input" class="col-form-label">
-                            Giá
+                            Price (€)
                                 <label style="color: red">(*)</label>
                         </label>
-                        <asp:TextBox ID="txtGia" runat="server" placeholder="Giá món ăn..." class="form-control" />
+                        <asp:TextBox ID="txtGia" runat="server" placeholder="Food Price..." class="form-control" />
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="The field is required" ControlToValidate="txtGia" Display="Dynamic" ForeColor="Red" />
                     </div>
                     <div class="form-group">
                         <label for="example-text-input" class="col-form-label">
-                            Khuyến mại (%)
+                            Discount (%)
                                 <label style="color: red">(*)</label>
                         </label>
-                        <asp:TextBox ID="txtKhuyenmai" runat="server" placeholder="Khuyến mại... Ví dụ: 10 (là 10%)" class="form-control" />
+                        <asp:TextBox ID="txtKhuyenmai" runat="server" placeholder="Discount... Ex: 10 (is 10%)" class="form-control" />
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="The field is required" ControlToValidate="txtKhuyenmai" Display="Dynamic" ForeColor="Red" />
                     </div>
                     <div class="form-group">
-                        <label for="example-text-input" class="col-form-label">Ảnh</label>
+                        <label for="example-text-input" class="col-form-label">Images</label>
                         <%--<asp:TextBox ID="txtAvt" runat="server" placeholder="Ảnh món ăn..." class="form-control"/>--%>
 
                         <asp:FileUpload ID="FileUpload1" runat="server" />
                     </div>
                     <div class="form-group">
-                        <label for="example-text-input" class="col-form-label">Mieu tả sản phẩm</label>
-                        <asp:TextBox ID="txtMieuta" runat="server" placeholder="Miêu tả sản phẩm..." class="form-control" MaxLength="100" />
+                        <label for="example-text-input" class="col-form-label">Product Description</label>
+                        <asp:TextBox ID="txtMieuta" runat="server" placeholder="Product Description..." class="form-control" MaxLength="100" />
                     </div>
                     <div class="form-group">
-                        <label for="example-text-input" class="col-form-label">Loại món</label>
+                        <label for="example-text-input" class="col-form-label">Type Of Dish</label>
 
                         <asp:DropDownList ID="ddlFoodTypeID" runat="server" />
                     </div>
 
-                    <asp:Button runat="server" ID="submit" class="btn btn-primary mt-4 pr-4 pl-4" Text="Thêm mới" OnClick="submit_Click" />
-                    <asp:Button runat="server" ID="reset" class="btn btn-primary mt-4 pr-4 pl-4" Text="Làm mới" OnClick="reset_Click" />
+                    <asp:Button runat="server" ID="submit" class="btn btn-primary mt-4 pr-4 pl-4" Text="Add Food" OnClick="submit_Click" />
+                    <asp:Button runat="server" ID="reset" class="btn btn-primary mt-4 pr-4 pl-4" Text="Refresh" OnClick="reset_Click" />
 
                     <%--<asp:Image ID="Image1" runat="server" Width="150px" />--%>
                 </div>

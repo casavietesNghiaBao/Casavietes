@@ -52,12 +52,12 @@ public partial class Admin_QFood_AddFood : System.Web.UI.Page
             data.AddFood(f);
 
             msg.ForeColor = System.Drawing.Color.Blue;
-            msg.Text = "Thêm mới món ăn thành công!";
+            msg.Text = "New Food Added Successfully!";
 
         }
         catch (Exception ex)
         {
-            msg.Text = "Có lỗi xảy ra: " + ex.Message;
+            msg.Text = "An Error Occurred: " + ex.Message;
         }
 
     }

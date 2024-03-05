@@ -23,7 +23,7 @@ public partial class Admin_OrderTable_AddTable : System.Web.UI.Page
             tb.table_name = txtnametb.Text;
             tb.table_description =int.Parse( txtmato.Text);
             data.AddTable(tb);
-            mss.Text = "Thêm bàn mới thành công";
+            mss.Text = "New Table Added Successfully";
             mss.ForeColor = System.Drawing.Color.Green;
             
             
@@ -31,7 +31,7 @@ public partial class Admin_OrderTable_AddTable : System.Web.UI.Page
         catch (Exception ex)
         {
 
-            mss.Text = "Update Fail. Erorr: " + ex.Message + ". Let try!";
+            mss.Text = "Add Fail. Erorr: " + ex.Message + ". Let try!";
             mss.ForeColor = System.Drawing.Color.Red;
         }
 

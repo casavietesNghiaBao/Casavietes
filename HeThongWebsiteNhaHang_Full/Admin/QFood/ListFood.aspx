@@ -9,7 +9,7 @@
     <div class="col-12 mt-5">
         <div class="card">
             <div class="card-body">
-                <h4 class="header-title">Danh sách món ăn</h4>
+                <h4 class="header-title">List Food</h4>
                 <div class="data-tables datatable-dark">
                     <div id="dataTable3_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
 
@@ -35,13 +35,13 @@
                                 <thead class="text-capitalize">
                                     <tr role="row">
                                         <th class="sorting_asc" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 226px;" aria-sort="ascending" aria-label="Fullname: activate to sort column descending">ID</th>
-                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 111px;" aria-label="Phone: activate to sort column ascending">Tên</th>
-                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 94px;" aria-label="Mail: activate to sort column ascending">Giá (vnđ)</th>
-                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 54px;" aria-label="Username: activate to sort column ascending">Giảm giá (%)</th>
-                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 109px;" aria-label="Type Date: activate to sort column ascending">Ảnh</th>
-                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 77px;" aria-label="salary: activate to sort column ascending">Miêu tả</th>
-                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 109px;" aria-label="Type Date: activate to sort column ascending">Loại</th>
-                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 109px;" aria-label="Type Date: activate to sort column ascending"></th>
+                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 111px;" aria-label="Phone: activate to sort column ascending">Food's Name</th>
+                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 94px;" aria-label="Mail: activate to sort column ascending">Price (€)</th>
+                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 54px;" aria-label="Username: activate to sort column ascending">Discount (%)</th>
+                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 109px;" aria-label="Type Date: activate to sort column ascending">Image</th>
+                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 77px;" aria-label="salary: activate to sort column ascending">Describe</th>
+                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 109px;" aria-label="Type Date: activate to sort column ascending">Type Of Dish</th>
+                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 109px;" aria-label="Type Date: activate to sort column ascending">Function</th>
                                     </tr>
                                 </thead>
                                 <tbody id="cud1">
@@ -52,7 +52,7 @@
                                                 Response.Write("<tr role=row class=odd>");
                                                 Response.Write("<td tabindex=0  class=sorting_1>" + f.food_id + "</td>");
                                                 Response.Write("<td>" + f.food_name + "</td>");
-                                                Response.Write("<td>" + f.food_price.ToString("#,##0 VNĐ") + "</td>");
+                                                Response.Write("<td>" + f.food_price + " €" + "</td>");
                                                 Response.Write("<td>" + f.food_sale + "</td>");
                                                 Response.Write("<td><img  src='../../Assets/images/" + f.food_avatar + "' height='100' width='100' /></td>");
                                                 Response.Write("<td>" + f.food_description + "</td>");
@@ -68,7 +68,7 @@
                                                 {
                                                     Response.Write("<td>Tráng miệng</td>");
                                                 }
-                                                Response.Write("<td><a href='javascript:void(0)' onclick='funcXoa(" + f.food_id + ")'>Xóa</a> | <a href='/Admin/QFood/EditFood.aspx?IdFood=" + f.food_id + "'>Sửa</a></td>");
+                                                Response.Write("<td><a href='javascript:void(0)' style='color: red;' onclick='funcXoa(" + f.food_id + ")'>Delete</a> | <a href='/Admin/QFood/EditFood.aspx?IdFood=" + f.food_id + "'>Edit</a></td>");
 
                                                 Response.Write("</tr>");
 
@@ -103,7 +103,7 @@
 
     <script>
         function funcXoa(id) {
-            var kt = confirm("Bạn chắc chắn xóa chứ ?")
+            var kt = confirm("Are you sure you want to delete it??")
             if (kt) {
                 $.ajax({
                     type: "POST",

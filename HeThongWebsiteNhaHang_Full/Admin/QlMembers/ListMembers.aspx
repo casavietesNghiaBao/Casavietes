@@ -10,7 +10,7 @@
     <div class="col-12 mt-5">
         <div class="card">
             <div class="card-body">
-                <h4 class="header-title">Danh sách người dùng</h4>
+                <h4 class="header-title">List User</h4>
                 <div class="data-tables datatable-dark">
                     <div id="dataTable3_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
                         <div class="row">
@@ -44,12 +44,12 @@
                                 <table id="dataTable3" class="text-center dataTable no-footer dtr-inline" role="grid" aria-describedby="dataTable3_info" style="width: 959px;">
                                     <thead class="text-capitalize">
                                         <tr role="row">
-                                            <th class="sorting_asc" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 226px;" aria-sort="ascending" aria-label="Fullname: activate to sort column descending">Tên đầy đủ</th>
-                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 111px;" aria-label="Phone: activate to sort column ascending">Số điện thoại</th>
+                                            <th class="sorting_asc" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 226px;" aria-sort="ascending" aria-label="Fullname: activate to sort column descending">Full Name</th>
+                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 111px;" aria-label="Phone: activate to sort column ascending">Phone Number</th>
                                             <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 94px;" aria-label="Mail: activate to sort column ascending">Email</th>
                                             <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 54px;" aria-label="Username: activate to sort column ascending">Username</th>
-                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 109px;" aria-label="Type Date: activate to sort column ascending">Phân loại</th>
-                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 77px;" aria-label="salary: activate to sort column ascending">Chức năng</th>
+                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 109px;" aria-label="Type Date: activate to sort column ascending">Classify</th>
+                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 77px;" aria-label="salary: activate to sort column ascending">Function</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -70,7 +70,7 @@
                                                 {
                                                     Response.Write("<td>User</td>");
                                                 }
-                                                Response.Write("<td><a href='javascript:void(0)' onclick='funcXoa(" + mb.member_id + ")'>Xóa</a> | <a href='/Admin/QlMembers/UpdateMember.aspx?idmember=" + mb.member_id + "'>Sửa</a></td>");
+                                                Response.Write("<td><a href='javascript:void(0)' style='color: red;' onclick='funcXoa(" + mb.member_id + ")'>Delete</a> | <a href='/Admin/QlMembers/UpdateMember.aspx?idmember=" + mb.member_id + "'>Edit</a></td>");
                                                 Response.Write("</tr>");
                                             }
                                         %>

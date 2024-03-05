@@ -9,7 +9,7 @@
     <div class="col-12 mt-5">
         <div class="card">
             <div class="card-body">
-                <h4 class="header-title">Thêm mới thể loại</h4>
+                <h4 class="header-title">Add Types Of Dishes</h4>
                 <asp:Label ID="msg" runat="server" ForeColor="Red" />
 
                 <%--<p class="text-muted font-14 mb-4">Here are examples of <code>.form-control</code> applied to each textual HTML5 <code>&lt;input&gt;</code> <code>type</code>.</p>--%>
@@ -21,13 +21,13 @@
                                 Tên
                                 <label style="color: red">(*)</label>
                             </label>
-                            <asp:TextBox ID="txtName" runat="server" placeholder="Tên thể loại món ăn..." class="form-control"/>
+                            <asp:TextBox ID="txtName" runat="server" placeholder="Name Types Of Dishes..." class="form-control"/>
                             <asp:RequiredFieldValidator ID="reName" runat="server" ErrorMessage="The field is required" ControlToValidate="txtName" Display="Dynamic" ForeColor="Red" />
                         </div>
                         
 
-                    <asp:Button runat="server" ID="btnAddFoodType" class="btn btn-primary mt-4 pr-4 pl-4" Text="Thêm mới" OnClick="btnAddFoodType_Click" />
-                    <asp:Button runat="server" ID="reset" class="btn btn-primary mt-4 pr-4 pl-4" Text="Làm mới" OnClick="reset_Click" />
+                    <asp:Button runat="server" ID="btnAddFoodType" class="btn btn-primary mt-4 pr-4 pl-4" Text="Add" OnClick="btnAddFoodType_Click" />
+                    <asp:Button runat="server" ID="reset" class="btn btn-primary mt-4 pr-4 pl-4" Text="Refresh" OnClick="reset_Click" />
 
                         
                 <%--</div>

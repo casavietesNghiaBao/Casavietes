@@ -8,7 +8,7 @@
      <div class="col-12 mt-5">
         <div class="card">
             <div class="card-body">
-                <h4 class="header-title">Danh sách bàn</h4>
+                <h4 class="header-title">List Table</h4>
                 <div class="data-tables datatable-dark">
                     <div id="dataTable3_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
                         <div class="row">
@@ -27,9 +27,9 @@
                             </div>
                             <div class="col-sm-12 col-md-6">
                                 <div id="dataTable3_filter" class="dataTables_filter">
-                                    <label>Loại bàn dành cho mấy người:
+                                    <label>Table for a few people:
                                         <select name="" id="lb2" class="form-control" onchange="sltbl()">
-                                            <option>Tất cả</option>
+                                            <option>All</option>
                                         <%
                                                         var listLTable = new DataUtil().dslb();
                                             
@@ -49,12 +49,12 @@
                                 <table id="dataTable3" class="text-center dataTable no-footer dtr-inline" role="grid" aria-describedby="dataTable3_info" style="width: 959px;">
                                     <thead class="text-capitalize">
                                         <tr role="row">
-                                            <th class="sorting_asc" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 111px;" aria-sort="ascending" >ID bàn</th>
-                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 226px;" >Tên bàn</th>
+                                            <th class="sorting_asc" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 111px;" aria-sort="ascending" >ID Table</th>
+                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 226px;" >Table Name</th>
                                             
-                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 54px;" >Số ghế ngồi</th>
-                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 94px;" >Trạng thái</th>
-                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 54px;" >Xóa/Sửa</th>
+                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 54px;" >Seating</th>
+                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 94px;" >Status</th>
+                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 54px;" >Function</th>
                                             <%--<th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 109px;" aria-label="Type Date: activate to sort column ascending">Type</th>--%>
                                             <%--<th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 77px;" aria-label="salary: activate to sort column ascending">salary</th>--%>
                                         </tr>
@@ -74,13 +74,13 @@
                                                 Response.Write("<td>"+tb.table_description+"</td>");
                                                 if(tb.table_status == true)
                                                 {
-                                                    Response.Write("<td>Đã được đặt  | <a href='/Admin/QLTable/detailOTable.aspx?idotable="+tb.table_id+"'>Chi tiết</a></td>");
+                                                    Response.Write("<td>Reserved  | <a href='/Admin/QLTable/detailOTable.aspx?idotable="+tb.table_id+"'>Detail</a></td>");
                                                 }
                                                 else
                                                 {
-                                                    Response.Write("<td>Chưa được đặt</td>");
+                                                    Response.Write("<td>Not Yet Booked</td>");
                                                 }
-                                                Response.Write("<td><a href='javascript:void(0)' onclick='funcXoa("+tb.table_id+")'>Xóa</a> | <a href='/Admin/QLTable/UpdateTable.aspx?idtable="+tb.table_id+"'>Sửa</a></td>");
+                                                Response.Write("<td><a href='javascript:void(0)' style='color:red;' onclick='funcXoa("+tb.table_id+")'>Delete</a> | <a href='/Admin/QLTable/UpdateTable.aspx?idtable="+tb.table_id+"'>Edit</a></td>");
                                                 Response.Write("</tr>");
                                                
 
@@ -113,7 +113,7 @@
     </div>
     <script type="text/javascript">
         function funcXoa(id) {
-            var kq = confirm("Bạn có muỗn xóa không")
+            var kq = confirm("Do You Want To Delete It?")
             if (kq) {
                 $.ajax({
                     type: "POST",
@@ -147,7 +147,7 @@
 
                 },
                 error: function () {
-                    alert("loi");
+                    alert("Error");
                 }
             });
         };

@@ -41,13 +41,13 @@ public partial class Admin_QFoodType_EditFoodType : System.Web.UI.Page
             data.EditFoodType(ft);
 
             msg.ForeColor = System.Drawing.Color.Green;
-            msg.Text = "Cập nhật thành công!";
+            msg.Text = "Update successful!";
 
             ShowInfoFoodType();
         }
         catch (Exception ex)
         {
-            msg.Text = "Có lỗi xảy ra: " + ex.Message;
+            msg.Text = "An Error Occurred: " + ex.Message;
         }
     }
 
