@@ -119,7 +119,8 @@
                 <div class="container">
                     <div class="row align-items-center justify-content-center text-center site-vh-100">
                         <div class="col-md-12">
-                            <h1 class="site-heading site-animate mb-3" style="color: lightyellow">Chào mừng bạn đến với <% Response.Write(web.ten_nh); %></h1>
+                            <h1 class="site-heading site-animate mb-3" style="color: lightyellow">Chào mừng bạn đến với</h1>
+                            <h1 class="site-heading site-animate mb-3" style="color: lightyellow"><% Response.Write(web.ten_nh); %></h1>
                             <h2 class="h5 site-subheading mb-5 site-animate" style="color: lightyellow; font-family: cambria,Sans-serif">Hãy nhanh tay đặt các món ăn ngon và chất lượng từ nhà hàng chúng tôi nhé!</h2>
                             <p><a href="https://colorlib.com/" id="otb" target="_blank" class="btn btn-outline-white btn-lg site-animate" style="font-family: cambria,Sans-serif; font-weight: bold" data-toggle="modal" data-target="#reservationModal" >Đặt bàn</a></p>
                         </div>
@@ -158,7 +159,7 @@
                             <h2 class="display-4">Các món ăn đang giảm giá</h2>
                             <div class="row justify-content-center">
                                 <div class="col-md-7">
-                                    <p class="lead">Nhanh tay đặt món ăn để nhận được các ưu đãi đặc biệt của chúng tôi các bạn ê !!!</p>
+                                    <p class="lead">Nhanh tay đặt món ăn để nhận được các ưu đãi đặc biệt của nhà hàng nhé !!!</p>
                                 </div>
                             </div>
                         </div>
@@ -317,7 +318,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-7 mb-5 site-animate">
+                       <%-- <div class="col-md-7 mb-5 site-animate">
                             <div id="SendContactSubmit">
                                 <div class="form-group">
                                     <label for="name" class="sr-only">Name</label>
@@ -335,31 +336,24 @@
                                     <input type="button" class="btn btn-primary btn-lg" onclick="funcContact()" value="Gửi tin nhắn"/>
                                 </div>
                             </div>
-                        </div>
+                        </div>--%>
                         <div class="col-md-1"></div>
-                        <div class="col-md-4 site-animate">
+                        <div class="col-md-6 site-animate">
                             <p>
                                 <img src='../../Assets/images/<% Response.Write(web.anh_nh); %>' alt="" class="img-fluid">
                             </p>
-                            <p class="text-black">
-                                Địa chỉ:
-                            <br />
-                                <%  Response.Write(web.diachi_nh); %>
-                            
-                            <br />
-                                <br />
-                                SĐT:
-                            <br />
-                                <%  Response.Write(web.sdt_nh); %>
-                            <br />
-                                <br />
-                                Email:
-                            <br />
-                                <a href="mailto:<%  Response.Write(web.ten_nh); %>"><%  Response.Write(web.email_nh); %></a>
-                            </p>
-
                         </div>
-
+                        <div class="col-md-5 site-animate">
+                            <p class="text-black">
+                                Địa chỉ: <%  Response.Write(web.diachi_nh); %>
+                                <br />
+                                <br />
+                                SĐT: <%  Response.Write(web.sdt_nh); %>
+                                <br />
+                                <br />
+                                Email: <a href="mailto:<%  Response.Write(web.ten_nh); %>"><%  Response.Write(web.email_nh); %></a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -431,7 +425,7 @@
                                 &copy;
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                 Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                                All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i>by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                Casa Viet (Restaurante & Café) All rights reserved | Design & developed by Wind Lập Trình.
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             </p>
                         </div>
