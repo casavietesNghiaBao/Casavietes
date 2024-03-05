@@ -87,14 +87,14 @@
 
                     <div class="collapse navbar-collapse" id="site-nav">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active"><a href="#section-home" class="nav-link" style="color: lightyellow">Trang chủ</a></li>
-                            <li class="nav-item"><a href="#section-about" class="nav-link" style="color: lightyellow">Thông tin</a></li>
-                            <li class="nav-item"><a href="#section-offer" class="nav-link" style="color: lightyellow">Khuyến mại</a></li>
-                            <li class="nav-item"><a href="#section-menu" class="nav-link" style="color: lightyellow">Món ăn</a></li>
-                            <li class="nav-item"><a href="#section-news" class="nav-link" style="color: lightyellow">Mới</a></li>
-                            <li class="nav-item"><a href="#section-gallery" class="nav-link" style="color: lightyellow">Thư viện</a></li>
-                            <li class="nav-item"><a href="#section-contact" class="nav-link" style="color: lightyellow">Liên hệ</a></li>
-                            <li class="nav-item" id="login" runat="server"><a href="/Client/Login.aspx" class="nav-link" style="color: lightyellow">Đăng nhập</a></li>
+                            <li class="nav-item active"><a href="#section-home" class="nav-link" style="color: lightyellow">HOME</a></li>
+                            <li class="nav-item"><a href="#section-about" class="nav-link" style="color: lightyellow">Information</a></li>
+                            <li class="nav-item"><a href="#section-offer" class="nav-link" style="color: lightyellow">Promotion</a></li>
+                            <li class="nav-item"><a href="#section-menu" class="nav-link" style="color: lightyellow">Dish</a></li>
+                            <li class="nav-item"><a href="#section-news" class="nav-link" style="color: lightyellow">New</a></li>
+                            <li class="nav-item"><a href="#section-gallery" class="nav-link" style="color: lightyellow">Library</a></li>
+                            <li class="nav-item"><a href="#section-contact" class="nav-link" style="color: lightyellow">Contact</a></li>
+                            <li class="nav-item" id="login" runat="server"><a href="/Client/Login.aspx" class="nav-link" style="color: lightyellow">Login</a></li>
                             <li id="avatar" runat="server" style="display: none">
                                 <div class="user-profile pull-right">
                                     <asp:Image runat="server" CssClass="avatar user-thumb" ID="avatarImage" />
@@ -103,8 +103,8 @@
                                         <asp:Label runat="server" ID="nameuser"></asp:Label>
                                     </h4>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="/Client/Profile.aspx">Trang cá nhân</a>
-                                        <a class="dropdown-item" href="/Client/ChangePassword.aspx">Đổi mật khẩu</a>
+                                        <a class="dropdown-item" href="/Client/Profile.aspx">Personal</a>
+                                        <a class="dropdown-item" href="/Client/ChangePassword.aspx">Change Password</a>
                                         <asp:LinkButton ID="Logout" runat="server" CausesValidation="false" OnClick="LogOut_Click" Text="Log out" CssClass="dropdown-item" />
                                     </div>
                                 </div>
@@ -119,10 +119,10 @@
                 <div class="container">
                     <div class="row align-items-center justify-content-center text-center site-vh-100">
                         <div class="col-md-12">
-                            <h1 class="site-heading site-animate mb-3" style="color: lightyellow">Chào mừng bạn đến với</h1>
+                            <h1 class="site-heading site-animate mb-3" style="color: lightyellow">Welcome to</h1>
                             <h1 class="site-heading site-animate mb-3" style="color: lightyellow"><% Response.Write(web.ten_nh); %></h1>
-                            <h2 class="h5 site-subheading mb-5 site-animate" style="color: lightyellow; font-family: cambria,Sans-serif">Hãy nhanh tay đặt các món ăn ngon và chất lượng từ nhà hàng chúng tôi nhé!</h2>
-                            <p><a href="https://colorlib.com/" id="otb" target="_blank" class="btn btn-outline-white btn-lg site-animate" style="font-family: cambria,Sans-serif; font-weight: bold" data-toggle="modal" data-target="#reservationModal" >Đặt bàn</a></p>
+                            <h2 class="h5 site-subheading mb-5 site-animate" style="color: lightyellow; font-family: cambria,Sans-serif">Quickly order delicious and quality dishes from our restaurant!</h2>
+                            <p><a href="https://colorlib.com/" id="otb" target="_blank" class="btn btn-outline-white btn-lg site-animate" style="font-family: cambria,Sans-serif; font-weight: bold" data-toggle="modal" data-target="#reservationModal" >Booking Table</a></p>
                         </div>
                     </div>
                 </div>
@@ -133,8 +133,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5 site-animate mb-5">
-                            <h4 class="site-sub-title">Giới thiệu</h4>
-                            <h2 class="site-primary-title display-4">Xin chào</h2>
+                            <h4 class="site-sub-title">Introduce</h4>
+                            <h2 class="site-primary-title display-4">Hello</h2>
                             
 
                             <p class="mb-4"><% Response.Write(web.gt_nh); %></p>
@@ -155,11 +155,11 @@
 
                     <div class="row">
                         <div class="col-md-12 text-center mb-5 site-animate">
-                            <h4 class="site-sub-title">Khuyến mại đặc biệt</h4>
-                            <h2 class="display-4">Các món ăn đang giảm giá</h2>
+                            <h4 class="site-sub-title">Special promotions</h4>
+                            <h2 class="display-4">Food prices are on sale</h2>
                             <div class="row justify-content-center">
                                 <div class="col-md-7">
-                                    <p class="lead">Nhanh tay đặt món ăn để nhận được các ưu đãi đặc biệt của nhà hàng nhé !!!</p>
+                                    <p class="lead">Quickly order food to receive special offers from the restaurant!!!</p>
                                 </div>
                             </div>
                         </div>
@@ -199,10 +199,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center mb-5 site-animate">
-                            <h2 class="display-4">Các loại món ăn</h2>
+                            <h2 class="display-4">Types of dishes</h2>
                             <div class="row justify-content-center">
                                 <div class="col-md-7">
-                                    <p class="lead">Các món ăn sẽ được chúng tôi liên tục cập nhật...</p>
+                                    <p class="lead">We will continuously update the dishes...</p>
                                 </div>
                             </div>
                         </div>
@@ -239,10 +239,10 @@
 
                     <div class="row">
                         <div class="col-md-12 text-center mb-5 site-animate">
-                            <h2 class="display-4">Món mới</h2>
+                            <h2 class="display-4">New dish</h2>
                             <div class="row justify-content-center">
                                 <div class="col-md-7">
-                                    <p class="lead">Nhanh tay đặt các món ăn mới của nhà hàng chúng tôi!</p>
+                                    <p class="lead">Quickly order our restaurant's new dishes!</p>
                                 </div>
                             </div>
                         </div>
@@ -283,10 +283,10 @@
                     <div class="row site-custom-gutters">
 
                         <div class="col-md-12 text-center mb-5 site-animate">
-                            <h2 class="display-4">Thư viện ảnh</h2>
+                            <h2 class="display-4">Photo library</h2>
                             <div class="row justify-content-center">
                                 <div class="col-md-7">
-                                    <p class="lead">Bộ sưu tập các bức ảnh đẹp nhất của các món ăn.</p>
+                                    <p class="lead">Collection of the most beautiful photos of dishes.</p>
                                 </div>
                             </div>
                         </div>
@@ -310,10 +310,10 @@
                     <div class="row">
 
                         <div class="col-md-12 text-center mb-5 site-animate">
-                            <h2 class="display-4">Liên hệ với chúng tôi</h2>
+                            <h2 class="display-4">Contact Us</h2>
                             <div class="row justify-content-center">
                                 <div class="col-md-7">
-                                    <p class="lead">Ý kiến của bạn sẽ góp phần cho dịch vụ chúng tôi được tốt hơn</p>
+                                    <p class="lead">Your opinion will contribute to our better service</p>
                                 </div>
                             </div>
                         </div>
@@ -451,29 +451,29 @@
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <small class="text-danger">CLOSE </small><span class="text-danger" aria-hidden="true">&times;</span>
                                             </button>
-                                            <h1 class="mb-4" style="font-size: 80px; font-family: cambria, Sans-serif; color: white;-webkit-text-stroke: 1px grey; ">Đặt bàn</h1>
+                                            <h1 class="mb-4" style="font-size: 80px; font-family: cambria, Sans-serif; color: white;-webkit-text-stroke: 1px grey; ">Booking Table</h1>
                                             <form action="#" method="post">
                                                 <div class="row">
                                                     <div class="col-md-12 form-group">
-                                                        <label for="m_fname" class="text-white ">Ngày đặt</label>
+                                                        <label for="m_fname" class="text-white ">Booking date</label>
                                                         <input type="date" class="form-control" id="ds" />
                                                     </div>
 
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-md-6 form-group">
-                                                        <label for="m_lname" class="text-white">Thời gian đặt</label>
+                                                        <label for="m_lname" class="text-white">Table reservation time</label>
                                                         <input type="time" class="form-control" id="ts" />
                                                     </div>
                                                     <div class="col-md-6 form-group">
-                                                        <label for="m_email" class="text-white">Thời gian trả</label>
+                                                        <label for="m_email" class="text-white">Table return time</label>
                                                         <input type="time" class="form-control" id="tr" />
 
                                                     </div>
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-md-6 form-group">
-                                                        <label for="m_people" class="text-white">Loại bàn (Bàn dành cho mấy người ngồi)</label>
+                                                        <label for="m_people" class="text-white">Table type (Number of people sitting)</label>
                                                         <select name="" id="lb" class="form-control" >
 
                                                             <%
@@ -487,7 +487,7 @@
                                                         </select>
                                                     </div>
                                                     <div class="col-md-6 form-group">
-                                                        <label for="m_phone" class="text-white">Mời chọn bàn</label>
+                                                        <label for="m_phone" class="text-white">Select table</label>
                                                         <div id="Divtb">
                                                             <select id="idTable" class="form-control">
                                                             </select>
@@ -501,7 +501,7 @@
                                                     </div>
                                                     <div class="col-md-12 form-group d-flex justify-content-center">
                                                         <div class="col-md-9 form-group">
-                                                            <input id="ordertb" type="button" class="btn btn-primary btn-lg btn-block" style="border: solid ; border-radius: 15px; font-weight: bold; background-color: #E7D8A1; color: #4A3929" value="ĐẶT BÀN" />
+                                                            <input id="ordertb" type="button" class="btn btn-primary btn-lg btn-block" style="border: solid ; border-radius: 15px; font-weight: bold; background-color: #E7D8A1; color: #4A3929" value="BOOKING" />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -535,14 +535,14 @@
             <!-- Modal content-->
             <div class="modal-content" style="width: 800px!important;">
                 <div class="modal-header" style="background: #ffc107; padding: 10px">
-                    <h4 class=" modal-title">Thêm món ăn vào giỏ hàng</h4>
+                    <h4 class=" modal-title">Add food to cart</h4>
                     <button type="button" class="close" onclick="closeModalOrderNow()">&times;</button>
                 </div>
                 <div class="modal-body" style="padding: 0px">
                 </div>
                 <div class="modal-footer" style="padding: 10px; justify-content: center!important">
-                    <button type="button" class="btn btn-primary btn-sm" style="font-weight: bold; font-size: 14px; padding: 5px 10px; border-radius: 5px; border: 1px solid dodgerblue; color: black; float: left; background-color: dodgerblue" onclick="AddToCart()">Thêm vào giỏ hàng</button>
-                    <button type="button" class="btn btn-default btn-sm" style="font-weight: bold; font-size: 14px; padding: 5px 10px; float: right" onclick="closeModalOrderNow()">Đóng</button>
+                    <button type="button" class="btn btn-primary btn-sm" style="font-weight: bold; font-size: 14px; padding: 5px 10px; border-radius: 5px; border: 1px solid dodgerblue; color: black; float: left; background-color: dodgerblue" onclick="AddToCart()">Add to cart</button>
+                    <button type="button" class="btn btn-default btn-sm" style="font-weight: bold; font-size: 14px; padding: 5px 10px; float: right" onclick="closeModalOrderNow()">Close</button>
                 </div>
             </div>
         </div>
@@ -552,19 +552,19 @@
             <!-- Modal content-->
             <div class="modal-content" style="width: 1300px!important;">
                 <div class="modal-header" style="background: #ffc107; padding: 10px">
-                    <h4 class=" modal-title" style="font-size: 22px;">Thông tin giỏ hàng</h4>
+                    <h4 class=" modal-title" style="font-size: 22px;">Shopping cart information</h4>
                     <button type="button" class="close" onclick="closeModalViewCart()">&times;</button>
                 </div>
                 <div class="modal-body" style="padding: 0px">
                     <div class="modal-body1"></div>
                     <div style="padding: 10px">
-                        <span style="color: black; font-size: 16px;">Chọn hình thức:</span>
+                        <span style="color: black; font-size: 16px;">Choose form:</span>
                         <br />
                         <label style="color: black; font-size: 16px; cursor: pointer; margin-left: 50px">
-                            Mua hàng online
+                            Shopping online
                             <input type="radio" name="hinhthuc" value="0" checked="checked" /></label>
                         <label style="color: black; font-size: 16px; cursor: pointer; margin-left: 50px">
-                            Đặt bàn tại nhà hàng
+                            Book a table at the restaurant
                             <input type="radio" name="hinhthuc" value="1" />
                         </label>
                         <%
@@ -573,14 +573,14 @@
                             if (cart.idtable > 0)
                             {
                                 Response.Write("<span id='ChooseTable' style='display:none'>");
-                                Response.Write("<span>Bạn đã chọn bàn:</span><span style='color:green;font-weight:bold'>" + cart.tenBan + "</span>");
+                                Response.Write("<span>You have selected the table:</span><span style='color:green;font-weight:bold'>" + cart.tenBan + "</span>");
                                 Response.Write("<input id='selectTableid' type='hidden' value="+cart.idtable+"/>");
                                 Response.Write("</span>");
                             }
                             else
                             {
                                 Response.Write("<span id='ChooseTable' style='display:none'>");
-                                Response.Write("<span>Bạn chưa chọn bàn nào:</span><button type='button' onclick='openChonBan()'>Đặt bàn</button>");
+                                Response.Write("<span>You have not selected any table yet:</span><button type='button' onclick='openChonBan()'>Booking Table</button>");
                                 Response.Write("</span>");
                             }
                        %>
@@ -588,7 +588,7 @@
                 </div>
                 <div class="modal-footer" style="padding: 10px; justify-content: center!important">
                     <button type="button" class="btn btn-sm" style="font-weight: bold; font-size: 14px; padding: 5px 10px; border-radius: 5px; border: 1px solid green; color: black; float: left; background-color: dodgerblue" onclick="XacNhanMuaHang()">Xác nhận mua hàng</button>
-                    <button type="button" class="btn btn-sm" style="font-weight: bold; font-size: 14px; padding: 5px 10px; float: right" onclick="closeModalViewCart()">Đóng</button>
+                    <button type="button" class="btn btn-sm" style="font-weight: bold; font-size: 14px; padding: 5px 10px; float: right" onclick="closeModalViewCart()">Close</button>
                 </div>
             </div>
         </div>
@@ -646,7 +646,7 @@
         var CART = JSON.parse('<%= new System.Web.Script.Serialization.JavaScriptSerializer().Serialize((Cart)Session["Cart"]) %>');
         function ViewCart() {
             if (CART.ListFood.length <= 0) {
-                $.notify("Giỏ hàng chưa có món ăn nào", "error")
+                $.notify("The cart does not contain any dishes", "error")
             }
             else {
                 LoadViewCart();
@@ -658,15 +658,15 @@
                     <div style="padding:5px;">
                         <div class="row">
                             <div class="col-md-9">
-                                <h5 style="font-size:16px;text-align:center;color:blue">Danh sách các món</h3>
+                                <h5 style="font-size:16px;text-align:center;color:blue">List of dishes</h3>
                                 <table class="table" id="listFoodCart">
                                     <tr>
                                         <th></th>
-                                        <th style="width:200px">Tên món ăn</th>
-                                        <th>Giá gốc (vnđ)</th>
-                                        <th>Giảm giá (%)</th>
-                                        <th>Số lượng</th>
-                                        <th>Thành tiền (vnđ)</th>
+                                        <th style="width:200px">Food's name</th>
+                                        <th>Cost (vnđ)</th>
+                                        <th>Discount (%)</th>
+                                        <th>Quantity</th>
+                                        <th>Into money (vnđ)</th>
                                         <th></th>
                                     </tr>
                                     <tbody>
@@ -685,7 +685,7 @@
                                             <button class="btn btn-default btn-sm"type="button"onclick="increase_sl_cart(${item.foodid})" style="margin-top: -3px;display:inline-block;padding:5px 10px;"> + </button>
                                         </td>
                                         <td class="tdThanhtien">${parseInt(item.thanhtien)}</td>
-                                        <td><button type="button" class="btn btn-default btn-sm" onclick="XoaKkhoiCart(${item.foodid})" style="padding:5px 10px;font-weight:bold">Xóa</button></td>
+                                        <td><button type="button" class="btn btn-default btn-sm" onclick="XoaKkhoiCart(${item.foodid})" style="padding:5px 10px;font-weight:bold">Delete</button></td>
                                     </tr>                    
                     `
             });
@@ -693,22 +693,22 @@
                                 </table>                                 
                             </div>
                             <div class="col-md-3">
-                                <h5 style="font-size:16px;text-align:center;color:blue">Thông tin khách hàng</h3>`;
+                                <h5 style="font-size:16px;text-align:center;color:blue">Customer information</h3>`;
             if (CART.tenKH != "") {
                 html += `                        
-                        <span style="color: black;font-size:14px;">Khách hàng:     <strong style="color:green;font-size:20px;">${CART.tenKH}</strong></span><br/>
+                        <span style="color: black;font-size:14px;">Customer:     <strong style="color:green;font-size:20px;">${CART.tenKH}</strong></span><br/>
                         <span style="color: black;font-size:14px;">Email:     <strong>${CART.emailKH}</strong></span><br/>
-                        <span style="color: black;font-size:14px;">Điện thoại:     <strong>${CART.dienthoaiKH}</strong></span><br/>                                                
-                        <p style="color: black;font-size:14px;margin-top:15px; ">Tổng tiền (vnđ):     <strong style="color:red;font-size:16px;" id="totalCart">${getTotalCart()}</strong></p>
+                        <span style="color: black;font-size:14px;">Phone:     <strong>${CART.dienthoaiKH}</strong></span><br/>                                                
+                        <p style="color: black;font-size:14px;margin-top:15px; ">Total amount (vnđ):     <strong style="color:red;font-size:16px;" id="totalCart">${getTotalCart()}</strong></p>
                     `
                 if (USER == null) {
-                    html += `<p style="text-align:center"><a style="font-size:14px;padding:5px 10px;background:blue;color:black;font-weight:bold"  href="/Client/Login.aspx" class="btn btn-sm">Đăng nhập</a></p>`
+                    html += `<p style="text-align:center"><a style="font-size:14px;padding:5px 10px;background:blue;color:black;font-weight:bold"  href="/Client/Login.aspx" class="btn btn-sm">Login</a></p>`
                 }
             } else {
-                html += `<span style = "color: red;font-size:14px;"> Chưa có thông tin khách hàng </span> <br />
+                html += `<span style = "color: red;font-size:14px;"> No customer information yet </span> <br />
                             <form id="infoKH">
                                 <div class="form-group">
-                                    <label style="color: black;font-size:14px;" for="tenKH">Tên khách hàng <span style="color:red;font-weight:bold;font-size:14px">*</span></label>
+                                    <label style="color: black;font-size:14px;" for="tenKH">Customer name <span style="color:red;font-weight:bold;font-size:14px">*</span></label>
                                     <input type="text" id="tenKH" class="form-control">
                                 </div>
                                 <div class="form-group">
@@ -716,12 +716,12 @@
                                     <input type="email" id="emailKH" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <label style="color: black;font-size:14px;" for="dienthoaiKH">Điện thoại <span style="color:red;font-weight:bold;font-size:14px">*</span></label>
+                                    <label style="color: black;font-size:14px;" for="dienthoaiKH">Phone <span style="color:red;font-weight:bold;font-size:14px">*</span></label>
                                     <input type="text" id="dienthoaiKH" class="form-control">
                                 </div>
                             </form>
-                            <p style="margin-top:10px;color:black">hoặc <a style="font-size:14px;padding:5px 10px;background:blue;color:black;font-weight:bold"  href="/Client/Login.aspx" class="btn btn-sm">Đăng nhập</a></p>
-                         <p style="color: black;font-size:14px;margin-top:15px; ">Tổng tiền (vnđ):     <strong style="color:red;font-size:16px;" id="totalCart">${getTotalCart()}</strong></p>                             
+                            <p style="margin-top:10px;color:black">or <a style="font-size:14px;padding:5px 10px;background:blue;color:black;font-weight:bold"  href="/Client/Login.aspx" class="btn btn-sm">Login</a></p>
+                         <p style="color: black;font-size:14px;margin-top:15px; ">Total amount (vnđ):     <strong style="color:red;font-size:16px;" id="totalCart">${getTotalCart()}</strong></p>
                     `;
             }
             html += `       <div>
@@ -761,7 +761,7 @@
             if (USER == null) {
                 if (CheckFormKH() == 1) {
                     if ((parseInt($("input[name='hinhthuc']:checked").val()) == 1) && $("#selectTableid").val() == "") {
-                        $.notify("Bạn chưa chọn bàn", "error")
+                        $.notify("You have not selected a table yet", "error")
                     } else {
                         $.ajax({
                             type: "post",
@@ -771,7 +771,7 @@
                             dataType: "json",
                             success: function (rs) {
                                 CART = rs.d
-                                $.notify("Xác nhận mua thành công", "success")
+                                $.notify("Success", "success")
                                 $("#ModalViewCart").modal("hide");
                             }
                         });
@@ -779,18 +779,18 @@
                     }
                 } else {
                     if (CheckFormKH() == 0)
-                        $.notify("Thiếu thông tin khách hàng", "error")
+                        $.notify("Lack of customer information", "error")
                     else if (CheckFormKH() == -1) {
-                        $.notify("Sai định dạng email", "error")
+                        $.notify("Email format error", "error")
                     }
                     else {
-                        $.notify("Sai định dạng số điện thoại", "error")
+                        $.notify("Phone number format error", "error")
                     }
                 }
             }
             else {
                 if ((parseInt($("input[name='hinhthuc']:checked").val()) == 1) && $("#selectTableid").val() == "") {
-                    $.notify("Bạn chưa chọn bàn", "error")
+                    $.notify("You have not selected a table yet", "error")
                 } else {
                     $.ajax({
                         type: "post",
@@ -800,7 +800,7 @@
                         dataType: "json",
                         success: function (rs) {
                             CART = rs.d
-                            $.notify("Xác nhận mua thành công", "success")
+                            $.notify("Confirm successful purchase", "success")
                             $("#ModalViewCart").modal("hide");
                         }
                     });
@@ -820,7 +820,7 @@
                 tenMon: [],
                 soLuong: [],
                 tongTien: 0,
-                datBan: tenBanJS || "chưa đặt bàn"
+                datBan: tenBanJS || "Haven't booked a table yet"
             };
 
             let totalQuantity = 0;
@@ -843,7 +843,7 @@
 
             emailjs.send(serviceID, templateID, params)
                 .then(res => {
-                    alert("Gửi thông tin đặt hàng thành công")
+                    alert("Order information sent successfully")
                 })
                 .catch();
         }
@@ -884,11 +884,11 @@
                                     <span style="color:black;font-size:14px;">${f.food_description}</span>
                                     <br />
                                     <p style="margin:5px 0px;">
-                                        <span style="color:black;font-size:14px;">Đơn giá (vnđ):     <span style="color:green;font-weight:bold;font-size:14px;">${f.food_price * (100 - f.food_sale) / 100}</span></span>
-                                        <strike style="color:black;font-size:14px;margin-left:50px">Giá cũ (vnđ):     <span style="color:red;font-weight:bold;font-size:14px;">${f.food_price}</span></strike>
+                                        <span style="color:black;font-size:14px;">Price (vnđ):     <span style="color:green;font-weight:bold;font-size:14px;">${f.food_price * (100 - f.food_sale) / 100}</span></span>
+                                        <strike style="color:black;font-size:14px;margin-left:50px">Old price (vnđ):     <span style="color:red;font-weight:bold;font-size:14px;">${f.food_price}</span></strike>
                                     </p>
                                     <div>
-                                        <span style="color:black;font-size:14px;">Số lượng:</span> 
+                                        <span style="color:black;font-size:14px;">Quantity:</span> 
                                         <button class="btn btn-default btn-sm" type="button" onclick="descrease_sl()" id="descrease_sl" style="margin-top: -3px;display:inline-block;padding:5px 10px; background-color: #FF6533; color: white;"> <i class="bi bi-dash-lg"></i> </button>
                                         <input type="number" id="food_quantity" min="1" value="1" style="display:inline-block;"/>
                                         <button class="btn btn-default btn-sm" type="button" onclick="increase_sl()" id="increase_sl" style="margin-top: -3px; display:inline-block; padding:5px 10px; background-color: #FF6533; color: white;"> <i class="bi bi-plus-lg"></i> </button>
@@ -983,9 +983,9 @@
                 dataType: "json",
                 success: function (rs) {
                     CART = rs.d
-                    $.notify("Đã xóa", "success")
+                    $.notify("Deleted successfully", "success")
                     if (CART.ListFood.length <= 0) {
-                        $.notify("Giỏ hàng chưa có món ăn nào", "error");
+                        $.notify("The cart does not contain any dishes", "error");
                         $("#ModalViewCart").modal("hide");
                     }
                 }
@@ -1016,7 +1016,7 @@
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
                 success: function (rs) {
-                    $.notify("Thêm vào giỏ hàng thành công", "success");
+                    $.notify("Add to cart successfully", "success");
                     $("#ModalOrderNow").modal("hide");
                     CART = rs.d
                 }
@@ -1140,7 +1140,7 @@
 
                 },
                 error: function () {
-                    $.notify("Phải nhập đầy đủ thông tin order", "error");
+                    $.notify("Must enter complete order information", "error");
                 }
             });
         })
@@ -1162,14 +1162,14 @@
                 dataType: "json",
                 success: function (dt) {
                     if (dt.d == "0") {
-                        $.notify("Chưa điền đủ thông tin cần đặt bàn", "error");
+                        $.notify("Not filled in enough information to book a table", "error");
                     }
                     else {
                         if (dt.d == "1") {
-                            $.notify("Dữ liệu nhập vào không thỏa mãn", "error");
+                            $.notify("Input data is invalid", "error");
                         }
                         else {
-                            $.notify("Đã thêm lựa chọn bàn, vui lòng đặt món", "success");
+                            $.notify("Added table selection, You haven't placed an order yet", "success");
                             $("#reservationModal").modal("hide");
                             setTimeout(function () {
                                 location.reload();
@@ -1179,7 +1179,7 @@
 
                 },
                 error: function () {
-                    $.notify("Phải nhập đầy đủ thông tin order", "error");
+                    $.notify("Must enter complete order information", "error");
                 }
             });
 
@@ -1259,13 +1259,13 @@
                     });
                 } else {
                     if (CheckFormContact() == 0) {
-                        $.notify("Bạn muốn liên hệ với chúng tôi. Vui lòng nhập tên của bạn!", "error")
+                        $.notify("You want to contact us. Please enter your name!", "error")
                     } else if (CheckFormContact() == -1) {
-                        $.notify("Bạn chưa nhập email !", "error")
+                        $.notify("You have not entered your email yet !", "error")
                     } else if (CheckFormContact() == -3) {
-                        $.notify("Sai định dạng email !", "error")
+                        $.notify("Email format error !", "error")
                     } else {
-                        $.notify("Nhập vào nội dung !", "error")
+                        $.notify("Enter content !", "error")
                     }
                 }
             } else {
@@ -1277,7 +1277,7 @@
                     contentType: "application/json; charset=utf-8",
                     dataType: "json",
                     success: function (data) {
-                        $.notify("Gửi liên hệ thành công", "success");
+                        $.notify("Contact sent successfully", "success");
                         //alert(data.d);
                         $("#SendContactSubmit #name").val("");
                         $("#SendContactSubmit #email").val("");
