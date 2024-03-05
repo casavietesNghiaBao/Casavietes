@@ -9,7 +9,7 @@
     <div class="col-12 mt-5">
         <div class="card">
             <div class="card-body">
-                <h4 class="header-title">Danh sách món ăn</h4>
+                <h4 class="header-title">Type Of Dish</h4>
                 <div class="data-tables datatable-dark">
                     <div id="dataTable3_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
                         <div class="row">
@@ -32,8 +32,8 @@
                                     <thead class="text-capitalize">
                                         <tr role="row">
                                             <th class="sorting_asc" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 226px;" aria-sort="ascending" aria-label="Fullname: activate to sort column descending">ID</th>
-                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 111px;" aria-label="Phone: activate to sort column ascending">Tên</th>
-                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 94px;" aria-label="Mail: activate to sort column ascending"></th>
+                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 111px;" aria-label="Phone: activate to sort column ascending">Name</th>
+                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 94px;" aria-label="Mail: activate to sort column ascending">Function</th>
                                             
                                         </tr>
                                     </thead>
@@ -46,7 +46,7 @@
                                                 Response.Write("<td tabindex=0  class=sorting_1>" + ft.foodtype_id + "</td>");
                                                 Response.Write("<td>" + ft.foodtype_name + "</td>");
 
-                                                Response.Write("<td><a href='javascript:void(0)' onclick='funcXoa("+ft.foodtype_id+")' >Xóa</a> | <a href='/Admin/QFoodType/EditFoodType.aspx?IdFoodType="+ft.foodtype_id+"'>Sửa</a></td>");
+                                                Response.Write("<td><a href='javascript:void(0)' style='color: red' onclick='funcXoa("+ft.foodtype_id+")' >Delete</a> | <a href='/Admin/QFoodType/EditFoodType.aspx?IdFoodType="+ft.foodtype_id+"'>Edit</a></td>");
 
                                                 Response.Write("</tr>");
 
@@ -82,7 +82,7 @@
     </div>
     <script>
         function funcXoa(id) {
-            var kt = confirm("Bạn có chắc muốn xóa không?");
+            var kt = confirm("Are You Sure You Want To Delete ?");
             if (kt) {
                 $.ajax({
                     type: "POST",

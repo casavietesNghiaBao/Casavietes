@@ -9,31 +9,31 @@
         <div class="card">
             <div class="card-body">
                <div style="display:flex;">
-                    <h4 class="header-title" style="margin-right: 10px;">Thêm bàn</h4>
+                    <h4 class="header-title" style="margin-right: 10px;">More New Table</h4>
                     <asp:Label runat="server" ID="mss"/>
                     <asp:Label ID="msg" runat="server" />
                 </div>
 
                 <div class="form-group">
                       <label for="example-text-input" class="col-form-label">
-                        Tên bàn:
+                        Table Name:
                         <label style="color: red">(*)</label></label>
-                    <asp:TextBox runat="server" ID="txtnametb" placeholder="Ví dụ: 10" CssClass="form-control" />
-                    <asp:RequiredFieldValidator ID="renametb" runat="server" ErrorMessage="Vui lòng nhập tên bàn" ControlToValidate="txtnametb" Display="Dynamic" ForeColor="Red" />
+                    <asp:TextBox runat="server" ID="txtnametb" placeholder="Ex: 10" CssClass="form-control" />
+                    <asp:RequiredFieldValidator ID="renametb" runat="server" ErrorMessage="Please Enter Table Name" ControlToValidate="txtnametb" Display="Dynamic" ForeColor="Red" />
                 </div>
                 <div class="form-group">
                     <label for="example-text-input" class="col-form-label">
-                        Mô tả: (bàn dành cho mấy người)
+                        Table Description: (table for a few people ?)
                         <label style="color: red">(*)</label></label>
-                    <asp:TextBox runat="server" ID="txtmato" placeholder="Ví dụ: 2 " CssClass="form-control" />
+                    <asp:TextBox runat="server" ID="txtmato" placeholder="Ex: 2 " CssClass="form-control" />
                     <asp:RequiredFieldValidator ID="remota" runat="server" ErrorMessage="The field is required" ControlToValidate="txtmato" Display="Dynamic" ForeColor="Red" />
                 </div>
 
-                <asp:Button CssClass="btn btn-primary mt-4 pr-4 pl-4" runat="server" ID="btnsubmit" Text="Thêm bàn" OnClick="btnsubmit_Click" />
+                <asp:Button CssClass="btn btn-primary mt-4 pr-4 pl-4" runat="server" ID="btnsubmit" Text="Add Table" OnClick="btnsubmit_Click" />
                 
                 
             </div>
-            <a href="ListTable.aspx" style="text-align: center; font-size: 20px; padding-bottom: 10px;">-> Chuyển qua danh sách bàn</a>
+            <a href="ListTable.aspx" style="text-align: center; font-size: 20px; padding-bottom: 10px;">-> Go To The Table list</a>
         </div>
     </div>
     

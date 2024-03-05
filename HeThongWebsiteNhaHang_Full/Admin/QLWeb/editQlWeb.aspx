@@ -12,13 +12,13 @@
                 <%--<p class="text-muted font-14 mb-4">Here are examples of <code>.form-control</code> applied to each textual HTML5 <code>&lt;input&gt;</code> <code>type</code>.</p>--%>
                 <%-- <form id="formEditFood" runat="server" action="/Admin/QFood/EditFood.aspx">--%>
                 <div>
-                    <h4 class="header-title">Chỉnh sửa thông tin Nhà Hàng </h4>
+                    <h4 class="header-title">Edit Restaurant Information</h4>
                     <asp:Label ID="msg" runat="server" />
 
                     
                     <div class="form-group">
                         <label for="example-text-input" class="col-form-label">
-                            Tên nhà hàng
+                            Restaurant Name
                                 <label style="color: red">(*)</label>
                         </label>
                         <asp:TextBox ID="txtName" runat="server"  class="form-control" />
@@ -26,7 +26,7 @@
                     </div>
                     <div class="form-group">
                         <label for="example-text-input" class="col-form-label">
-                            Địa chỉ
+                            Address
                                 <label style="color: red">(*)</label>
                         </label>
                         <asp:TextBox ID="txtDiaChi" runat="server"  class="form-control" />
@@ -34,7 +34,7 @@
                     </div>
                     <div class="form-group">
                         <label for="example-text-input" class="col-form-label">
-                            Số điện thoại
+                           Phone Number
                                 <label style="color: red">(*)</label>
                         </label>
                         <asp:TextBox ID="txtSDT" runat="server"  class="form-control" />
@@ -51,26 +51,26 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="example-text-input" class="col-form-label" style="width:100px;">Ảnh nhà hàng</label>
+                        <label for="example-text-input" class="col-form-label" style="width:100px;">Restaurant Photo</label>
                         
                         <asp:Image ID="ImageEdit1" Width="200px" runat="server" />
                         <asp:FileUpload ID="FileUpload1" runat="server" />
                     </div>
                     <div class="form-group">
-                        <label for="example-text-input" class="col-form-label" style="width:100px;">Ảnh banner</label>
+                        <label for="example-text-input" class="col-form-label" style="width:100px;">Banner Photo</label>
                         
                         <asp:Image ID="ImageEdit2" Width="200px" runat="server" />
                         <asp:FileUpload ID="FileUpload2" runat="server" />
                     </div>
 
                     <div class="form-group">
-                        <label for="example-text-input" class="col-form-label">Giới thiệu</label>
+                        <label for="example-text-input" class="col-form-label">Introduce</label>
                         <asp:TextBox ID="txtMieuta" runat="server" class="form-control" />
                     </div>
                    
 
-                    <asp:Button runat="server" ID="btnSuaif" class="btn btn-primary mt-4 pr-4 pl-4" Text="Sửa" OnClick="btnSua_Click" />
-                    <asp:Button runat="server" ID="btnrs" class="btn btn-primary mt-4 pr-4 pl-4" Text="Hủy" OnClick="btnLammoi_Click" />
+                    <asp:Button runat="server" ID="btnSuaif" class="btn btn-primary mt-4 pr-4 pl-4" Text="Update" OnClick="btnSua_Click" />
+                    <asp:Button runat="server" ID="btnrs" class="btn btn-primary mt-4 pr-4 pl-4" Text="Cancel" OnClick="btnLammoi_Click" />
 
                 </div>
                

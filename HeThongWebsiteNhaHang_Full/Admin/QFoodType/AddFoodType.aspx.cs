@@ -24,11 +24,11 @@ public partial class Admin_QFoofType_AddFoodType : System.Web.UI.Page
             data.AddFoodType(ft);
 
             msg.ForeColor = System.Drawing.Color.Blue;
-            msg.Text = "Thêm mới thể loại món ăn thành công !";
+            msg.Text = "Add Types Of Dishes Successfully !";
         }
         catch (Exception ex)
         {
-            msg.Text = "Có lỗi xảy ra: " + ex.Message;
+            msg.Text = "An Error Occurred: " + ex.Message;
         }
 
     }

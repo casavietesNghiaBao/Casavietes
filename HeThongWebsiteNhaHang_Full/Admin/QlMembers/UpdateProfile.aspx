@@ -9,7 +9,7 @@
     <div class="col-12 mt-5">
         <div class="card">
             <div class="card-body">
-                <h4 class="header-title">Cập nhật thông tin</h4>
+                <h4 class="header-title">Update information</h4>
                 <asp:Label ID="msg" runat="server" />
                 <div class="form-group">
                     <label for="example-search-input" class="col-form-label">
@@ -19,7 +19,7 @@
                 </div>
                 <div class="form-group">
                     <label for="example-text-input" class="col-form-label">
-                        Tên đầy đủ
+                        Full Name
                             <label style="color: red">(*)</label></label>
                     <asp:TextBox runat="server" ID="txtfullname" placeholder="Example: Dương Tiến Đạt" CssClass="form-control" />
                     <asp:RequiredFieldValidator ID="refullname" runat="server" ErrorMessage="The field is required" ControlToValidate="txtfullname" Display="Dynamic" ForeColor="Red" />
@@ -34,7 +34,7 @@
                 </div>
                 <div class="form-group">
                     <label for="example-tel-input" class="col-form-label">
-                        Số điện thoại
+                        Phone Number
                             <label style="color: red">(*)</label></label>
                     <asp:TextBox runat="server" ID="txtphone" placeholder="Example: 0336515294" CssClass="form-control" TextMode="Number" />
                     <asp:RegularExpressionValidator ID="regphone" runat="server" ErrorMessage="Phone in the range of 9 to 11 numbers" Display="Dynamic" ControlToValidate="txtphone" ForeColor="Red" ValidationExpression=".{9,11}" />
@@ -42,7 +42,7 @@
                 </div>
                 <div class="form-group">
                     <label for="example-tel-input" class="col-form-label">
-                        Ảnh đại diện
+                        Avatar
                     </label>
                     <div class="avatarDiv">
                         <asp:FileUpload ID="FileUpload" runat="server"/>
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <asp:Button CssClass="btn btn-primary mt-4 pr-4 pl-4" runat="server" ID="btnUpdate" Text="Cập Nhật" OnClick="btnUpdate_Click" />
+                    <asp:Button CssClass="btn btn-primary mt-4 pr-4 pl-4" runat="server" ID="btnUpdate" Text="Update" OnClick="btnUpdate_Click" />
 
                 </div>
             </div>

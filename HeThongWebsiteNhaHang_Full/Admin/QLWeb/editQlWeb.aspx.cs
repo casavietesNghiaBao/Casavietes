@@ -93,7 +93,7 @@ public partial class Admin_QLWeb_editQlWeb : System.Web.UI.Page
 
 
             data.suaif(nh);
-            msg.Text = "Update success!";
+            msg.Text = "Update Success!";
             msg.ForeColor = System.Drawing.Color.Green;
             ShowInfoNhaHang();
             Response.Redirect("QLWeb.aspx");

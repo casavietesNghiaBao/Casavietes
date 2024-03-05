@@ -8,7 +8,7 @@
      <div class="col-12 mt-5">
         <div class="card">
             <div class="card-body">
-                <h4 class="header-title">Danh sách đặt bàn</h4>
+                <h4 class="header-title">List Order Table</h4>
                 <div class="data-tables datatable-dark">
                     <div id="dataTable3_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
                         <div class="row">
@@ -27,7 +27,7 @@
                             </div>
                             <div class="col-sm-12 col-md-6">
                                 <div id="dataTable3_filter" class="dataTables_filter">
-                                    <label>Ngày đặt bàn:
+                                    <label>Booking Date:
                                         <select name="" id="n" class="form-control" onchange="slotbn()">
                                             <option>Tất cả</option>
                                         <%
@@ -49,16 +49,14 @@
                                 <table id="dataTable3" class="text-center dataTable no-footer dtr-inline" role="grid" aria-describedby="dataTable3_info" style="width: 959px;">
                                     <thead class="text-capitalize">
                                         <tr role="row">
-                                            <th class="sorting_asc" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 111px;" aria-sort="ascending" >ID Đặt bàn</th>
-                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 94px;" >Tên người đặt</th>
-                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 226px;" >Ngày đặt</th>
-                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 226px;" >Thời gian đặt</th>
-                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 226px;" >Thời gian trả</th>
-                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 94px;" >ID Bàn</th>
-                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 94px;" >Tình trạng</th>
-                                            
-                                            
-                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 54px;" >Xóa/Sửa</th>
+                                            <th class="sorting_asc" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 111px;" aria-sort="ascending" >ID Order Table</th>
+                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 94px;" >Booking Name</th>
+                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 226px;" >Booking date</th>
+                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 226px;" >Reservation Time</th>
+                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 226px;" >Check-out Time</th>
+                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 94px;" >ID Table</th>
+                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 94px;" >Status</th>                                    
+                                            <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 54px;" >Function</th>
                                             <%--<th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 109px;" aria-label="Type Date: activate to sort column ascending">Type</th>--%>
                                             <%--<th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 77px;" aria-label="salary: activate to sort column ascending">salary</th>--%>
                                         </tr>
@@ -78,137 +76,23 @@
                                                 Response.Write("<td>"+tb.ordertable_idtable+"</td>");
                                                 if(tb.ordertable_status == true)
                                                 {
-                                                    Response.Write("<td>Đã thanh toán</td>");
+                                                    Response.Write("<td>Paid</td>");
                                                 }
                                                 else
                                                 {
-                                                    Response.Write("<td>Chưa thanh toán</td>");
+                                                    Response.Write("<td>Unpaid</td>");
                                                 }                                                
-                                                Response.Write("<td><a href='javascript:void(0)' onclick='funcXoa("+tb.ordertable_id+")'>Xóa</a> | <a href='/Admin/QLOrderTable/UpdateOrderTable.aspx?idotable="+tb.ordertable_id+"'>sửa</a></td>");
+                                                Response.Write("<td><a href='javascript:void(0)' style='color:red;' onclick='funcXoa("+tb.ordertable_id+")'>Delete</a> | <a href='/Admin/QLOrderTable/UpdateOrderTable.aspx?idotable="+tb.ordertable_id+"'>Edit</a></td>");
                                                                                                                                                 
                                                 Response.Write("</tr>");
 
 
                                             }
                                         %>
-                                       <%-- <tr role="row" class="odd">
-                                            <td tabindex="0" class="sorting_1">Airi Satou</td>
-                                            <td>Accountant</td>
-                                           .
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            <td>Tokyo</td>
-                                            <td>33</td>
-                                            <td>2008/11/28</td>
-                                            <td>$162,700</td>
-                                        </tr>
-                                        <tr role="row" class="even">
-                                            <td tabindex="0" class="sorting_1">Angelica Ramos</td>
-                                            <td>Chief Executive Officer (CEO)</td>
-                                            <td>London</td>
-                                            <td>47</td>
-                                            <td>2009/10/09</td>
-                                            <td>$1,200,000</td>
-                                        </tr>
-                                        <tr role="row" class="odd">
-                                            <td tabindex="0" class="sorting_1">Ashton Cox</td>
-                                            <td>Junior Technical Author</td>
-                                            <td>San Francisco</td>
-                                            <td>66</td>
-                                            <td>2009/01/12</td>
-                                            <td>$86,000</td>
-                                        </tr>
-                                        <tr role="row" class="even">
-                                            <td tabindex="0" class="sorting_1">Bradley Greer</td>
-                                            <td>Software Engineer</td>
-                                            <td>London</td>
-                                            <td>41</td>
-                                            <td>2012/10/13</td>
-                                            <td>$132,000</td>
-                                        </tr>
-                                        <tr role="row" class="odd">
-                                            <td tabindex="0" class="sorting_1">Bradley Greer</td>
-                                            <td>Software Engineer</td>
-                                            <td>London</td>
-                                            <td>41</td>
-                                            <td>2012/10/13</td>
-                                            <td>$132,000</td>
-                                        </tr>
-                                        <tr role="row" class="even">
-                                            <td tabindex="0" class="sorting_1">Brenden Wagner</td>
-                                            <td>Software Engineer</td>
-                                            <td>San Francisco</td>
-                                            <td>28</td>
-                                            <td>2011/06/07</td>
-                                            <td>$206,850</td>
-                                        </tr>
-                                        <tr role="row" class="odd">
-                                            <td tabindex="0" class="sorting_1">Brenden Wagner</td>
-                                            <td>Software Engineer</td>
-                                            <td>San Francisco</td>
-                                            <td>28</td>
-                                            <td>2011/06/07</td>
-                                            <td>$206,850</td>
-                                        </tr>
-                                        <tr role="row" class="even">
-                                            <td tabindex="0" class="sorting_1">Bruno Nash</td>
-                                            <td>Software Engineer</td>
-                                            <td>Edinburgh</td>
-                                            <td>21</td>
-                                            <td>2012/03/29</td>
-                                            <td>$433,060</td>
-                                        </tr>
-                                        <tr role="row" class="odd">
-                                            <td class="sorting_1" tabindex="0">Bruno Nash</td>
-                                            <td>Software Engineer</td>
-                                            <td>Edinburgh</td>
-                                            <td>21</td>
-                                            <td>2012/03/29</td>
-                                            <td>$433,060</td>
-                                        </tr>
-                                        <tr role="row" class="even">
-                                            <td tabindex="0" class="sorting_1">Caesar Vance</td>
-                                            <td>Pre-Sales Support</td>
-                                            <td>New York</td>
-                                            <td>29</td>
-                                            <td>2011/12/12</td>
-                                            <td>$106,450</td>
-                                        </tr>--%>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
-                        <%--<div class="row">
-                            <div class="col-sm-12 col-md-5">
-                                <div class="dataTables_info" id="dataTable3_info" role="status" aria-live="polite">Showing 1 to 10 of 11 entries</div>
-                            </div>
-                            <div class="col-sm-12 col-md-7">
-                                <div class="dataTables_paginate paging_simple_numbers" id="dataTable3_paginate">
-                                    <ul class="pagination">
-                                        <li class="paginate_button page-item previous disabled" id="dataTable3_previous"><a href="#" aria-controls="dataTable3" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li>
-                                        <li class="paginate_button page-item active"><a href="#" aria-controls="dataTable3" data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
-                                        <li class="paginate_button page-item "><a href="#" aria-controls="dataTable3" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
-                                        <li class="paginate_button page-item next" id="dataTable3_next"><a href="#" aria-controls="dataTable3" data-dt-idx="3" tabindex="0" class="page-link">Next</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            
-                        </div>--%>
                     </div>
                 </div>
             </div>
@@ -216,7 +100,7 @@
     </div>
     <script>
         function funcXoa(id) {
-            var kt = confirm("Bạn có muốn xóa không ?")
+            var kt = confirm("Are You Sure You Want To Delete? ?")
             if (kt) {
                 $.ajax({
                     type: "POST",
@@ -249,6 +133,6 @@
                 }
             });
         };
-     </script>
+    </script>
 </asp:Content>
 

@@ -8,7 +8,7 @@
     <div class="col-12 mt-5">
         <div class="card">
             <div class="card-body">
-                <h4 class="header-title">Thông Tin Nhà Hàng </h4>
+                <h4 class="header-title">Restaurant Information </h4>
                 <div class="data-tables datatable-dark">
                     <div id="dataTable3_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
                         <div class="row">
@@ -16,14 +16,7 @@
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6">
-                            <div id="dataTable3_filter" class="dataTables_filter" style="line-height: 30px;">
-                                
-                                <%--Search:<form action="#">
-                                    <input type="search" class="form-control form-control-sm" placeholder="Search" aria-controls="dataTable3">
-                                    <i class="ti-search"></i>
-                                </form>
-                                </label>--%>
-
+                            <div id="dataTable3_filter" class="dataTables_filter" style="line-height: 30px;">                               
                             </div>
                         </div>
                     </div>
@@ -33,13 +26,13 @@
                                 <thead class="text-capitalize">
                                     <tr role="row">
                                         
-                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 111px;" aria-label="Phone: activate to sort column ascending">Tên</th>
-                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 94px;" aria-label="Mail: activate to sort column ascending">Địa Chỉ</th>
-                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 54px;" aria-label="Username: activate to sort column ascending">Số điện thoại</th>
+                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 111px;" aria-label="Phone: activate to sort column ascending">Name</th>
+                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 94px;" aria-label="Mail: activate to sort column ascending">Address</th>
+                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 54px;" aria-label="Username: activate to sort column ascending">Phone Number</th>
                                         <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 109px;" aria-label="Type Date: activate to sort column ascending">Email</th>
-                                         <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 109px;" aria-label="Type Date: activate to sort column ascending">Ảnh infor</th>
-                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 109px;" aria-label="Type Date: activate to sort column ascending">Ảnh Banner</th>
-                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 77px;" aria-label="salary: activate to sort column ascending">Giới thiệu</th>
+                                         <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 109px;" aria-label="Type Date: activate to sort column ascending">Infor Images</th>
+                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 109px;" aria-label="Type Date: activate to sort column ascending">Banner Photo</th>
+                                        <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 77px;" aria-label="salary: activate to sort column ascending">Introduce</th>
                                         
                                         <th class="sorting" tabindex="0" aria-controls="dataTable3" rowspan="1" colspan="1" style="width: 30px;" aria-label="Type Date: activate to sort column ascending"></th>
                                     </tr>

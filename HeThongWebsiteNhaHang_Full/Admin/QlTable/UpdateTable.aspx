@@ -8,7 +8,7 @@
     <div class="col-12 mt-5">
         <div class="card">
             <div class="card-body">
-                <h4 class="header-title">Cập nhật thông tin bàn</h4>
+                <h4 class="header-title">Update Table Information</h4>
                 <asp:Label ID="mss" runat="server" />
                 <div class="form-group">
                     <label for="example-text-input" class="col-form-label">ID Table
@@ -25,19 +25,19 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="example-text-input" class="col-form-label">Mô Tả Table<label style="color: red">(*)</label></label>
+                    <label for="example-text-input" class="col-form-label">Table Description (table for a few people ?)<label style="color: red">(*)</label></label>
                     <asp:TextBox runat="server" ID="txtmota" CssClass="form-control" />
                     <asp:RequiredFieldValidator ID="remotaa" runat="server" ErrorMessage="The field is required" ControlToValidate="txtmota" Display="Dynamic" ForeColor="Red" />
 
                 </div>
                 <div class="form-group">
-                    <label for="example-text-input" class="col-form-label">Trạng thái bàn<label style="color: red">(*)</label></label>
+                    <label for="example-text-input" class="col-form-label">Table Status<label style="color: red">(*)</label></label>
                     <br />
                     <input type="radio" name="tt" value="Đã được đặt" runat="server" id="rdoddd" />
-                    Bàn đã được đặt
+                    The Table Has Been Booked
                         <br />
                     <input type="radio" name="tt" value="chưa được đặt" runat="server" id="rdocdd" />
-                    Bàn chưa được đặt
+                    Table Has Not Been Booked Yet
                         
                         
                 </div>

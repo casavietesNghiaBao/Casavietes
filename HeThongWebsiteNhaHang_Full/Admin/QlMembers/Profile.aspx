@@ -25,7 +25,7 @@
                                     <table class="table table-user-information">
                                         <tbody>
                                             <tr>
-                                                <td>Tên đầy đủ</td>
+                                                <td>Full Name</td>
                                                 <td>
                                                     <asp:Label runat="server" ID="lbfullname"></asp:Label></td>
                                             </tr>
@@ -35,7 +35,7 @@
                                                     <asp:Label runat="server" ID="lbusername"></asp:Label></td>
                                             </tr>
                                             <tr>
-                                                <td>Số điện thoại</td>
+                                                <td>Phone Number</td>
                                                 <td>
                                                     <asp:Label runat="server" ID="lbphone"></asp:Label></td>
                                             </tr>
@@ -48,8 +48,8 @@
                                         </tbody>
                                     </table>
 
-                                    <a href="/Admin/QlMembers/UpdateProfile.aspx" class="btn btn-primary">Chỉnh sửa thông tin</a>
-                                    <a href="/Admin/QlMembers/ChangePassword.aspx" class="btn btn-primary">Thay đổi mật khẩu</a>
+                                    <a href="/Admin/QlMembers/UpdateProfile.aspx" class="btn btn-primary">Edit Information</a>
+                                    <a href="/Admin/QlMembers/ChangePassword.aspx" class="btn btn-primary">Change The Password</a>
                                 </div>
                             </div>
                         </div>

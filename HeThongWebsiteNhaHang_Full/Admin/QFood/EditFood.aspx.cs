@@ -83,13 +83,13 @@ public partial class Admin_QFood_EditFood : System.Web.UI.Page
 
             data.EditFood(food);
 
-            msg.Text = "Cập nhật thành công!";
+            msg.Text = "Update successful!!";
             msg.ForeColor = System.Drawing.Color.Green;
             ShowInfoFood();
         }
         catch (Exception ex)
         {
-            msg.Text = "Cập nhật lỗi: " + ex.Message + ". Let try!";
+            msg.Text = "Edit Error: " + ex.Message + ". Let try!";
             msg.ForeColor = System.Drawing.Color.Red;
         }
     }

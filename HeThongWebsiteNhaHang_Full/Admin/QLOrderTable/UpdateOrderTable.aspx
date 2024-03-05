@@ -10,7 +10,7 @@
 
 
                 <div class="card-body">
-                    <h4 class="header-title">Cập nhật thông tin đặt bàn </h4>
+                    <h4 class="header-title">Update table reservation information</h4>
                     <asp:Label ID="mss" runat="server" />
                     <div class="form-group">
                         <label for="example-text-input" class="col-form-label">ID OrderTable <label style="color: red">(*)</label></label>
@@ -26,21 +26,21 @@
 
                     </div>
                     <div class="form-group">
-                        <label for="example-text-input" class="col-form-label">Ngày tháng Oder<label style="color: red">(*)</label></label>
+                        <label for="example-text-input" class="col-form-label">Oder Date<label style="color: red">(*)</label></label>
                         <br />
                         
                         <input type="date" runat="server" id="ds"  class="date"/>
                         
                     </div>
                     <div class="form-group">
-                        <label for="example-text-input" class="col-form-label">Ngày tháng Oder<label style="color: red">(*)</label></label>
+                        <label for="example-text-input" class="col-form-label">Reservation Time<label style="color: red">(*)</label></label>
                         <br />
                         
                         <input type="time" runat="server" id="ts"  class="date"/>
                         
                     </div>
                     <div class="form-group">
-                        <label for="example-text-input" class="col-form-label">Ngày tháng Oder<label style="color: red">(*)</label></label>
+                        <label for="example-text-input" class="col-form-label">Return Time<label style="color: red">(*)</label></label>
                         <br />
                         
                         <input type="time" runat="server" id="tr"  class="date"/>
@@ -53,11 +53,11 @@
 
                     </div>
                     <div class="form-group">
-                        <label for="example-text-input" class="col-form-label">Đã thanh toán hay chưa<label style="color: red">(*)</label></label>
+                        <label for="example-text-input" class="col-form-label">Payment status<label style="color: red">(*)</label></label>
                         <br />
-                        <input type="radio" name="tt" value="Đã thanh toán" runat="server" id="rdodtt"/> Bàn đã thanh toán
+                        <input type="radio" name="tt" value="Đã thanh toán" runat="server" id="rdodtt"/> The Table Has Been Paid
                         <br />
-                        <input type="radio" name="tt" value="chưa thanh toán" runat="server" id="rdoctt"/> Bàn chưa thanh toán
+                        <input type="radio" name="tt" value="chưa thanh toán" runat="server" id="rdoctt"/> Unpaid Table
                         
                         
                     </div>

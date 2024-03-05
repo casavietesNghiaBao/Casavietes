@@ -9,32 +9,30 @@
     <div class="col-12 mt-5">
         <div class="card">
             <div class="card-body">
-                <h4 class="header-title">Chỉnh sửa</h4>
+                <h4 class="header-title">More Types Of Dishes</h4>
                 <asp:Label ID="msg" runat="server" ForeColor="Red" />
 
                 <%--<p class="text-muted font-14 mb-4">Here are examples of <code>.form-control</code> applied to each textual HTML5 <code>&lt;input&gt;</code> <code>type</code>.</p>--%>
                     <%--<form id="form1" runat="server" action="/Admin/QFoodType/EditFoodType.aspx">
                     <div>--%>
-
-                        <h4 class="header-title">Edit Food </h4>
                         <asp:Label ID="Label1" runat="server" />
 
                         <div class="form-group">
                             <label for="example-text-input" class="col-form-label">ID</label>
-                            <asp:TextBox ID="txtId" runat="server" placeholder="Tên món ăn..." ReadOnly="true" class="form-control"/>
+                            <asp:TextBox ID="txtId" runat="server" placeholder="Id..." ReadOnly="true" class="form-control"/>
                         </div>
                         <div class="form-group">
                             <label for="example-text-input" class="col-form-label">
-                                Tên
+                                Name
                                 <label style="color: red">(*)</label>
                             </label>
-                            <asp:TextBox ID="txtName" runat="server" placeholder="Tên món ăn..." class="form-control"/>
+                            <asp:TextBox ID="txtName" runat="server" placeholder="Name Of The Dish..." class="form-control"/>
                             <asp:RequiredFieldValidator ID="reName" runat="server" ErrorMessage="The field is required" ControlToValidate="txtName" Display="Dynamic" ForeColor="Red" />
                         </div>
                         
 
-                    <asp:Button runat="server" ID="btnEditFoodType" class="btn btn-primary mt-4 pr-4 pl-4" Text="Cập nhật" OnClick="btnEditFoodType_Click"  />
-                    <asp:Button runat="server" ID="reset" class="btn btn-primary mt-4 pr-4 pl-4" Text="Làm mới" OnClick="reset_Click" />
+                    <asp:Button runat="server" ID="btnEditFoodType" class="btn btn-primary mt-4 pr-4 pl-4" Text="Update" OnClick="btnEditFoodType_Click"  />
+                    <asp:Button runat="server" ID="reset" class="btn btn-primary mt-4 pr-4 pl-4" Text="Refresh" OnClick="reset_Click" />
 
                         
                 <%--</div>
