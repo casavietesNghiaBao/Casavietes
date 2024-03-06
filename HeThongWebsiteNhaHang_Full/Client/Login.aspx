@@ -33,7 +33,7 @@
     <div>
         <nav class="navbar navbar-expand-lg navbar-dark site_navbar bg-dark site-navbar-light login-page" id="site-navbar">
             <div class="container">
-                <a class="navbar-brand" href="/TrangChu.aspx">EatWell</a>
+                <a class="navbar-brand" href="/TrangChu.aspx">CasaViet</a>
             </div>
         </nav>
     </div>

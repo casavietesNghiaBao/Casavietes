@@ -345,10 +345,10 @@
                         </div>
                         <div class="col-md-5 site-animate">
                             <p class="text-black">
-                                Địa chỉ: <%  Response.Write(web.diachi_nh); %>
+                                Address: <%  Response.Write(web.diachi_nh); %>
                                 <br />
                                 <br />
-                                SĐT: <%  Response.Write(web.sdt_nh); %>
+                                Phone Number: <%  Response.Write(web.sdt_nh); %> / 666324656
                                 <br />
                                 <br />
                                 Email: <a href="mailto:<%  Response.Write(web.ten_nh); %>"><%  Response.Write(web.email_nh); %></a>
@@ -363,7 +363,7 @@
 
             <footer class="site-footer site-bg-dark site-section">
                 <div class="container">
-                    <div class="row mb-5">
+<%--                    <div class="row mb-5">
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-4 site-animate">
@@ -409,7 +409,7 @@
                             </div>
                         </div>
 
-                    </div>
+                    </div>--%>
                     <div class="row site-animate">
                         <div class="col-md-12 text-center">
                             <div class="site-footer-widget mb-4">
