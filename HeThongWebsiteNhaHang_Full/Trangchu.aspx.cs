@@ -77,12 +77,12 @@ public partial class Tranchu : System.Web.UI.Page
         }
 
     }
-    [WebMethod(EnableSession = true)]   
+    [WebMethod(EnableSession = true)]
     public static string ckeds(string ds, string ts)
     {
         if (ds == "")
         {
-            return "chưa nhập ngày đặt";
+            return "Date has not been entered";
 
         }
         else
@@ -95,7 +95,7 @@ public partial class Tranchu : System.Web.UI.Page
             {
                 if (TimeSpan.Compare(tso, todn) < 0)
                 {
-                    return "thời gian đặt không hợp lệ";
+                    return "Invalid booking time";
                 }
                 else
                 {
@@ -115,11 +115,11 @@ public partial class Tranchu : System.Web.UI.Page
         DateTime to = DateTime.Parse(ds).Date;
         if (tn > to)
         {
-            return "ngày chọn không hợp lệ";
+            return "Invalid selected date";
         }
         else
         {
-            if(tr == "--:-- --" || ts == "--:-- --")
+            if (tr == "--:-- --" || ts == "--:-- --")
             {
                 return "";
             }
@@ -129,7 +129,7 @@ public partial class Tranchu : System.Web.UI.Page
                 {
                     if (TimeSpan.Parse(ts) > TimeSpan.Parse(tr))
                     {
-                        return "thời gian đặt và trả không hợp lệ";
+                        return "Invalid booking and drop-off times";
                     }
                     else
                     {
@@ -141,7 +141,7 @@ public partial class Tranchu : System.Web.UI.Page
                     return "";
                 }
             }
-            
+
 
         }
 
@@ -152,28 +152,28 @@ public partial class Tranchu : System.Web.UI.Page
     {
         if (ds == "" && ts != "")
         {
-            return "chưa nhập đặt ngày";
+            return "Unentered set date";
 
         }
         else
         {
             if (ds != "" && ts == "")
             {
-                return "bạn chưa nhập time đặt bàn ";
+                return "You haven't entered a reservation time";
 
             }
             else
             {
                 if (ds == "" && ts == "")
                 {
-                    return "Bạn chưa nhập ngày và giờ đặt bàn";
+                    return "You haven't entered the date and time of your reservation";
                 }
                 else
                 {
 
                     if (TimeSpan.Parse(ts) > TimeSpan.Parse(tr))
                     {
-                        return "thời gian đặt và trả không hợp lệ";
+                        return "Invalid booking and drop-off times";
                     }
                     else
                     {
@@ -191,7 +191,7 @@ public partial class Tranchu : System.Web.UI.Page
 
         if (ds == "" || ts == "" || tr == "")
         {
-            return "Bạn phải nhập đủ thời gian đặt và trả";
+            return "You must enter sufficient reservation and return times";
 
         }
         else
@@ -202,7 +202,7 @@ public partial class Tranchu : System.Web.UI.Page
 
     }
     [WebMethod(EnableSession = true)]
-    public static string cko(string ds, string ts, string tr, string lb, string tb,string tenban)
+    public static string cko(string ds, string ts, string tr, string lb, string tb, string tenban)
     {
 
         if (ds == "" || ts == "" || tr == "" || lb == "")
@@ -237,7 +237,7 @@ public partial class Tranchu : System.Web.UI.Page
                     HttpContext.Current.Session["Cart"] = cart;
                     return "true";
                 }
-            }            
+            }
         }
     }
 
@@ -249,7 +249,7 @@ public partial class Tranchu : System.Web.UI.Page
     {
         DataUtil dt = new DataUtil();
         List<table> rs = new List<table>();
-        rs=dt.dsTableNull();
+        rs = dt.dsTableNull();
         return rs;
     }
     [WebMethod(EnableSession = true)]
@@ -367,7 +367,7 @@ public partial class Tranchu : System.Web.UI.Page
         {
             ordertable_idtable = cart.idtable ?? -1,
             ordertable_iduser = cart.idmember ?? -1,
-            ordertable_status = false,            
+            ordertable_status = false,
             dienthoaiKH = dienthoaiKH,
             emailKH = emailKH,
             tenKH = tenKH,
@@ -399,7 +399,7 @@ public partial class Tranchu : System.Web.UI.Page
             dienthoaiKH = HttpContext.Current.Session["User"] == null ? "" : ((Member)HttpContext.Current.Session["User"]).member_phone,
             idtable = -1,
             idmember = HttpContext.Current.Session["User"] == null ? -1 : ((Member)HttpContext.Current.Session["User"]).member_id,
-            tenBan = "",           
+            tenBan = "",
         };
         HttpContext.Current.Session["Cart"] = C;
         return C;
