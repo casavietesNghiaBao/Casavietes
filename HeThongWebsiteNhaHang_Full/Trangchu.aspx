@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Trangchu.aspx.cs" Inherits="Tranchu" %>
+﻿﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Trangchu.aspx.cs" Inherits="Tranchu" %>
 
 <!DOCTYPE html>
 
@@ -176,7 +176,7 @@
                                         Response.Write("<img style='height:250px;cursor: pointer;' onclick='funcOrderNow(" + f.food_id + ")' src='../../Assets/images/" + f.food_avatar + "' class='img-fluid' />");
 
                                         Response.Write("<div class='media-body p-md-5 p-4'>");
-                                        Response.Write("<h5 class='text-primary' style='font-family: cambria,Sans-serif'>" + f.food_price + "</h5>");
+                                        Response.Write("<h5 class='text-primary' style='font-family: cambria,Sans-serif'>" + f.food_price + " €</h5>");
                                         Response.Write("<h5 class='mt-0 h4'>" + f.food_name + "</h5>");
                                         Response.Write("<p class='mb-4'>" + f.food_description + "</p>");
                                         Response.Write("<p class='mb-0'><a href='javascript:void(0)' class='btn btn-primary btn-sm' style='font-family: cambria,Sans-serif; font-weight: bold;' onclick='funcOrderNow(" + f.food_id + ")'>Order Now!</a></p>");
@@ -260,7 +260,7 @@
                                         Response.Write("<img style='height:250px;cursor: pointer;' onclick='funcOrderNow(" + n.food_id + ")' src='../../Assets/images/" + n.food_avatar + "' class='img-fluid' />");
 
                                         Response.Write("<div class='media-body p-md-5 p-4'>");
-                                        Response.Write("<h5 class='text-primary' style='font-family: cambria,Sans-serif;'>" + n.food_price + "</h5>");
+                                        Response.Write("<h5 class='text-primary' style='font-family: cambria,Sans-serif;'>" + n.food_price + " €</h5>");
                                         Response.Write("<h5 class='mt-0 h4'>" + n.food_name + "</h5>");
                                         Response.Write("<p class='mb-4'>" + n.food_description + "</p>");
                                         Response.Write("<p class='mb-0'><a href='javascript:void(0)' class='btn btn-primary btn-sm' style='font-family: cambria,Sans-serif; font-weight: bold;' onclick='funcOrderNow(" + n.food_id + ")'>Order Now!</a></p>");
@@ -345,10 +345,10 @@
                         </div>
                         <div class="col-md-5 site-animate">
                             <p class="text-black">
-                                Địa chỉ: <%  Response.Write(web.diachi_nh); %>
+                                Address: <%  Response.Write(web.diachi_nh); %>
                                 <br />
                                 <br />
-                                SĐT: <%  Response.Write(web.sdt_nh); %>
+                                Phone Number: <%  Response.Write(web.sdt_nh); %> / 666324656
                                 <br />
                                 <br />
                                 Email: <a href="mailto:<%  Response.Write(web.ten_nh); %>"><%  Response.Write(web.email_nh); %></a>
@@ -363,7 +363,7 @@
 
             <footer class="site-footer site-bg-dark site-section">
                 <div class="container">
-                    <div class="row mb-5">
+<%--                    <div class="row mb-5">
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-4 site-animate">
@@ -409,7 +409,7 @@
                             </div>
                         </div>
 
-                    </div>
+                    </div>--%>
                     <div class="row site-animate">
                         <div class="col-md-12 text-center">
                             <div class="site-footer-widget mb-4">
@@ -587,7 +587,7 @@
                     </div>
                 </div>
                 <div class="modal-footer" style="padding: 10px; justify-content: center!important">
-                    <button type="button" class="btn btn-sm" style="font-weight: bold; font-size: 14px; padding: 5px 10px; border-radius: 5px; border: 1px solid green; color: black; float: left; background-color: dodgerblue" onclick="XacNhanMuaHang()">Xác nhận mua hàng</button>
+                    <button type="button" class="btn btn-sm" style="font-weight: bold; font-size: 14px; padding: 5px 10px; border-radius: 5px; border: 1px solid green; color: black; float: left; background-color: dodgerblue" onclick="XacNhanMuaHang()">Order</button>
                     <button type="button" class="btn btn-sm" style="font-weight: bold; font-size: 14px; padding: 5px 10px; float: right" onclick="closeModalViewCart()">Close</button>
                 </div>
             </div>
@@ -663,10 +663,10 @@
                                     <tr>
                                         <th></th>
                                         <th style="width:200px">Food's name</th>
-                                        <th>Cost (vnđ)</th>
+                                        <th>Cost (€)</th>
                                         <th>Discount (%)</th>
                                         <th>Quantity</th>
-                                        <th>Into money (vnđ)</th>
+                                        <th>Into money (€)</th>
                                         <th></th>
                                     </tr>
                                     <tbody>
@@ -684,7 +684,7 @@
                                             <input type="number" class="food_quantity_cart" onchange="changefood_quantity_cart(${item.foodid})" min="1" value="${item.quantity}" style="width:80px; display:inline-block;padding:0px 10px"/>
                                             <button class="btn btn-default btn-sm"type="button"onclick="increase_sl_cart(${item.foodid})" style="margin-top: -3px;display:inline-block;padding:5px 10px;"> + </button>
                                         </td>
-                                        <td class="tdThanhtien">${parseInt(item.thanhtien)}</td>
+                                        <td class="tdThanhtien">${item.thanhtien}</td>
                                         <td><button type="button" class="btn btn-default btn-sm" onclick="XoaKkhoiCart(${item.foodid})" style="padding:5px 10px;font-weight:bold">Delete</button></td>
                                     </tr>                    
                     `
@@ -699,10 +699,10 @@
                         <span style="color: black;font-size:14px;">Customer:     <strong style="color:green;font-size:20px;">${CART.tenKH}</strong></span><br/>
                         <span style="color: black;font-size:14px;">Email:     <strong>${CART.emailKH}</strong></span><br/>
                         <span style="color: black;font-size:14px;">Phone:     <strong>${CART.dienthoaiKH}</strong></span><br/>                                                
-                        <p style="color: black;font-size:14px;margin-top:15px; ">Total amount (vnđ):     <strong style="color:red;font-size:16px;" id="totalCart">${getTotalCart()}</strong></p>
+                        <p style="color: black;font-size:14px;margin-top:15px; ">Total amount (€):     <strong style="color:red;font-size:16px;" id="totalCart">${getTotalCart()}</strong></p>
                     `
                 if (USER == null) {
-                    html += `<p style="text-align:center"><a style="font-size:14px;padding:5px 10px;background:blue;color:black;font-weight:bold"  href="/Client/Login.aspx" class="btn btn-sm">Login</a></p>`
+                    html += `<p style="text-align:center"><a style="font-size:14px;padding:5px 10px;background: #1E90FF; color: #fff;font-weight:bold"  href="/Client/Login.aspx" class="btn btn-sm">Login</a></p>`
                 }
             } else {
                 html += `<span style = "color: red;font-size:14px;"> No customer information yet </span> <br />
@@ -721,7 +721,7 @@
                                 </div>
                             </form>
                             <p style="margin-top:10px;color:black">or <a style="font-size:14px;padding:5px 10px;background:blue;color:black;font-weight:bold"  href="/Client/Login.aspx" class="btn btn-sm">Login</a></p>
-                         <p style="color: black;font-size:14px;margin-top:15px; ">Total amount (vnđ):     <strong style="color:red;font-size:16px;" id="totalCart">${getTotalCart()}</strong></p>
+                         <p style="color: black;font-size:14px;margin-top:15px; ">Total amount (€):     <strong style="color:red;font-size:16px;" id="totalCart">${getTotalCart()}</strong></p>
                     `;
             }
             html += `       <div>
@@ -884,8 +884,8 @@
                                     <span style="color:black;font-size:14px;">${f.food_description}</span>
                                     <br />
                                     <p style="margin:5px 0px;">
-                                        <span style="color:black;font-size:14px;">Price (vnđ):     <span style="color:green;font-weight:bold;font-size:14px;">${f.food_price * (100 - f.food_sale) / 100}</span></span>
-                                        <strike style="color:black;font-size:14px;margin-left:50px">Old price (vnđ):     <span style="color:red;font-weight:bold;font-size:14px;">${f.food_price}</span></strike>
+                                        <span style="color:black;font-size:14px;">Price (€):     <span style="color:green;font-weight:bold;font-size:14px;">${f.food_price * (100 - f.food_sale) / 100}</span></span>
+                                        <strike style="color:black;font-size:14px;margin-left:50px">Old price (€):     <span style="color:red;font-weight:bold;font-size:14px;">${f.food_price}</span></strike>
                                     </p>
                                     <div>
                                         <span style="color:black;font-size:14px;">Quantity:</span> 
@@ -1085,7 +1085,7 @@
         $("#ds").change(function () {
             var ds = $("#ds").val();
             var ts = $("#ts").val();
-            var tr = $("#tr").val();            
+            var tr = $("#tr").val();
             $("#omsg").css("color", "red");
             $.ajax({
                 type: "post",
@@ -1151,13 +1151,13 @@
             var tr = $("#tr").val();
             var lb = $("#lb").val();
             var tb = $("#tb").val();
-            var tenban = $("#tb option[value='"+tb+"']").attr("tenban");
+            var tenban = $("#tb option[value='" + tb + "']").attr("tenban");
             $("#omsg").css("color", "red");
 
             $.ajax({
                 type: "post",
                 url: "/Trangchu.aspx/cko",
-                data: "{'ds':'" + ds + "','ts':'" + ts + "','tr':'" + tr + "','lb':'" + lb + "','tb':'" + tb + "','tenban':'"+tenban+"'}",
+                data: "{'ds':'" + ds + "','ts':'" + ts + "','tr':'" + tr + "','lb':'" + lb + "','tb':'" + tb + "','tenban':'" + tenban + "'}",
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
                 success: function (dt) {
@@ -1173,7 +1173,7 @@
                             $("#reservationModal").modal("hide");
                             setTimeout(function () {
                                 location.reload();
-                            }, 3000);
+                            }, 1500);
                         }
                     }
 
@@ -1233,7 +1233,7 @@
                 return -1;
             } else if ($("#SendContactSubmit #message").val().trim() == "") {
                 return -2;
-            }else {
+            } else {
                 let regEmail = /\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;
                 if (!regEmail.test($("#SendContactSubmit #email").val().trim()))
                     return -3;
@@ -1285,7 +1285,7 @@
                     }
                 });
             }
-            
+
         }
         // END - DUC
     </script>
