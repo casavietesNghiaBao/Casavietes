@@ -4,6 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <link rel="icon" href="../../Assets/images/logonh1.png" type="image/png">
     <title><% var web = new DataUtil().qlweb(); Response.Write(web.ten_nh); %>  </title>
     <base href="Assets/" />
     <meta charset="utf-8" />
