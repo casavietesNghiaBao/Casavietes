@@ -74,8 +74,8 @@
     
     <form id="form1" runat="server" action="/Trangchu.aspx">
         <span id="on_top" style="width: 50px; height: 50px; bottom: 30px; right: 20px; position: fixed; display: none; background: #ccc; border-radius: 50%; cursor: pointer" title="Đầu trang">
-            <img style="width: 100%" src="images/btop.jpg" /></span>
-        <span id="btnCart" onclick="ViewCart()" style="width: 70px; height: 70px; z-index: 9; top: 60px; right: 20px; position: fixed; border-radius: 50%; cursor: pointer" title="Xem giỏ hàng">
+            <img style="width: 100%;" src="images/btop.jpg" /></span>
+        <span id="btnCart" onclick="ViewCart()" style="width: 70px; height: 70px; z-index: 9; top: 70px; right: 20px; position: fixed; border-radius: 50%; cursor: pointer" title="Xem giỏ hàng">
             <img style="width: 100%" src="images/giohang.png" /></span>
         <div>
             <nav class="navbar navbar-expand-lg navbar-dark site_navbar bg-dark site-navbar-light" id="site-navbar">
@@ -550,7 +550,7 @@
     <div class="modal fade" id="ModalViewCart">
         <div class="modal-dialog" role="dialog" style="max-width: 1300px!important;">
             <!-- Modal content-->
-            <div class="modal-content" style="width: 1300px!important;">
+            <div class="modal-content">
                 <div class="modal-header" style="background: #ffc107; padding: 10px">
                     <h4 class=" modal-title" style="font-size: 22px;">Shopping cart information</h4>
                     <button type="button" class="close" onclick="closeModalViewCart()">&times;</button>
@@ -657,7 +657,7 @@
             var html = `     
                     <div style="padding:5px;">
                         <div class="row">
-                            <div class="col-md-9">
+                            <div class="col-md-9 col-sm-11 overflow-auto">
                                 <h5 style="font-size:16px;text-align:center;color:blue">List of dishes</h3>
                                 <table class="table" id="listFoodCart">
                                     <tr>
