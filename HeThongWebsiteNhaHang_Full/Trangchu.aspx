@@ -176,7 +176,7 @@
                                         Response.Write("<img style='height:250px;cursor: pointer;' onclick='funcOrderNow(" + f.food_id + ")' src='../../Assets/images/" + f.food_avatar + "' class='img-fluid' />");
 
                                         Response.Write("<div class='media-body p-md-5 p-4'>");
-                                        Response.Write("<h5 class='text-primary' style='font-family: cambria,Sans-serif'>" + f.food_price + " €</h5>");
+                                        Response.Write("<h5 class='text-primary' style='font-family: cambria,Sans-serif'>" + f.food_price + " €" + "</h5>");
                                         Response.Write("<h5 class='mt-0 h4'>" + f.food_name + "</h5>");
                                         Response.Write("<p class='mb-4'>" + f.food_description + "</p>");
                                         Response.Write("<p class='mb-0'><a href='javascript:void(0)' class='btn btn-primary btn-sm' style='font-family: cambria,Sans-serif; font-weight: bold;' onclick='funcOrderNow(" + f.food_id + ")'>Order Now!</a></p>");
@@ -451,7 +451,7 @@
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <small class="text-danger">CLOSE </small><span class="text-danger" aria-hidden="true">&times;</span>
                                             </button>
-                                            <h1 class="mb-4" style="font-size: 80px; font-family: cambria, Sans-serif; color: white;-webkit-text-stroke: 1px grey; ">Booking Table</h1>
+                                            <h1 class="mb-4" style="color: white;-webkit-text-stroke: 0.2px grey; ">Booking Table</h1>
                                             <form action="#" method="post">
                                                 <div class="row">
                                                     <div class="col-md-12 form-group">
@@ -533,7 +533,7 @@
     <div class="modal fade" id="ModalOrderNow">
         <div class="modal-dialog" role="dialog" style="max-width: 800px!important;">
             <!-- Modal content-->
-            <div class="modal-content" style="width: 800px!important;">
+            <div class="modal-content">
                 <div class="modal-header" style="background: #ffc107; padding: 10px">
                     <h4 class=" modal-title">Add food to cart</h4>
                     <button type="button" class="close" onclick="closeModalOrderNow()">&times;</button>
@@ -1210,11 +1210,11 @@
                         html += `
                                     <div class ="col-md-4">
                                         <img style="height:250px;cursor: pointer;" src='../../Assets/images/${item.food_avatar}' onclick='funcOrderNow(${item.food_id})' class ="img-fluid" />
-                                        <div class ="media-body p-md-5 p-4">
-			                                <h5 class ="text-primary">${item.food_price}</h5>
+                                        <div class ="media-body text-center p-md-5 p-4">
+			                                <h5 class ="text-primary" style="font-family: cambria,Sans-serif">${item.food_price} €</h5>
 			                                <h5 class ="mt-0 h4">${item.food_name}</h5>
 			                                <p class ="mb-4">${item.food_description}</p>
-			                                <p class ="mb-0"><a href="javascript:void(0)" onclick='funcOrderNow(${item.food_id})' class ="btn btn-primary btn-sm">Order Now!</a></p>
+			                                <p class ="mb-0"><a href="javascript:void(0)" onclick='funcOrderNow(${item.food_id})' class ="btn btn-primary btn-sm" style="font-family: cambria,Sans-serif">Order Now!</a></p>
 		                                </div>
                                     </div>
                             `
