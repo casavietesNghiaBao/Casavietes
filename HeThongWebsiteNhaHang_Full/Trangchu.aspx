@@ -346,13 +346,13 @@
                         </div>
                         <div class="col-md-5 site-animate">
                             <p class="text-black">
-                                Address: <%  Response.Write(web.diachi_nh); %>
+                                <b>Address: </b><%  Response.Write(web.diachi_nh); %>
                                 <br />
                                 <br />
-                                Phone Number: <%  Response.Write(web.sdt_nh); %> / 666324656
+                                <b>Phone Number: </b><%  Response.Write(web.sdt_nh); %> / 666324656
                                 <br />
                                 <br />
-                                Email: <a href="mailto:<%  Response.Write(web.ten_nh); %>"><%  Response.Write(web.email_nh); %></a>
+                                <b>Email: </b><a href="mailto:<%  Response.Write(web.ten_nh); %>"><%  Response.Write(web.email_nh); %></a>
                             </p>
                         </div>
                     </div>
