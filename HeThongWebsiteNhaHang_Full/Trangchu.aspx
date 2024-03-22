@@ -168,7 +168,7 @@
                             <div class="owl-carousel site-owl">
 
                                 <%
-                                    var listFoods = new DataUtil().getListFood();
+                                    var listFoods = new DataUtil().getListFoodSale();
                                     foreach (var f in listFoods)
                                     {
 
