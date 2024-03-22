@@ -283,6 +283,31 @@ public class DataUtil
         con.Close();
         return li;
     }
+    public List<Food> getListFoodSale()
+    {
+        List<Food> li = new List<Food>();
+        string strSql = "select * from Food where food_sale > 0";
+        con.Open();
+
+        SqlCommand cmd = new SqlCommand(strSql, con);
+        SqlDataReader dr = cmd.ExecuteReader();
+
+        while (dr.Read())
+        {
+            Food f = new Food();
+            f.food_id = (int)dr["food_id"];
+            f.food_name = (string)dr["food_name"];
+            f.food_price = (double)dr["food_price"];
+            f.food_sale = (int)dr["food_sale"];
+            f.food_avatar = (string)dr["food_avatar"];
+            f.food_description = (string)dr["food_description"];
+            f.foodtype_id = (int)dr["foodtype_id"];
+
+            li.Add(f);
+        }
+        con.Close();
+        return li;
+    }
     public void DeleteFood(int idFood)
     {
         string strSql = "delete from Food where food_id=@idFood";
@@ -471,7 +496,7 @@ public class DataUtil
     public List<Food> getNewListFood()
     {
         List<Food> li = new List<Food>();
-        string strSql = "SELECT * FROM Food ORDER BY food_id DESC";
+        string strSql = "SELECT TOP 4 * FROM Food ORDER BY food_id DESC";
         con.Open();
 
         SqlCommand cmd = new SqlCommand(strSql, con);
