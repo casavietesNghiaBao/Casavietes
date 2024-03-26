@@ -1211,7 +1211,7 @@
                         html += `
                                     <div class ="col-md-4">
                                         <img style="height:250px;cursor: pointer;" src='../../Assets/images/${item.food_avatar}' onclick='funcOrderNow(${item.food_id})' class ="img-fluid" />
-                                        <div class ="media-body text-center p-md-5 p-4">
+                                        <div class ="media-body text-center p-md-2 p-4">
 			                                <h5 class ="text-primary" style="font-family: cambria,Sans-serif">${item.food_price} €</h5>
 			                                <h5 class ="mt-0 h4">${item.food_name}</h5>
 			                                <p class ="mb-4">${item.food_description}</p>
