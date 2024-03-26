@@ -1209,13 +1209,13 @@
                     var html = '';
                     $.each(f, function (index, item) {
                         html += `
-                                    <div class ="col-md-4">
+                                    <div class ="col-md-4" style='border: 1px solid #BABABA; padding: 10px; position: relative;'>
                                         <img style="height:250px;cursor: pointer;" src='../../Assets/images/${item.food_avatar}' onclick='funcOrderNow(${item.food_id})' class ="img-fluid" />
                                         <div class ="media-body text-center p-md-2 p-4">
 			                                <h5 class ="text-primary" style="font-family: cambria,Sans-serif">${item.food_price} €</h5>
 			                                <h5 class ="mt-0 h4">${item.food_name}</h5>
-			                                <p class ="mb-4">${item.food_description}</p>
-			                                <p class ="mb-0"><a href="javascript:void(0)" onclick='funcOrderNow(${item.food_id})' class ="btn btn-primary btn-sm" style="font-family: cambria,Sans-serif">Order Now!</a></p>
+			                                <p class ="mb-4 pb-3">${item.food_description}</p>
+			                                <p class ="mb-0" style='position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%);'><a href="javascript:void(0)" onclick='funcOrderNow(${item.food_id})' class ="btn btn-primary btn-sm" style="font-family: cambria,Sans-serif">Order Now!</a></p>
 		                                </div>
                                     </div>
                             `
