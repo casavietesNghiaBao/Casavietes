@@ -74,8 +74,9 @@
 <body data-spy="scroll" data-target="#site-navbar" data-offset="200" style="font-family: cambria,Sans-serif">
     
     <form id="form1" runat="server" action="/Trangchu.aspx">
-        <span id="on_top" style="width: 50px; height: 50px; bottom: 30px; right: 20px; position: fixed; display: none; background: #ccc; border-radius: 50%; cursor: pointer" title="Đầu trang">
-            <img style="width: 100%;" src="images/btop.jpg" /></span>
+        <span id="on_top" style="z-index: 1000; opacity: 0.7; width: 50px; height: 50px; bottom: 30px; right: 20px; position: fixed; display: none; background: #FF8400; border-radius: 50%; cursor: pointer" title="Đầu trang">
+            <img style="width: 100%;" src="images/btop.jpg" />
+        </span>
         <span id="btnCart" onclick="ViewCart()" style="width: 70px; height: 70px; z-index: 9; top: 70px; right: 20px; position: fixed; border-radius: 50%; cursor: pointer" title="Xem giỏ hàng">
             <img style="width: 100%" src="images/giohang.png" /></span>
         <div>
