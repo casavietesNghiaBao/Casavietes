@@ -80,7 +80,7 @@
         <span id="btnCart" onclick="ViewCart()" style="width: 70px; height: 70px; z-index: 9; top: 70px; right: 20px; position: fixed; border-radius: 50%; cursor: pointer" title="Xem giỏ hàng">
             <img style="width: 100%" src="images/giohang.png" /></span>
         <div>
-            <nav class="navbar navbar-expand-lg navbar-dark site_navbar bg-dark site-navbar-light" id="site-navbar">
+            <nav class="navbar navbar-expand-lg navbar-dark site_navbar bg-dark site-navbar-light" id="site-navbar" style="z-index: 999;">
                 <div class="container">
                     <a class="navbar-brand" href="/TrangChu.aspx"><% var web = new DataUtil().qlweb();%><img style="width:150px" src="../../Assets/images/logonh.png" /></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
