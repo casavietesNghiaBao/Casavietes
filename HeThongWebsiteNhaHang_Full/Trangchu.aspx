@@ -170,23 +170,29 @@
 
                                 <%
                                     var listFoods = new DataUtil().getListFoodSale();
-                                    foreach (var f in listFoods)
+                                    if(listFoods.Count == 0)
                                     {
-
-                                        Response.Write("<div class='item'>");
-                                        Response.Write("<div class='media d-block mb-4 text-center site-media site-animate border-0'>");
-                                        Response.Write("<img style='height:250px;cursor: pointer;' onclick='funcOrderNow(" + f.food_id + ")' src='../../Assets/images/" + f.food_avatar + "' class='img-fluid' />");
-
-                                        Response.Write("<div class='media-body p-md-5 p-4'>");
-                                        Response.Write("<h5 class='text-primary' style='font-family: cambria,Sans-serif'>" + f.food_price + " €" + "</h5>");
-                                        Response.Write("<h5 class='mt-0 h4'>" + f.food_name + "</h5>");
-                                        Response.Write("<p class='mb-4'>" + f.food_description + "</p>");
-                                        Response.Write("<p class='mb-0'><a href='javascript:void(0)' class='btn btn-primary btn-sm' style='font-family: cambria,Sans-serif; font-weight: bold;' onclick='funcOrderNow(" + f.food_id + ")'>Order Now!</a></p>");
+                                        Response.Write("<div class='text-center' style='opacity: 0.6;'>");
+                                        Response.Write("<h5 class='text-primary' style='font-family: cambria,Sans-serif'>There are no discounted dishes.</h5>");
                                         Response.Write("</div>");
-                                        Response.Write("</div>");
-                                        Response.Write("</div>");
+                                    }
+                                    else { 
+                                        foreach (var f in listFoods)
+                                        {
 
+                                            Response.Write("<div class='item'>");
+                                            Response.Write("<div class='media d-block mb-4 text-center site-media site-animate border-0'>");
+                                            Response.Write("<img style='height:250px;cursor: pointer;' onclick='funcOrderNow(" + f.food_id + ")' src='../../Assets/images/" + f.food_avatar + "' class='img-fluid' />");
 
+                                            Response.Write("<div class='media-body p-md-5 p-4'>");
+                                            Response.Write("<h5 class='text-primary' style='font-family: cambria,Sans-serif'>" + f.food_price + " €" + "</h5>");
+                                            Response.Write("<h5 class='mt-0 h4'>" + f.food_name + "</h5>");
+                                            Response.Write("<p class='mb-4'>" + f.food_description + "</p>");
+                                            Response.Write("<p class='mb-0'><a href='javascript:void(0)' class='btn btn-primary btn-sm' style='font-family: cambria,Sans-serif; font-weight: bold;' onclick='funcOrderNow(" + f.food_id + ")'>Order Now!</a></p>");
+                                            Response.Write("</div>");
+                                            Response.Write("</div>");
+                                            Response.Write("</div>");
+                                        }
                                     }
                                 %>
                             </div>
@@ -216,7 +222,7 @@
                                     var liFoType = new DataUtil().getListFoodType();
                                     foreach (var f in liFoType)
                                     {
-                                        Response.Write("<li class='nav-item site-animate' id='" + f.foodtype_id + "' onclick='funcShowLF(" + f.foodtype_id + ")' >");
+                                        Response.Write("<li class='nav-item site-animate pt-2' id='" + f.foodtype_id + "' onclick='funcShowLF(" + f.foodtype_id + ")' >");
                                         Response.Write("<a class='nav-link' id='pills-lunch-tab' data-toggle='pill' href='#pills-lunch' role='tab' aria-controls='pills-lunch' aria-selected='false'>" + f.foodtype_name + "</a>");
                                         Response.Write("</li>");
                                     }
