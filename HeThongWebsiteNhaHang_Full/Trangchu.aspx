@@ -92,7 +92,7 @@
                             <li class="nav-item active"><a href="#section-home" class="nav-link" style="color: lightyellow">HOME</a></li>
                             <li class="nav-item"><a href="#section-about" class="nav-link" style="color: lightyellow">Information</a></li>
                             <li class="nav-item"><a href="#section-offer" class="nav-link" style="color: lightyellow">Promotion</a></li>
-                            <li class="nav-item"><a href="#section-menu" class="nav-link" style="color: lightyellow">Dish</a></li>
+                            <li class="nav-item"><a href="#section-menu" class="nav-link" style="color: lightyellow">MENU</a></li>
                             <li class="nav-item"><a href="#section-news" class="nav-link" style="color: lightyellow">New</a></li>
                             <li class="nav-item"><a href="#section-gallery" class="nav-link" style="color: lightyellow">Library</a></li>
                             <li class="nav-item"><a href="#section-contact" class="nav-link" style="color: lightyellow">Contact</a></li>
@@ -207,7 +207,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center mb-5 site-animate">
-                            <h2 class="display-4">Types of dishes</h2>
+                            <h2 class="display-4">MENU</h2>
                             <div class="row justify-content-center">
                                 <div class="col-md-7">
                                     <p class="lead">We will continuously update the dishes...</p>
@@ -234,7 +234,7 @@
                 </div>
                 <div style="background: #f8f9fa; padding: 15px 0px">
                     <div class="container">
-                        <div class="row " id="cud" style="max-height: 550px; width: 100%; overflow: auto;">
+                        <div class="row col-md-12 text-center" id="cud" style="max-height: 550px; width: 100%; overflow: auto;">
                         </div>
                     </div>
                 </div>
@@ -303,7 +303,7 @@
                             var LF = new DataUtil().getList_FoodLimit6();
                             foreach (var f in LF)
                             {
-                                Response.Write("<div class='col-md-4 site-animate'>");
+                                Response.Write("<div class='col-md-4 text-center site-animate'>");
                                 Response.Write("<a href='../../Assets/images/" + f.food_avatar + "' class='site-thumbnail image-popup'><img src='../../Assets/images/" + f.food_avatar + "' style='height:250px;width:350px;' alt='" + f.food_name + "' class='img-fluid'></a>");
                                 Response.Write("</div>");
                             }
