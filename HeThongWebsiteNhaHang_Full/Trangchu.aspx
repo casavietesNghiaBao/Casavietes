@@ -152,13 +152,13 @@
             <!-- END section -->
 
 
-            <section class="site-section bg-light" id="section-offer">
+            <section class="site-section" style="background-image: url('../../Assets/images/anhMenu/Wood_bg_menu_CMYK.png');" id="section-offer">
                 <div class="container">
 
                     <div class="row">
                         <div class="col-md-12 text-center mb-5 site-animate">
                             <h4 class="site-sub-title">Special promotions</h4>
-                            <h2 class="display-4">Food prices are on sale</h2>
+                            <h2 class="display-4" style="color: #ffffff">Food prices are on sale</h2>
                             <div class="row justify-content-center">
                                 <div class="col-md-7">
                                     <p class="lead">Quickly order food to receive special offers from the restaurant!!!</p>
@@ -232,7 +232,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background: #f8f9fa; padding: 15px 0px">
+                <div style="background-image: url('../../Assets/images/anhMenu/Wood_bg_menu_CMYK.png'); padding: 15px 0px">
                     <div class="container">
                         <div class="row col-md-12 text-center" id="cud" style="max-height: 550px; width: 100%; overflow: auto;">
                         </div>
@@ -242,12 +242,12 @@
 
             <!-- END section -->
 
-            <section class="site-section bg-light" id="section-news">
+            <section class="site-section" style="background-image: url('../../Assets/images/anhMenu/Wood_bg_menu_CMYK.png');" id="section-news">
                 <div class="container">
 
                     <div class="row">
                         <div class="col-md-12 text-center mb-5 site-animate">
-                            <h2 class="display-4">New dish</h2>
+                            <h2 class="display-4" style="color: #ffffff">New dish</h2>
                             <div class="row justify-content-center">
                                 <div class="col-md-7">
                                     <p class="lead">Quickly order our restaurant's new dishes!</p>
@@ -286,7 +286,7 @@
             </section>
             <!-- END section -->
 
-            <section class="site-section" id="section-gallery">
+            <section class="site-section" id="section-gallery" >
                 <div class="container">
                     <div class="row site-custom-gutters">
 
@@ -313,12 +313,12 @@
             </section>
             <!-- END section -->
 
-            <section class="site-section bg-light" id="section-contact">
+            <section class="site-section" id="section-contact" style="background-image: url('../../Assets/images/anhMenu/Wood_bg_menu_CMYK.png');">
                 <div class="container">
                     <div class="row">
 
                         <div class="col-md-12 text-center mb-5 site-animate">
-                            <h2 class="display-4">Contact Us</h2>
+                            <h2 class="display-4 text-white">Contact Us</h2>
                             <div class="row justify-content-center">
                                 <div class="col-md-7">
                                     <p class="lead">Your opinion will contribute to our better service</p>
@@ -352,7 +352,7 @@
                             </p>
                         </div>
                         <div class="col-md-5 site-animate">
-                            <p class="text-black">
+                            <p class="text-white">
                                 <b>Address: </b><%  Response.Write(web.diachi_nh); %>
                                 <br />
                                 <br />
@@ -1220,7 +1220,7 @@
                                         <img style="height:250px;cursor: pointer;" src='../../Assets/images/${item.food_avatar}' onclick='funcOrderNow(${item.food_id})' class ="img-fluid" />
                                         <div class ="media-body text-center p-md-2 p-4">
 			                                <h5 class ="text-primary" style="font-family: cambria,Sans-serif">${item.food_price} €</h5>
-			                                <h5 class ="mt-0 h4">${item.food_name}</h5>
+			                                <h5 class ="mt-0 h4" style="color: #ffffff;">${item.food_name}</h5>
 			                                <p class ="mb-4 pb-3">${item.food_description}</p>
 			                                <p class ="mb-0" style='position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%);'><a href="javascript:void(0)" onclick='funcOrderNow(${item.food_id})' class ="btn btn-primary btn-sm" style="font-family: cambria,Sans-serif">Order Now!</a></p>
 		                                </div>

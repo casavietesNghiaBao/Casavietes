@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|d:\\product\\casavietes\\hethongwebsitenhahang_full\\trangchu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\trangchu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|solutionrelative:trangchu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|solutionrelative:assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\app_code\\datautil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|solutionrelative:app_code\\datautil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\app_code\\encryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A227496-4A95-499D-A62A-6EF8F0D89491}|D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full|solutionrelative:app_code\\encryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -48,33 +40,10 @@
               "RelativeDocumentMoniker": "Assets\\css\\style.css",
               "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\Assets\\css\\style.css",
               "RelativeToolTip": "Assets\\css\\style.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-03-26T09:15:56.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Encryptor.cs",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\App_Code\\Encryptor.cs",
-              "RelativeDocumentMoniker": "App_Code\\Encryptor.cs",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\App_Code\\Encryptor.cs",
-              "RelativeToolTip": "App_Code\\Encryptor.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T06:49:31.883Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataUtil.cs",
-              "DocumentMoniker": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\App_Code\\DataUtil.cs",
-              "RelativeDocumentMoniker": "App_Code\\DataUtil.cs",
-              "ToolTip": "D:\\PRODUCT\\Casavietes\\HeThongWebsiteNhaHang_Full\\App_Code\\DataUtil.cs",
-              "RelativeToolTip": "App_Code\\DataUtil.cs",
-              "ViewState": "AQIAAP8BAAAAAAAAAAAUwC8CAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T15:23:10.606Z"
+              "WhenOpened": "2024-03-26T09:15:56.794Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
