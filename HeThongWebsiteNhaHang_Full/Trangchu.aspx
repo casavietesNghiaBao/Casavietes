@@ -71,7 +71,7 @@
 
     </style>
 </head>
-<body data-spy="scroll" data-target="#site-navbar" data-offset="200" style="font-family: cambria,Sans-serif">
+<body data-spy="scroll" data-target="#site-navbar" data-offset="200" style="font-family: cambria,Sans-serif;">
     
     <form id="form1" runat="server" action="/Trangchu.aspx">
         <span id="on_top" style="z-index: 1000; opacity: 0.7; width: 50px; height: 50px; bottom: 30px; right: 20px; position: fixed; display: none; background: #FF8400; border-radius: 50%; cursor: pointer" title="Đầu trang">
@@ -214,7 +214,7 @@
                                 </div>
                             </div>
                         </div>
-
+                        
                         <div class="col-md-12 text-center">
                             <ul class="nav site-tab-nav nav-pills mb-5" id="theloai" role="tablist" <%--id="pills-tab"--%>>
 
@@ -265,9 +265,9 @@
 
                                         Response.Write("<div class='item'>");
                                         Response.Write("<div class='media d-block mb-4 text-center site-media site-animate border-0'>");
-                                        Response.Write("<img style='height:250px;cursor: pointer;' onclick='funcOrderNow(" + n.food_id + ")' src='../../Assets/images/" + n.food_avatar + "' class='img-fluid' />");
+                                        Response.Write("<img style='height:250px;cursor: pointer; object-fit: cover;' onclick='funcOrderNow(" + n.food_id + ")' src='../../Assets/images/" + n.food_avatar + "'/>");
 
-                                        Response.Write("<div class='media-body p-md-5 p-4'>");
+                                        Response.Write("<div class='media-body p-md-5 p-4' style='min-height: 400px'>");
                                         Response.Write("<h5 class='text-primary' style='font-family: cambria,Sans-serif;'>" + n.food_price + " €</h5>");
                                         Response.Write("<h5 class='mt-0 h4'>" + n.food_name + "</h5>");
                                         Response.Write("<p class='mb-4'>" + n.food_description + "</p>");
@@ -275,7 +275,6 @@
                                         Response.Write("</div>");
                                         Response.Write("</div>");
                                         Response.Write("</div>");
-
                                     }
                                 %>
                             </div>
@@ -448,7 +447,7 @@
                         <div class="modal-body" style="font-family: cambria, Sans-serif">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <div style="background-image: url(images/avt_bookTable.jpg); background-size: cover;">
+                                    <div style="background-image: url('../../Assets/images/anhMenu/Wood_menu_material.png'); background-size: cover;">
                                         <%--<div class="h-75"></div>
                                         <div class="h-25">
                                             <div class="h-50"></div>
@@ -478,6 +477,7 @@
                                                         <input type="time" class="form-control" id="tr" />
 
                                                     </div>
+                                                    
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-md-6 form-group">
@@ -494,10 +494,11 @@
                                                             %>
                                                         </select>
                                                     </div>
+                                                    <%-- CHON BAN --%>
                                                     <div class="col-md-6 form-group">
-                                                        <label for="m_phone" class="text-white">Select table</label>
-                                                        <div id="Divtb">
-                                                            <select id="idTable" class="form-control">
+                                                        <label for="m_phone" class="text-white">select table</label>
+                                                        <div id="divtb">
+                                                            <select id="idtable" class="form-control">
                                                             </select>
                                                         </div>
 
