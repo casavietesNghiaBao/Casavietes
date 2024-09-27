@@ -514,6 +514,13 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <div class="row">
+                                                    <div class="col-md-12 form-group">
+                                                        <p class="text-white text-center p-0 m-0" style="font-size: 1.5rem;">Liên hệ đặt bàn trực tiếp: 936273893 / 666324656</p>
+                                                    </div>
+                                                </div>
+                                                    
+                                                
 
                                             </form>
                                         </div>
